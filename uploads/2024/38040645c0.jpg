@@ -1,0 +1,2489 @@
+
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"e0d7642f0a",applicationID:"75405963"};;/*! For license information please see nr-loader-rum-1.257.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>S,lF:()=>N,Yu:()=>_,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>k});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const _=(0,n.mF)().o;var E=r(385),x=r(6818);const D={buildEnv:x.Re,customTransaction:void 0,disabled:!1,distMethod:x.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:x.q4,denyList:void 0,harvestCount:0,timeKeeper:void 0},R={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function k(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]=(0,i.D)(t,D);const r=(0,n.ek)(e);r&&(r.runtime=R[e])}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.257.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(Date.now()-performance.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=[...s[e]];t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},7872:(e,t,r)=>{"use strict";function n(e){var t=this;let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:500,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};const i=n?.leading||!1;let o;return function(){for(var n=arguments.length,a=new Array(n),s=0;s<n;s++)a[s]=arguments[s];i&&void 0===o&&(e.apply(t,a),o=setTimeout((()=>{o=clearTimeout(o)}),r)),i||(clearTimeout(o),o=setTimeout((()=>{e.apply(t,a)}),r))}}function i(e){var t=this;let r=!1;return function(){if(!r){r=!0;for(var n=arguments.length,i=new Array(n),o=0;o<n;o++)i[o]=arguments[o];e.apply(t,i)}}}r.d(t,{D:()=>n,Z:()=>i})},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>i});var n=r(7056);r(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"};n.IK.ERROR,n.IK.FULL,n.IK.OFF},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),g=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",g.Ef.RECORD,g.Ef.PAUSE],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(7894),m=r(7056);function b(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}const y={};var A=r(2825);const w=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let _=!1;function E(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,E=arguments.length>3?arguments[3]:void 0,{init:x,info:D,loader_config:R,runtime:S={loaderType:p},exposed:k=!0}=t;const N=(0,f.gG)();D||(x=N.init,D=N.info,R=N.loader_config),(0,i.Dg)(e.agentIdentifier,x||{}),(0,i.GE)(e.agentIdentifier,R||{}),D.jsAttributes??={},u.v6&&(D.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,D);const P=(0,i.P_)(e.agentIdentifier),j=[D.beacon,D.errorBeacon];_||(P.proxy.assets&&(w(P.proxy.assets),j.push(P.proxy.assets)),P.proxy.beacon&&j.push(P.proxy.beacon),b(),(0,f.EZ)("activatedFeatures",A.T),e.runSoftNavOverSpa&&=!0===P.soft_navigations.enabled&&P.feature_flags.includes("soft_nav")),S.denyList=[...P.ajax.deny_list||[],...P.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,S),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var b=a.ee.get(e),A=b.get("tracer");y[e]=m.IK.OFF,b.on(g.Ef.REPLAY_RUNNING,(t=>{y[e]=t}));var w="api-",_=w+"ixn-";function E(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),R(w,n,!0,o||null===r?"session":void 0)(t,r)}function x(){}h.forEach((e=>{p[e]=R(w,e,!0,"api")})),p.addPageAction=R(w,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,R(w,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return E(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return E("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return E("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(l.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,b);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,d.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{b.emit("".concat(e,"-opt-in"))}))}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[g.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.RECORD,[],void 0,n.D.sessionReplay,b)},p[g.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.PAUSE,[],void 0,n.D.sessionReplay,b)},p.interaction=function(e){return(new x).get("object"==typeof e?e:{})};const D=x.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,b),f||(0,o.p)(_+"tracer",[(0,v.z)(),e,r],i,n.D.spa,b),function(){if(A.emit((a?"":"no-")+"fn-start",[(0,v.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw A.emit("fn-err",[arguments,this,e],r),e}finally{A.emit("fn-end",[(0,v.z)()],r)}}}};function R(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,b),i&&(0,o.p)(e+t,[(0,v.z)(),...arguments],r?null:this,i,b),r?void 0:this}}function S(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((()=>{(0,d.Z)("Downloading runtime APIs failed..."),b.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{D[e]=R(_,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?R(_,"routeName",void 0,n.D.softNav):R(w,"routeName",!0,n.D.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,b),(0,o.p)("err",[t,(0,v.z)(),!1,r,!!y[e]],void 0,n.D.jserrors,b)},u.il?(0,c.b2)((()=>S()),!0):S(),p}(e.agentIdentifier,E,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=k),_=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.257.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.257.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-OiQHqGyF6PVYPjCHd8YlPkY+foWAb5sHWiuQeDd1Zne2fqGqvw2rXLKPRixlHrzSCXnR5SX25SeH9Z2ZKpwhiQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.257.0.PROD"]=self["webpackChunk:NRBA-1.257.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402);class n{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var o=i(3325),a=i(234);const s=Object.values(o.D);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var u=i(2758);var d=i(8e3),l=i(5938),f=i(3960),g=i(385);function p(e){return g.il&&!0===(0,a.Mt)(e,"privacy.cookies_enabled")}function h(e){return!!a.Yu.MO&&p(e)&&!0===(0,a.Mt)(e,"session_trace.enabled")}var v=i(7872);class m extends l.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,a.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto?(0,d.RP)(e,r):this.ee.on("".concat(this.featureName,"-opt-in"),(0,v.Z)((()=>{(0,d.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()})))}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(p(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3108));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===o.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,d.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};g.il?(0,f.b2)((()=>n()),!0):n()}#t(e,t){return e!==o.D.sessionReplay||(r=this.agentIdentifier,n=t,!(!h(r)||!n?.isNew&&!n?.state.sessionReplayMode));var r,n}}var b=i(7633);class y extends m{static featureName=b.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,b.t,r),this.importAggregator()}}var A=i(1117),w=i(1284);class _ extends A.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,w.D)(e,(function(e,r){t[e]=E(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,w.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=E(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=E(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function E(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var D=i(8632),R=i(4351);var S=i(5546),k=i(7956),N=i(3239),P=i(9251),j=i(7894);class I extends m{static featureName=P.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,r),g.il&&((0,k.N)((()=>(0,S.p)("docHidden",[(0,j.z)()],void 0,P.t,this.ee)),!0),(0,N.bP)("pagehide",(()=>(0,S.p)("winPagehide",[(0,j.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var T=i(3081);class O extends m{static featureName=T.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,T.t9,r),this.importAggregator()}}new class extends n{constructor(t,r){super(r),g._A?(this.sharedAggregator=new _({agentIdentifier:this.agentIdentifier}),this.features={},(0,D.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(y),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.D.softNav)),(0,u.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.p[e.featureName]-o.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.D.softNav)return;const n=function(e){switch(e){case o.D.ajax:return[o.D.jserrors];case o.D.sessionTrace:return[o.D.ajax,o.D.pageViewEvent];case o.D.sessionReplay:return[o.D.sessionTrace];case o.D.pageViewTiming:return[o.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,R.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,D.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[y,I,O],loaderType:"lite"})})()})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1">
+	<meta name="pocket-site-verification" content="" />
+	
+	
+	
+		
+	
+    		
+
+				
+				
+				
+				
+
+				
+
+				
+
+				
+
+	
+
+	
+
+		
+
+
+
+	
+
+	
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.aerospace-technology.com/xmlrpc.php">
+		<link rel="icon" href="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/09/aerospace-technology-icon-1.png">
+	
+	
+	
+
+	
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+
+
+
+<script>
+    googletag.cmd.push(function() {
+
+        var lbMapping = googletag.sizeMapping()
+            .addSize([0, 0], [[320, 50]])
+            .addSize([728, 0], [728, 90])
+            .addSize([970, 0], [[728, 90], [970, 250]])
+            .build();
+        var dmpuMapping = googletag.sizeMapping()
+            .addSize([0, 0], [300, 250])
+            .addSize([0, 700], [300, 600])
+            .build();
+
+    
+    
+    
+    slot2 = googletag.defineSlot('/14453196/Aerospace_Technology_Bottom_MPU', [300, 250], 'div-gpt-ad-1321444687289-2')
+
+        .addService(googletag.pubads());
+
+    slot4 = googletag.defineSlot('/14453196/Aerospace_Technology_Top_Leader', [[970, 250], [728, 90]], 'div-gpt-ad-1321444687289-4')
+
+        .addService(googletag.pubads())
+        .defineSizeMapping(lbMapping);
+
+
+    slot7 = googletag.defineSlot('/14453196/aerospace_technology_mobile_mpu', [[3, 3], [320, 50], [300, 250]], 'div-gpt-ad-1519057684144-0').addService(googletag.pubads()); 
+
+    slot5 = googletag.defineSlot('/14453196/Aerospace_Technology_Top_MPU', [300, 250], 'div-gpt-ad-1321444687289-5').addService(googletag.pubads());
+
+    slot8 = googletag.defineSlot('/14453196/Aerospace_Technology_Top_MPU', [300, 250], 'in_article').addService(googletag.pubads());
+
+   slot3 = googletag.defineSlot('/14453196/Aerospace_Technology_Magazine_Box', [300, 600], 'div-gpt-ad-1321444687289-3')
+
+        .addService(googletag.pubads())
+        .defineSizeMapping(dmpuMapping);
+
+   
+
+       slot6 = googletag.defineSlot('/14453196/Verdict_Network/Verdict_Network_3x3', [3, 3], 'div-gpt-ad-1515156373818-0').addService(googletag.pubads()); 
+              
+    
+    googletag.pubads().setTargeting("companyTarget", ["connectwise"]);    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+      if (event.slot.getAdUnitPath() === "/14453196/IPTarget") {
+        /*permutive.track('ipTarget', {
+          company: "connectwise",
+          target_reason: "",
+          content: "advert",
+          content_type: "advert"
+        })*/
+      }
+    });
+
+     var companies=[];
+
+    permutive.segment(41538, function(result) {
+        if (result) {
+            googletag.pubads().setTargeting("TargetedCompany", "CRYOPDP");
+        //companies.push("CRYOPDP");
+        
+        } 
+    });
+//googletag.pubads().setTargeting("TargetedCompany", companies);
+
+    googletag.pubads().setTargeting("Section", "Projects");                googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+    });
+     </script>
+<!--  -->
+
+<script>
+    //googletag.defineSlot('/14453196/Verdict_Network/Verdict_1x1_Tracker', [1, 1], 'div-gpt-ad-1568385470525-0').addService(googletag.pubads());
+</script>
+
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+	<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+	<link rel="dns-prefetch" href="//0.gravatar.com/" />
+	<link rel="dns-prefetch" href="//2.gravatar.com/" />
+	<link rel="dns-prefetch" href="//1.gravatar.com/" />
+	<meta name='robots' content='max-image-preview:large' />
+<!-- OneTrust Cookies Consent Notice start for www.aerospace-technology.com -->
+
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  charset="UTF-8" data-domain-script="0ab6b30b-4546-47b3-a3cc-7cb1b2c52301" ></script>
+<script>
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for www.aerospace-technology.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v15.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Projects Archive - Aerospace Technology</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.aerospace-technology.com/projects/" />
+	<link rel="next" href="https://www.aerospace-technology.com/projects/page/2/" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.aerospace-technology.com/#website","url":"https://www.aerospace-technology.com/","name":"Aerospace Technology","description":"The leading site for news and procurement in the aerospace industry","potentialAction":[{"@type":"SearchAction","target":"https://www.aerospace-technology.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://www.aerospace-technology.com/projects/#webpage","url":"https://www.aerospace-technology.com/projects/","name":"Projects Archive - Aerospace Technology","isPartOf":{"@id":"https://www.aerospace-technology.com/#website"},"breadcrumb":{"@id":"https://www.aerospace-technology.com/projects/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://www.aerospace-technology.com/projects/"]}]},{"@type":"BreadcrumbList","@id":"https://www.aerospace-technology.com/projects/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.aerospace-technology.com/","url":"https://www.aerospace-technology.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.aerospace-technology.com/projects/","url":"https://www.aerospace-technology.com/projects/","name":"Projects"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.aerospace-technology.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Aerospace Technology &raquo; Feed" href="https://www.aerospace-technology.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Aerospace Technology &raquo; Comments Feed" href="https://www.aerospace-technology.com/comments/feed/" />
+<script>
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.aerospace-technology.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=de57cb730f5d0903135728b254aa6eaf"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='cf7-custom-style-css' href='https://www.aerospace-technology.com/wp-content/plugins/pmg-contactform/assets/css/cf7-custom-style.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='additional-css' href='https://www.aerospace-technology.com/wp-content/themes/goodlife-wp-child/assets/css/additional.css?ver=5.94' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.aerospace-technology.com/wp-includes/css/dist/block-library/style.min.css?ver=de57cb730f5d0903135728b254aa6eaf' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wp-polls-css' href='https://www.aerospace-technology.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.75.3' media='all' />
+<style id='wp-polls-inline-css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('https://www.aerospace-technology.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='foundation-css' href='https://www.aerospace-technology.com/wp-content/themes/goodlife-wp-child/assets/css/foundation.css?ver=de57cb730f5d0903135728b254aa6eaf' media='all' />
+<link rel='stylesheet' id='style-css' href='https://www.aerospace-technology.com/wp-content/themes/goodlife-wp-child/style.css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.aerospace-technology.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.1' media='all' />
+<style id='tablepress-default-inline-css'>
+.tablepress tr{transition:all .5s ease-in-out}.tablepress thead th{background-color:#fff}.tablepress tbody > .row-2 td.column-2{font-size:1.8em!important;width:150px}.tablepress .odd td{background-color:#fff}.row-2 td{font-size:1.4em!important}.row-1.odd>.column-2{border:solid 1px #fff}td.column-1{font-size:4em!important}.tablepress thead th{font-weight:400}.tablepress tbody > tr:first-child > td{font-size:1.4em!important;color:#000}.tablepress tbody td.column-7{color:#64d9a4;background:#f7fcfe}.row-2>.column-1{color:#000!important}.tablepress tr:hover,table.tablepress tbody tr:nth-child(even):hover{background:#f7f7f7;box-shadow:0 0 3em 0 rgba(0,0,0,0.1);position:relative;z-index:999}.tablepress td,.tablepress th{font:1.8em Montserrat,helvetica,arial,sans-serif;padding:1em}.tablepress thead td,.tablepress thead th{border-bottom:solid 1px #9ef8e1;border-right:solid 1px #ebebeb}.tablepress tbody td{border-bottom:solid 1px #ebebeb;vertical-align:middle}.tablepress tbody td.column-1{color:#00dda0;transition:all .5s ease-in-out;border-left:solid .2em transparent}.tablepress tbody tr:hover td.column-1{border-left:solid .2em #00dda0}table.tablepress tbody tr:nth-child(even){background:none}.tablepress td.column-3,.tablepress th.column-3,.tablepress td.column-4,.tablepress th.column-4{background:#fbfbff;border-right:solid 1px #fff;transition:all .4s ease-in-out}.tablepress td.column-5,.tablepress th.column-5,.tablepress td.column-6,.tablepress th.column-6{background:#f7fdfa;border-right:solid 1px #fff;transition:all .4s ease-in-out}.tablepress thead tr:nth-of-type(2) th{font-size:1.4em}.tablepress tr:hover td.column-3,table.tablepress tbody tr:nth-child(even):hover td.column-3{background:#e0f9ec}.tablepress tr:hover td.column-4,table.tablepress tbody tr:nth-child(even):hover td.column-4{background:#e0f9ec}.tablepress tr:hover td.column-5,table.tablepress tbody tr:nth-child(even):hover td.column-5{background:#ddddfb}.tablepress tr:hover td.column-6,table.tablepress tbody tr:nth-child(even):hover td.column-6{background:#ddddfb}.tablepress td.up span,.tablepress td.down span{position:relative;padding-right:1em;display:inline-block}.tablepress td.up span{color:#64d9a4}.tablepress td.down span{color:#ebc3f8}.tablepress td.up span:after,.tablepress td.down span:after{content:"\f0d8";font:1em/1em fontawesome;color:#64d9a4;position:absolute;right:0;top:50%;height:1em;margin-top:-.5em}.tablepress td.down span:after{content:"\f0d7";color:#ebc3f8}.tablepress tr td.value-change{background:#f7fcfe}.tablepress tfoot{box-shadow:0 0 2em 0 rgba(0,0,0,0.1)}.tablepress tfoot tr,.tablepress tfoot tr td{background:#fff;text-align:right;padding:1.5em}
+</style>
+<script src="https://www.aerospace-technology.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www.aerospace-technology.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://www.aerospace-technology.com/wp-content/themes/goodlife-wp-child/assets/js/foundation.min.js?ver=de57cb730f5d0903135728b254aa6eaf" id="foundation-js"></script>
+<link rel="https://api.w.org/" href="https://www.aerospace-technology.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.aerospace-technology.com/xmlrpc.php?rsd" />
+
+<!-- premitive -->			
+			<script>  
+				!function(n,e,o,r,i){if(!e){e=e||{},window.permutive=e,e.q=[],e.config=i||{},e.config.projectId=o,e.config.apiKey=r,e.config.environment=e.config.environment||"production";for(var t=["addon","identify","track","trigger","query","segment","segments","ready","on","once","user","consent"],c=0;c<t.length;c++){var f=t[c];e[f]=function(n){return function(){var o=Array.prototype.slice.call(arguments,0);e.q.push({functionName:n,arguments:o})}}(f)}}}(document,window.permutive,"e82dc6a7-79a5-49b7-b1ed-a89a37f2fe8b","62905692-4299-42af-951f-aa610546b2b1",{});  
+				window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(function(){if(0===window.googletag.pubads().getTargeting("permutive").length){var g=window.localStorage.getItem("_pdfps");window.googletag.pubads().setTargeting("permutive",g?JSON.parse(g):[])}});  
+				permutive.addon('web', {});
+				</script>
+				<script async src="https://cdn.permutive.com/e82dc6a7-79a5-49b7-b1ed-a89a37f2fe8b-web.js"></script>
+			 	 <!-- end premitive --->
+	 <style id="Sgpollscstyle">iframe[src^="https://www.surveygizmo.eu"]{display:none!important;height:auto!important;}</style><script src='https://live-kgi-verdict-network.pantheonsite.io/?dm=0fd087c081c432abbf2f76e6776492f5&amp;action=load&amp;blogid=15&amp;siteid=1&amp;t=994213124&amp;back=https%3A%2F%2Fwww.aerospace-technology.com%2Fprojects%2F'></script><!-- Facebook Pixel Code Visa --> 
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1501063880195208');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1501063880195208&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code --> 
+<!-- Google Tag Manager -->
+<script>/* (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVW6BFT'); */</script>
+<!-- End Google Tag Manager --><style id="tve_global_variables">:root{}</style>      <meta name="onesignal" content="wordpress-plugin"/>
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://www.aerospace-technology.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'c8623439-038c-49e4-83a9-49e50a8b0277';
+oneSignal_options['autoRegister'] = false;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['disable'] = true;
+oneSignal_options['path'] = "https://www.aerospace-technology.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+		<style id="wp-custom-css">
+			.logo_footer img {
+    max-width: 15em;
+}		</style>
+		<script>
+piAId = '376012';
+piCId = '71903';
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+
+<!-- This code is to be used on all ther sites in the network so we can track all the sites from one GA account. Ask CJB. -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3619893-46"></script> -->
+<script>
+/*   window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3619893-46'); */
+</script>
+
+	
+<!-- Facebook Pixel Code ADIO --> 
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3277276492324802');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3277276492324802&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code --> 
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZ488KK');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="home blog lazy-load-on thb_ads_header_mobile_off thb-lightbox-on thb-capitalize-off" >
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZ488KK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+
+
+
+<div class="universal-site-skin">
+
+	<div id="skinTopBanner"></div>
+	<div id="skinLeftBanner"></div>
+	<div id="skinRightBanner"></div>
+
+
+
+
+
+
+<!-- Top Leaderboard -->
+
+	<!--
+	<div class="leaderboard top-leaderboard">
+		<div id="div-gpt-ad-1321444687289-4" class="top-leaderboard-container">
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-4'); });
+			</script>
+		 </div>
+		 		 <div id='div-gpt-ad-1519057684144-0' class="top-leaderboard-container-new">
+			<script>
+			googletag.cmd.push(function()
+
+			{ googletag.display('div-gpt-ad-1519057684144-0'); }
+			);
+			</script>
+	     </div>
+	     		 <div class="top-leaderboard-close">X</div>
+	</div>-->
+
+
+
+
+
+
+	<div id="wrapper">
+
+
+	<!-- Start Content Container -->
+	<section id="content-container">
+		<!-- Start Content Click Capture -->
+		<div class="click-capture"></div>
+		<!-- End Content Click Capture -->
+
+		
+		<!-- <div class="translate">
+			<p>Switch language:</p> 
+					</div>
+		.translate -->
+
+
+
+
+		<!-- ad code start here -->
+		<div class="onmb advt_btn btn"><a href="https://www.aerospace-technology.com/advertise-with-us/">Advertise with us</a></div>
+		<!-- end ad code here-->
+		<!-- Start Header -->
+		
+		
+			
+		<header class="header style1 site-header light">
+			<div class="thesearch"><!-- Start SearchForm -->
+<form method="get" class="search-form" role="search" action="https://www.aerospace-technology.com/">
+    <fieldset>
+    	<input name="s" type="search" placeholder="Search" class="s search-field">
+    	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </fieldset>
+</form>
+<!-- End SearchForm --></div>
+			<div class="row box-skin_logo-box">
+				<!--<div class="small-2 columns text-left mobile-icon-holder">
+					<a href="#" data-target="open-menu" class="mobile-toggle"><i class="fa fa-bars"></i></a>
+				</div>-->
+				<div class="large-3 medium-3 small-6 columns logo">
+					<div class="site-logo" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                        <meta itemprop="name" content="Verdict Media Limited">
+																		<a itemprop="url" href="https://www.aerospace-technology.com/" class="logolink">
+															<img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/09/aerospace-technology-logo-1.png" class="logoimg desktop-logo" itemprop="logo"  alt="aerospace-technology-logo (1)" />
+																						<img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/09/aerospace-technology-logo-mobile.png" class="logoimg mobile-logo" itemprop="logo" alt="aerospace-technology-logo-mobile" />
+													</a>
+					</div>
+				</div>
+				<div class="large-5 medium-6 columns text-right block-ser">
+					<!-- Start SearchForm -->
+<form method="get" class="search-form" role="search" action="https://www.aerospace-technology.com/">
+    <fieldset>
+    	<input name="s" type="search" placeholder="Search" class="s search-field">
+    	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </fieldset>
+</form>
+<!-- End SearchForm -->				</div>
+				<div class="large-4 medium-3 small-6 columns nav-right-mobile">
+
+					<ul class="login-links">
+
+						<li class="login-hover"><span><a href="https://www.aerospace-technology.com/login/">Log In</a></span></li>							<li><a class="registermob" href="https://www.aerospace-technology.com/register/">Register</a></li>
+												<li class="advt_btn btn"><a href="https://www.aerospace-technology.com/advertise-with-us/" style="padding: 5px!important;font-size: 0.6em!important;text-decoration: none;">Advertise with us</a></li>
+
+					</ul>
+						<div class="themobile-menu">
+							<a class="mobile-toggle">
+							</a>
+									<nav id="mobile-menu">
+			<div class="custom_scroll" id="menu-scroll">
+				<div>
+																				  <ul id="menu-mobile-navigation" class="mobile-menu"><li id="menu-item-27916" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-27916"><a href="https://www.aerospace-technology.com/sector/aircraft/"><span><i class="fa fa-plus"></i></span>Aircraft</a>
+<ul class="sub-menu">
+	<li id="menu-item-27917" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27917"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27918" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27918 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27919" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27919 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27921" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27921"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27922" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27922"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27923" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27923"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+	<li id="menu-item-27920" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27920 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-27924" class=" menu-item menu-item-type-taxonomy menu-item-object-sector current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-27924"><a href="https://www.aerospace-technology.com/sector/airlines/"><span><i class="fa fa-plus"></i></span>Airlines</a>
+<ul class="sub-menu">
+	<li id="menu-item-27925" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27925"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27926" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27926 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27927" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27927 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27929" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27929"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27930" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27930"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27931" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27931"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+	<li id="menu-item-27928" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27928 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-27932" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-27932"><a href="https://www.aerospace-technology.com/sector/business-aviation/"><span><i class="fa fa-plus"></i></span>Business Aviation</a>
+<ul class="sub-menu">
+	<li id="menu-item-27933" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27933"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27934" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27934 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27935" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27935 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27937" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27937"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27938" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27938"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27939" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27939"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+	<li id="menu-item-27936" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27936 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-27940" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-27940"><a href="https://www.aerospace-technology.com/sector/aircraft-systems/"><span><i class="fa fa-plus"></i></span>Aircraft systems</a>
+<ul class="sub-menu">
+	<li id="menu-item-27941" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27941"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27942" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27942 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27943" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27943 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27945" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27945"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27946" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27946"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27947" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27947"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+	<li id="menu-item-27944" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27944 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-27948" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-27948"><a href="https://www.aerospace-technology.com/sector/mro/"><span><i class="fa fa-plus"></i></span>MRO</a>
+<ul class="sub-menu">
+	<li id="menu-item-27949" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27949"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27950" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27950 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27951" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27951 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27953" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27953"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27954" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27954"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27955" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27955"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+	<li id="menu-item-27952" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27952 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-27956" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-27956"><a href="https://www.aerospace-technology.com/sector/market-data/"><span><i class="fa fa-plus"></i></span>Business &amp; Regulation</a>
+<ul class="sub-menu">
+	<li id="menu-item-27957" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27957"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27958" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27958 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27959" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27959 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27961" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27961"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27960" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27960 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+	<li id="menu-item-27962" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27962"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27963" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27963"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-27964" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-27964"><a href="https://www.aerospace-technology.com/sector/technology/"><span><i class="fa fa-plus"></i></span>Technology</a>
+<ul class="sub-menu">
+	<li id="menu-item-27965" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-27965"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-27966" class=" menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27966 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+	<li id="menu-item-27967" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27967 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-27969" class=" menu-item menu-item-type-post_type_archive menu-item-object-storefronts menu-item-27969"><a href="https://www.aerospace-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-27970" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-27970"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-27971" class=" menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-27971"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+	<li id="menu-item-27968" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27968 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-27972" class=" menu-item menu-item-type-post_type_archive menu-item-object-events menu-item-27972"><a href="https://www.aerospace-technology.com/events/">Events</a></li>
+</ul>																<ul id="menu-all-sections" class="mobile-menu secondary"><li id="menu-item-15667" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-15667"><a href="https://www.aerospace-technology.com/">Home</a></li>
+<li id="menu-item-15317" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-15317 menu-item-category-259"><a href="https://www.aerospace-technology.com/./news/">News</a></li>
+<li id="menu-item-15306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15306"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-15307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15307"><a href="https://www.aerospace-technology.com/company-a-z/">Company A-Z</a></li>
+<li id="menu-item-15315" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15315 menu-item-category-260"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li>
+<li id="menu-item-15700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15700"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/mediapacks/">About Us</a></li>
+<li id="menu-item-15310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15310"><a href="https://www.aerospace-technology.com/contractors/">Products &#038; Services</a></li>
+<li id="menu-item-15316" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15316 menu-item-category-261"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li>
+<li id="menu-item-15585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15585"><a href="https://www.aerospace-technology.com/about-us-air/">About Airport Industry Review</a></li>
+<li id="menu-item-15308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15308"><a href="https://www.aerospace-technology.com/company-releases/">Company Releases</a></li>
+<li id="menu-item-15312" class="menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-15312"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li>
+<li id="menu-item-15309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15309"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-15311" class="menu-item menu-item-type-post_type_archive menu-item-object-events menu-item-15311"><a href="https://www.aerospace-technology.com/events/">Events</a></li>
+<li id="menu-item-15313" class="menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-15313"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li>
+<li id="menu-item-15314" class="menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-15314"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li>
+<li id="menu-item-22742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22742"><a href="https://www.aerospace-technology.com/all-deals/">Deals</a></li>
+</ul>										<div class="social-links">
+											</div>
+					<div class="menu-footer">
+											</div>
+				</div>
+			</div>
+		</nav>
+	
+						</div>
+						<div class="search-mobile"></div>
+				</div>
+			</div>
+						<nav class="site-nav">
+				<div class="row">
+					<!-- Start SearchForm -->
+<form method="get" class="search-form" role="search" action="https://www.aerospace-technology.com/">
+    <fieldset>
+    	<input name="s" type="search" placeholder="Search" class="s search-field">
+    	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </fieldset>
+</form>
+<!-- End SearchForm --><ul id="menu-main-navigation" class="cf"><li id="nav-menu-item-15345" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/aircraft/" class="menu-link main-menu-link">Aircraft</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Aircraft</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/aircraft">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/aircraft">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/aircraft">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/aircraft">Suppliers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/aircraft">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/aircraft">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/aircraft">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/materials-hydrogen-aircraft/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2023/08/shutterstock_2320824307-450x340.jpg" alt="Can materials science solve hydrogen aircraft challenges?"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/materials-hydrogen-aircraft/">Can materials science solve hydrogen aircraft challenges?</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/blended-wing-revolution/"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/09/shutterstock_71276482-1.jpg" /></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/blended-wing-revolution/">Are we in for a blended wing revolution?</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/hydrogen-environmentally-sustainable-aviation/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2023/08/shutterstock_1958173720-450x340.jpg" alt="Is hydrogen the future of environmentally sustainable aviation?"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/hydrogen-environmentally-sustainable-aviation/">Is hydrogen the future of environmentally sustainable aviation?</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-15347" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/airlines/" class="menu-link main-menu-link">Airlines</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Airlines</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/airlines">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/airlines">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/airlines">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/airlines">Suppliers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/airlines">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/airlines">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/airlines">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/sponsored/how-florida-is-harnessing-the-next-phase-of-commercial-space-investment/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/12/shutterstock_628856831-450x340.jpg" alt="How Florida is harnessing the next phase of commercial space investment"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Sponsored</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/sponsored/how-florida-is-harnessing-the-next-phase-of-commercial-space-investment/">How Florida is harnessing the next phase of commercial space investment</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/sponsored/florida-strengthens-its-position-as-a-launch-pad-for-latin-american-success/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/10/shutterstock_528579187-compressed-450x340.jpg" alt="Miami-Florida-nightime"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Sponsored</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/sponsored/florida-strengthens-its-position-as-a-launch-pad-for-latin-american-success/">Florida strengthens its position as a launch pad for Latin American success</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/air-france-leisure-shift/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/08/shutterstock_604234745-450x340.jpg" alt="Air France bets on leisure to meet shift in traveller sentiment"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/air-france-leisure-shift/">Air France bets on leisure to meet shift in traveller sentiment</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-15348" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/business-aviation/" class="menu-link main-menu-link">Business Aviation</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Business Aviation</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/business-aviation">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/business-aviation">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/business-aviation">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/business-aviation">Suppliers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/business-aviation">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/business-aviation">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/business-aviation">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/air-france-leisure-shift/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/08/shutterstock_604234745-450x340.jpg" alt="Air France bets on leisure to meet shift in traveller sentiment"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/air-france-leisure-shift/">Air France bets on leisure to meet shift in traveller sentiment</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/jetblue-new-transatlantic-venture/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/shutterstock_1912744897-450x340.jpg" alt="JetBlue’s new transatlantic venture should be successful, but risks remain"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/jetblue-new-transatlantic-venture/">JetBlue’s new transatlantic venture should be successful, but risks remain</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/supersonic-flights-corporate-travel/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2020/10/shutterstock_637037008_1_1280x-1-450x340.jpg" alt="Supersonic flights could propel corporate travel to new heights"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/supersonic-flights-corporate-travel/">Supersonic flights could propel corporate travel to new heights</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-15346" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/aircraft-systems/" class="menu-link main-menu-link">Aircraft systems</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Aircraft systems</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/aircraft-systems">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/aircraft-systems">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/aircraft-systems">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/aircraft-systems">Storefront</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/aircraft-systems">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/aircraft-systems">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/aircraft-systems">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/value-of-manned-unmanned-teaming/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2022/02/shutterstock_676000819-450x340.jpg" alt="Autonomous swarms highlight the strategic value of manned-unmanned teaming"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/value-of-manned-unmanned-teaming/">Autonomous swarms highlight the strategic value of manned-unmanned teaming</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/sustainable-aviation-fuel/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/shutterstock_1886551063-450x340.jpg" alt="Sustainable aviation fuel (SAF): the future fuel of aircraft?"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/sustainable-aviation-fuel/">Sustainable aviation fuel (SAF): the future fuel of aircraft?</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/news/deutsche-aircraft-gkn-d328eco/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/GKN-Aerospace-450x340.jpg" alt="GKN Aerospace Deutsche Aircraft"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">News</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/news/deutsche-aircraft-gkn-d328eco/">Deutsche Aircraft contracts GKN Aerospace to support D328eco programme</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-15350" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/mro/" class="menu-link main-menu-link">MRO</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>MRO</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/mro">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/mro">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/mro">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/mro">Suppliers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/mro">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/mro">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/mro">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/news/iai-atitech-passenger-freighter-italy/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/IAI-1-450x340.jpg" alt="IAI"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">News</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/news/iai-atitech-passenger-freighter-italy/">IAI and Atitech to open passenger aircraft conversion site in Italy</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/news/boeing-coopesa-conversion-lines/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Boeing-8-450x340.jpg" alt="Boeing"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">News</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/news/boeing-coopesa-conversion-lines/">Boeing and Costa Rica’s COOPESA to open two 737-800BCF conversion lines</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/jetblues-transatlantic-debut-could-disrupt-the-market/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/02/IATA-2-450x340.png" alt="IATA"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/jetblues-transatlantic-debut-could-disrupt-the-market/">JetBlue’s transatlantic debut could disrupt the market</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-15349" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/market-data/" class="menu-link main-menu-link">Business &amp; Regulation</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Business &amp; Regulation</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/market-data">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/market-data">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/market-data">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/market-data">Suppliers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/market-data">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/market-data">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/market-data">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/asat-space-debris/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2022/08/shutterstock_1943915647-450x340.jpg" alt="ASAT-related space debris; a major issue on the horizon"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/asat-space-debris/">ASAT-related space debris; a major issue on the horizon</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/end-of-furlough-uk-travel-firms/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/shutterstock_1657934743-450x340.jpg" alt="End of furlough presents dilemma for UK travel firms"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/end-of-furlough-uk-travel-firms/">End of furlough presents dilemma for UK travel firms</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/news/business-optimism-improves-for-the-second-straight-month-in-july-poll/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/08/Increase-in-consumer-expenditure-and-hiring-boost-optimism-450x340.jpg" alt="Increase in consumer expenditure and hiring boost optimism"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">News</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/news/business-optimism-improves-for-the-second-straight-month-in-july-poll/">Business optimism improves for the second straight month in July: Poll</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-15351" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.aerospace-technology.com/sector/technology/" class="menu-link main-menu-link">Technology</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Technology</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.aerospace-technology.com/projects/technology">Projects</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./features/technology">Analysis</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./news/technology">News</a></li><li class="menu"><a href="https://www.aerospace-technology.com/suppliers/technology">Storefront</a></li><li class="menu"><a href="https://www.aerospace-technology.com/whitepapers/technology">White Papers</a></li><li class="menu"><a href="https://www.aerospace-technology.com/videos/technology">Videos</a></li><li class="menu"><a href="https://www.aerospace-technology.com/./comment/technology">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/space-economy-boom-2030/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2022/09/shutterstock_1028393392-450x340.jpg" alt="space economy"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/space-economy-boom-2030/">Despite teething issues, the space economy is set for an infrastructure boom by 2030</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/future-drone-warfare/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2022/02/shutterstock_1780554866-450x340.jpg" alt="Successes in conflict and new anti-radar features signal the future of drone warfare"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/future-drone-warfare/">Successes in conflict and new anti-radar features signal the future of drone warfare</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.aerospace-technology.com/comment/value-of-manned-unmanned-teaming/"><img width="450" height="340" src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2022/02/shutterstock_676000819-450x340.jpg" alt="Autonomous swarms highlight the strategic value of manned-unmanned teaming"/></a>
+                          <div class="article-category"><a href="https://www.aerospace-technology.com/news/virgin-orbit-launcherone-demo/">Comment</a></div>
+                          <h3><a href="https://www.aerospace-technology.com/comment/value-of-manned-unmanned-teaming/">Autonomous swarms highlight the strategic value of manned-unmanned teaming</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+
+                <li class="nav-all"><span class="mega-toggle">All</span>
+                <div class="mega-menu mega-menu-all">
+
+                    <!-- .top-level-nav -->
+                    <div class="all-sections">
+                      <h2>All sections</h2><ul class="row"><li class="large-4 columns"><a href="https://www.aerospace-technology.com/">Home</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/./news/">News</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/advertise-with-us/">Advertise With Us</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/company-a-z/">Company A-Z</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/./features/">Analysis</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/mediapacks/">About Us</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/contractors/">Products & Services</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/./comment/">Comment</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/about-us-air/">About Airport Industry Review</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/company-releases/">Company Releases</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/projects/">Projects</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/contact-us/">Contact Us</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/events/">Events</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/whitepapers/">White Papers</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/videos/">Videos</a></li><li class="large-4 columns"><a href="https://www.aerospace-technology.com/all-deals/">Deals</a></li></ul></div>
+                    <!-- .all-sections -->
+                  </div>
+                </div>
+                <!-- .mega-menu -->
+              </li>
+              <li class="nav-search">
+                <span class="search-toggle"></span>
+                  
+                <span class="search-close"></span>
+              </li>
+      </ul>				</div>
+			</nav>
+					</header>
+		<!-- End Header -->
+
+
+
+
+
+<style>
+@media (max-width: 940px) {
+  .top-leaderboard {
+    display: none;
+    overflow: hidden;
+     }
+}
+@media (max-width: 990px) {
+  .top-leaderboard {
+    display: none !important; 
+  }
+  .top-leaderboard-container {
+    display: none !important;
+  } 
+  .top-leaderboard-container-new {
+    display: none !important;
+	}
+}
+</style>
+
+
+
+
+
+
+
+<section class="projects-feature home-content">
+	<div class="row">
+		<div class="cards">
+			<div class="row">
+				<div class="large-6 columns feature-card make_me_equal">
+										<article class="make_me_equal">
+							<div class="article-image">
+								<a href="https://www.aerospace-technology.com/projects/lilium-7-seater-evtol-jet/">
+								<img width="900" height="506" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-900x506.jpg" class="attachment-large size-large wp-post-image" alt="Lilium Jet" decoding="async" fetchpriority="high" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-768x432.jpg 768w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet.jpg 1280w" sizes="(max-width: 900px) 100vw, 900px" />								</a>
+							</div>
+							<header>
+								<h3><a href="https://www.aerospace-technology.com/projects/lilium-7-seater-evtol-jet/">Lilium Seven-Seater eVTOL Jet, Germany</a></h3>
+																<p>	German aerospace company Lilium unveiled its electric vertical take-off and landing (eVTOL) Lilium Jet in March 2021.</p>
+							</header>
+					</article>
+									</div>
+
+										<div class="large-3 columns">
+					<article><a href="https://www.aerospace-technology.com/projects/archer-aviations-maker-evtol-aircraft/">
+						<div class="article-image">
+							<img width="300" height="169" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-300x169.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Maker eVTOL" decoding="async" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-768x432.jpg 768w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" />						</div>
+						<h3>Archer Aviation’s Maker eVTOL Aircraft, US</h3>
+					</a></article>
+					</div>
+										<div class="large-3 columns">
+					<article><a href="https://www.aerospace-technology.com/projects/eflyer-800-all-electric-aircraft-us/">
+						<div class="article-image">
+							<img width="300" height="169" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-300x169.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="eFlyer 800" decoding="async" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-768x432.jpg 768w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" />						</div>
+						<h3>eFlyer 800 All-Electric Aircraft, US</h3>
+					</a></article>
+					</div>
+										<div class="large-3 columns">
+					<article><a href="https://www.aerospace-technology.com/projects/hondajet-elite-s-light-business-jet/">
+						<div class="article-image">
+							<img width="300" height="169" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-300x169.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Honda Aircraft&#039;s new Light Business Jet" decoding="async" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-768x432.jpg 768w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" />						</div>
+						<h3>HondaJet Elite S Light Business Jet</h3>
+					</a></article>
+					</div>
+										<div class="large-3 columns">
+					<article><a href="https://www.aerospace-technology.com/projects/dassault-falcon-10x-business-jet-france/">
+						<div class="article-image">
+							<img width="300" height="169" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-300x169.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Dassault Falcon 10X Business Jet" decoding="async" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-768x432.jpg 768w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" />						</div>
+						<h3>Dassault Falcon 10X Business Jet, France</h3>
+					</a></article>
+					</div>
+					
+
+			</div>
+		</div>
+	</div>
+</section>	
+			<div id="product_service" class="row">
+			<div class="row sort_region">
+										<div class="large-3 small-12 column region_box">
+					<a href="https://www.aerospace-technology.com/projects/region/north-america"><img src="/wp-content/uploads/2017/08/map-na.png" alt="">
+					<h4>North America</h4></a>
+				</div>
+													<div class="large-3 small-12 column region_box">
+					<a href="https://www.aerospace-technology.com/projects/region/south-and-central-america"><img src="/wp-content/uploads/2017/08/map-sa.png" alt="">
+				<h4>South America</h4></a>
+				</div>
+													<div class="large-3 small-12 column region_box">
+					<a href="https://www.aerospace-technology.com/projects/region/africa"><img src="/wp-content/uploads/2017/08/map-afr.png" alt="">
+					<h4>Africa</h4></a>
+				</div>
+													<div class="large-3 small-12 column region_box">
+					<a href="https://www.aerospace-technology.com/projects/region/europe"><img src="/wp-content/uploads/2017/08/map-eur.png" alt="">
+					<h4>Europe</h4></a>
+				</div>
+													<div class="large-3 small-12 column region_box">
+					<a href="https://www.aerospace-technology.com/projects/region/asia-pacific"><img src="/wp-content/uploads/2017/08/map-asia.png" alt="">
+					<h4>Asia</h4></a>
+				</div>
+													<div class="large-3 small-12 column region_box">
+					<a href="https://www.aerospace-technology.com/projects/region/australia-pacific"><img src="/wp-content/uploads/2017/08/map-aus.png" alt="">
+					<h4>Australasia</h4></a>
+				</div>
+						</div>
+
+		</div>
+		
+	   <!-- A-Z jump bar for projects page starts here -->
+		<div id="company-az" class="row">
+			<div class="row listing-letters" style="margin:0px !important">
+
+			
+															<a href="/projects//?alpha=#">#</a>
+			
+															<a href="/projects//?alpha=a">A</a>
+			
+															<a href="/projects//?alpha=b">B</a>
+			
+															<a href="/projects//?alpha=c">C</a>
+			
+															<a href="/projects//?alpha=d">D</a>
+			
+															<a href="/projects//?alpha=e">E</a>
+			
+															<a href="/projects//?alpha=f">F</a>
+			
+															<a href="/projects//?alpha=g">G</a>
+			
+															<a href="/projects//?alpha=h">H</a>
+			
+															<a href="/projects//?alpha=i">I</a>
+			
+															<a href="/projects//?alpha=j">J</a>
+			
+															<a href="/projects//?alpha=k">K</a>
+			
+															<a href="/projects//?alpha=l">L</a>
+			
+															<a href="/projects//?alpha=m">M</a>
+			
+															<a href="/projects//?alpha=n">N</a>
+			
+															<a href="/projects//?alpha=o">O</a>
+			
+															<a href="/projects//?alpha=p">P</a>
+			
+															<a href="/projects//?alpha=q">Q</a>
+			
+															<a href="/projects//?alpha=r">R</a>
+			
+															<a href="/projects//?alpha=s">S</a>
+			
+															<a href="/projects//?alpha=t">T</a>
+			
+															<a href="/projects//?alpha=u">U</a>
+			
+															<a href="/projects//?alpha=v">V</a>
+			
+															<a href="/projects//?alpha=w">W</a>
+			
+															<a href="/projects//?alpha=x">X</a>
+			
+															<a href="/projects//?alpha=y">Y</a>
+			
+															<a href="/projects//?alpha=z">Z</a>
+						</div>	
+		</div>
+         
+<!-- Sort options bar for projects page starts here --> 
+			
+		
+		
+<div class="row">
+		<ul class="taxonomy-drops">
+			<li id="categories">
+			    <form action="" method="post">
+			    <div>
+			    <div class="large-12 small-12 column">
+			    <fieldset>
+                <legend style="padding-top: 1em;"><strong>
+				Filter by:				</strong></legend>
+			    <div class="large-6 small-12 column">
+			    	<input type="hidden" value="" name="search" id="search">
+					<select  name='cat' id='sector' class='postform'>
+	<option value='0' selected='selected'>Sections</option>
+	<option class="level-0" value="718">Acquisition</option>
+	<option class="level-0" value="1096">Aerospace, Defense &amp; Security</option>
+	<option class="level-0" value="294">Aircraft</option>
+	<option class="level-0" value="298">Aircraft systems</option>
+	<option class="level-0" value="295">Airlines</option>
+	<option class="level-0" value="805">Airports</option>
+	<option class="level-0" value="299">Business &amp; Regulation</option>
+	<option class="level-0" value="296">Business Aviation</option>
+	<option class="level-0" value="932">Cargo</option>
+	<option class="level-0" value="797">Connectwise</option>
+	<option class="level-0" value="966">Data</option>
+	<option class="level-0" value="951">Digital Disruption</option>
+	<option class="level-1" value="949">&nbsp;&nbsp;&nbsp;5G</option>
+	<option class="level-1" value="1025">&nbsp;&nbsp;&nbsp;AI</option>
+	<option class="level-1" value="1030">&nbsp;&nbsp;&nbsp;Covid-19</option>
+	<option class="level-1" value="1031">&nbsp;&nbsp;&nbsp;Environmental</option>
+	<option class="level-1" value="960">&nbsp;&nbsp;&nbsp;Future of Work</option>
+	<option class="level-1" value="1033">&nbsp;&nbsp;&nbsp;Governance</option>
+	<option class="level-1" value="1028">&nbsp;&nbsp;&nbsp;IoT</option>
+	<option class="level-1" value="1032">&nbsp;&nbsp;&nbsp;Social</option>
+	<option class="level-1" value="950">&nbsp;&nbsp;&nbsp;Sustainability</option>
+	<option class="level-0" value="810">Diseases</option>
+	<option class="level-0" value="907">Drones</option>
+	<option class="level-0" value="1036">Enhancing Defence Digital Connectivity</option>
+	<option class="level-0" value="719">Facilty</option>
+	<option class="level-0" value="717">Flight test</option>
+	<option class="level-0" value="926">Fossil</option>
+	<option class="level-1" value="927">&nbsp;&nbsp;&nbsp;Gas</option>
+	<option class="level-1" value="928">&nbsp;&nbsp;&nbsp;Oil</option>
+	<option class="level-0" value="720">Fundings</option>
+	<option class="level-0" value="663">Management</option>
+	<option class="level-0" value="297">MRO</option>
+	<option class="level-0" value="721">Operation</option>
+	<option class="level-0" value="669">Operational</option>
+	<option class="level-0" value="649">Ports &amp; Destinations</option>
+	<option class="level-0" value="1016">Projects</option>
+	<option class="level-0" value="672">Regulations</option>
+	<option class="level-0" value="922">Renewable</option>
+	<option class="level-1" value="923">&nbsp;&nbsp;&nbsp;Solar</option>
+	<option class="level-0" value="659">rocket</option>
+	<option class="level-0" value="673">Rovers</option>
+	<option class="level-0" value="323">Satellite</option>
+	<option class="level-0" value="324">Satellites</option>
+	<option class="level-0" value="806">Security</option>
+	<option class="level-0" value="671">Services</option>
+	<option class="level-0" value="777">Space</option>
+	<option class="level-0" value="658">Space craft</option>
+	<option class="level-0" value="947">Sponsored</option>
+	<option class="level-1" value="935">&nbsp;&nbsp;&nbsp;Bahrain EDB</option>
+	<option class="level-1" value="953">&nbsp;&nbsp;&nbsp;EDB Bahrain</option>
+	<option class="level-1" value="1090">&nbsp;&nbsp;&nbsp;FPL</option>
+	<option class="level-1" value="912">&nbsp;&nbsp;&nbsp;Omnetics Connector Corporation</option>
+	<option class="level-1" value="937">&nbsp;&nbsp;&nbsp;VPT</option>
+	<option class="level-0" value="300">Technology</option>
+	<option class="level-0" value="670">Telescope</option>
+	<option class="level-0" value="776">Unmanned Aircraft</option>
+	<option class="level-0" value="664">Urban Air Mobility</option>
+</select>
+					</div>
+					<div class="large-4 small-12 column">
+				    						</div>
+					<div class="large-6 small-12 column">
+			    	<select name="year" id="year" class="postform">
+			    		<option value="0" selected="selected">Date</option>
+						<option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option>					</select>
+					</div>
+					</fieldset>
+				    </div>
+			    </div>
+			    </form>
+			</li>
+		</ul>
+	</div> 
+		
+	
+	<div id="category_project" class="row top-padding" style="padding-top:0px !important">
+	
+	<div id="category_project" class="row top-padding archive-region-separator">
+					<h3 class="mag_headline">
+					Projects			</h3>
+				<section class="large-8 small-12 column">
+		  				<div class="row posts">											<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42869 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft sector-urban-air-mobility region-germany" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/lilium-7-seater-evtol-jet/" rel="bookmark" title="Lilium Seven-Seater eVTOL Jet, Germany">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Lilium Jet" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Lilium-7-Seater-eVTOL-Jet-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/lilium-7-seater-evtol-jet/" title="Lilium Seven-Seater eVTOL Jet, Germany">Lilium Seven-Seater eVTOL Jet, Germany</a></h2>																		<p>German aerospace company Lilium unveiled its electric vertical take-off and landing (eVTOL) Lilium Jet in...<br /><a href="https://www.aerospace-technology.com/projects/lilium-7-seater-evtol-jet/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42840 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft sector-urban-air-mobility region-united-states-of-america" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/archer-aviations-maker-evtol-aircraft/" rel="bookmark" title="Archer Aviation’s Maker eVTOL Aircraft, US">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Maker eVTOL" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Archers-eVTOL-aircraft-Maker-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/archer-aviations-maker-evtol-aircraft/" title="Archer Aviation’s Maker eVTOL Aircraft, US">Archer Aviation’s Maker eVTOL Aircraft, US</a></h2>																		<p>In June 2021 US-based aircraft manufacturer Archer Aviation unveiled its inaugural electric vertical take-off and...<br /><a href="https://www.aerospace-technology.com/projects/archer-aviations-maker-evtol-aircraft/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42768 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft region-united-states-of-america" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/eflyer-800-all-electric-aircraft-us/" rel="bookmark" title="eFlyer 800 All-Electric Aircraft, US">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="eFlyer 800" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/07/Featured-Image-Bye-Aerospace-eFlyer-800-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/eflyer-800-all-electric-aircraft-us/" title="eFlyer 800 All-Electric Aircraft, US">eFlyer 800 All-Electric Aircraft, US</a></h2>																		<p>Bye Aerospace launched the eFlyer 800 in April 2021. An eight-seat, all-electric aircraft, it was...<br /><a href="https://www.aerospace-technology.com/projects/eflyer-800-all-electric-aircraft-us/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42569 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft sector-business-aviation sector-technology region-united-states-of-america" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/hondajet-elite-s-light-business-jet/" rel="bookmark" title="HondaJet Elite S Light Business Jet">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Honda Aircraft&#039;s new Light Business Jet" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-HondaJet-Elite-S-Light-Business-Jet-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/hondajet-elite-s-light-business-jet/" title="HondaJet Elite S Light Business Jet">HondaJet Elite S Light Business Jet</a></h2>																		<p>HondaJet Elite S is a new light business jet introduced by US-based aircraft manufacturer Honda...<br /><a href="https://www.aerospace-technology.com/projects/hondajet-elite-s-light-business-jet/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42501 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft sector-business-aviation sector-technology region-france" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/dassault-falcon-10x-business-jet-france/" rel="bookmark" title="Dassault Falcon 10X Business Jet, France">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Dassault Falcon 10X Business Jet" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/06/Image-3-Dassault-Falcon-10X-Business-Jet-France-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/dassault-falcon-10x-business-jet-france/" title="Dassault Falcon 10X Business Jet, France">Dassault Falcon 10X Business Jet, France</a></h2>																		<p>French aircraft manufacturer Dassault Aviation introduced the Falcon 10X, a new advanced high-speed, ultra-long-range business...<br /><a href="https://www.aerospace-technology.com/projects/dassault-falcon-10x-business-jet-france/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42248 projects type-projects status-publish has-post-thumbnail hentry sector-technology sector-unmanned-aircraft region-slovenia" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/pipistrel-heavy-cargo-hybrid-vtol-drone/" rel="bookmark" title="Pipistrel Heavy Cargo Hybrid VTOL Drone">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pipistrel-Heavy-Cargo-Hybrid-VTOL-Drone.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Pipistrel Heavy Cargo Hybrid VTOL Drone" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pipistrel-Heavy-Cargo-Hybrid-VTOL-Drone.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pipistrel-Heavy-Cargo-Hybrid-VTOL-Drone-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pipistrel-Heavy-Cargo-Hybrid-VTOL-Drone-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pipistrel-Heavy-Cargo-Hybrid-VTOL-Drone-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/pipistrel-heavy-cargo-hybrid-vtol-drone/" title="Pipistrel Heavy Cargo Hybrid VTOL Drone">Pipistrel Heavy Cargo Hybrid VTOL Drone</a></h2>																		<p>Slovenian aerospace company Pipistrel is developing the Heavy Cargo Hybrid vertical take-off and landing (VTOL)...<br /><a href="https://www.aerospace-technology.com/projects/pipistrel-heavy-cargo-hybrid-vtol-drone/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-42065 projects type-projects status-publish has-post-thumbnail hentry sector-satellite sector-space sector-technology region-europe" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/pleiades-neo-3-earth-observation-satellite/" rel="bookmark" title="Pléiades Neo 3 Earth Observation Satellite">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pleiades-Neo-3.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Pleiades Neo 3" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pleiades-Neo-3.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pleiades-Neo-3-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pleiades-Neo-3-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/05/Image-1-Pleiades-Neo-3-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/pleiades-neo-3-earth-observation-satellite/" title="Pléiades Neo 3 Earth Observation Satellite">Pléiades Neo 3 Earth Observation Satellite</a></h2>																		<p>Pléiades Neo 3 is the first earth observation satellite of the Pléiades Neo constellation being...<br /><a href="https://www.aerospace-technology.com/projects/pleiades-neo-3-earth-observation-satellite/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-41778 projects type-projects status-publish has-post-thumbnail hentry sector-satellite sector-technology region-japan" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/superbird-9-telecommunications-satellite-japan/" rel="bookmark" title="Superbird-9 Telecommunications Satellite, Japan">
+											<img width="533" height="300" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/04/Image-1-Superbird-9.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="Superbird-9 Telecommunications Satellite" decoding="async" loading="lazy" data-original-set="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/04/Image-1-Superbird-9.jpg 1280w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/04/Image-1-Superbird-9-900x506.jpg 900w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/04/Image-1-Superbird-9-300x169.jpg 300w, https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/04/Image-1-Superbird-9-768x432.jpg 768w" sizes="(max-width: 533px) 100vw, 533px" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/superbird-9-telecommunications-satellite-japan/" title="Superbird-9 Telecommunications Satellite, Japan">Superbird-9 Telecommunications Satellite, Japan</a></h2>																		<p>Superbird-9 is a yet-to-be-launched, fully digital telecommunications satellite being developed for SKY Perfect JSAT, a...<br /><a href="https://www.aerospace-technology.com/projects/superbird-9-telecommunications-satellite-japan/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-6449 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft sector-market-data sector-business-aviation sector-technology region-europe" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/cobalt-50-valkyrie-aircraft/" rel="bookmark" title="Valkyrie Aircraft">
+											<img width="220" height="160" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/10/main-623.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="" decoding="async" loading="lazy" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/cobalt-50-valkyrie-aircraft/" title="Valkyrie Aircraft">Valkyrie Aircraft</a></h2>																		<p>The Valkyrie aircraft, formerly Cobalt 50 Valkyrie, was launched by its previous developer Cobalt Aircraft...<br /><a href="https://www.aerospace-technology.com/projects/cobalt-50-valkyrie-aircraft/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+							  															<ul class="pal large-12 small-12 column project_box_category">
+					<li>
+						<article itemscope itemtype="https://schema.org/Article" class="post post-4414 projects type-projects status-publish has-post-thumbnail hentry sector-aircraft sector-aircraft-systems sector-market-data sector-technology region-north-america" role="article">
+							<div class="row">
+								<div class="large-4 small-12 column space_right">
+																	<figure class="post-gallery max-height article-image">
+										<a href="https://www.aerospace-technology.com/projects/wgs-satellite/" rel="bookmark" title="Wideband Global SATCOM (WGS) satellites">
+											<img width="220" height="160" data-original="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/10/main-312.jpg" class="attachment-goodlife-latest-short size-goodlife-latest-short wp-post-image" alt="" decoding="async" loading="lazy" />																					</a>
+									</figure>
+														             </div>
+								<div class="large-8 small-12 column ">
+									<h2 class="entry-title" itemprop="name headline"><a href="https://www.aerospace-technology.com/projects/wgs-satellite/" title="Wideband Global SATCOM (WGS) satellites">Wideband Global SATCOM (WGS) satellites</a></h2>																		<p>The Wideband Global SATCOM (WGS) system is a high-capacity communication satellite, previously known as the...<br /><a href="https://www.aerospace-technology.com/projects/wgs-satellite/" rel="nofollow">Read More...</a></p>									<div class="by-company-name">
+										<a href=""></a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</li>
+					</ul>
+					</div>		  		  
+	<nav class="navigation pagination" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://www.aerospace-technology.com/projects/page/2/">2</a>
+<a class="page-numbers" href="https://www.aerospace-technology.com/projects/page/3/">3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://www.aerospace-technology.com/projects/page/72/">72</a>
+<a class="next page-numbers" href="https://www.aerospace-technology.com/projects/page/2/"><span class="next_page">Next Page</span></a></div>
+	</nav>		  		</section>
+
+
+
+
+
+	<aside class="sidebar large-4 small-12 column secondary-content sidebar" role="complementary">
+	<div class="sidebar_inner fixed-me fix_cat_sidebar">
+		<div id="thb_singlead_widget-4" class="widget cf widget_singlead"><div class="mpu sidebar-mpu-1"><div id="div-gpt-ad-1321444687289-5">
+	<script>    
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-5'); });
+	</script>
+ </div></div></div><div id="thb_widget_mostread-3" class="widget cf widget_mostread">
+<div class="si most-read">
+  <h3>Most Read</h3>
+    <ol class="sal">
+      <li><a href="https://www.aerospace-technology.com/sponsored/creating-the-future-a-video-presentation-with-smiths-interconnect/" class="wpp-post-title" target="_self">Creating the future: a video presentation with Smiths Interconnect</a></li><li><a href="https://www.aerospace-technology.com/sponsored/smiths-interconnect-flies-high-on-f-35-aircraft/" class="wpp-post-title" target="_self">Smiths Interconnect flies high on F-35 aircraft</a></li><li><a href="https://www.aerospace-technology.com/sponsored/micro-and-nano-miniature-connector-experts-for-defence-and-aerospace-customers-interview-with-omnetics-scott-unzen/" class="wpp-post-title" target="_self">Micro and nano-miniature connector experts for defence and aerospace customers: Interview with Omnetics’ Scott Unzen</a></li><li><a href="https://www.aerospace-technology.com/comment/iata-covid-travel-pass/" class="wpp-post-title" target="_self">IATA&#8217;s digital Covid Travel Pass could spark meaningful recovery of international travel</a></li><li><a href="https://www.aerospace-technology.com/comment/business-travel-less-profitable/" class="wpp-post-title" target="_self">Business travel may be less profitable when it recovers</a></li>    </ol>
+</div>
+</div>
+
+<div id="thb_singlead_widget-5" class="widget cf widget_singlead"><div class="mpu sidebar-mpu-2"><div id="div-gpt-ad-1321444687289-3">
+	<script>    
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-3'); });
+	</script>
+ </div></div></div><div id="thb_widget_relatedposts-3" class="widget cf widget_relatedposts">
+
+        
+          <div class="si related-companies">
+              <h3>Related Companies</h3>
+              <ul class="sal">
+
+                <li><div class="row"><div class="large-3 columns r-c-img"><a href="https://www.aerospace-technology.com/contractors/training/motive-learning/" class="wpp-post-title" target="_self"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2022/03/ml_square_logo.png" alt="ml_square_logo" /></a></div><div class="large-9 columns r-c-title"><h4><a href="https://www.aerospace-technology.com/contractors/training/motive-learning/" class="wpp-post-title" target="_self">Motive Learning</a></h4></div></div></li><li><div class="row"><div class="large-3 columns r-c-img"><a href="https://www.aerospace-technology.com/contractors/manufacturing/weiss-technik-uk/" class="wpp-post-title" target="_self"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/12/Logo.jpg" alt="Logo" /></a></div><div class="large-9 columns r-c-title"><h4><a href="https://www.aerospace-technology.com/contractors/manufacturing/weiss-technik-uk/" class="wpp-post-title" target="_self">Weiss Technik UK</a></h4></div></div></li><li><div class="row"><div class="large-3 columns r-c-img"><a href="https://www.aerospace-technology.com/contractors/maintenance/mtag-composites/" class="wpp-post-title" target="_self"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2018/03/MTAG-LOGO-2017.jpg" alt="MTAG-LOGO" /></a></div><div class="large-9 columns r-c-title"><h4><a href="https://www.aerospace-technology.com/contractors/maintenance/mtag-composites/" class="wpp-post-title" target="_self">Mtag Composites</a></h4></div></div></li><li><div class="row"><div class="large-3 columns r-c-img"><a href="https://www.aerospace-technology.com/contractors/sub_contract/lk-precision-parts/" class="wpp-post-title" target="_self"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2020/12/logga_800x453.jpg" alt="logga_800x453" /></a></div><div class="large-9 columns r-c-title"><h4><a href="https://www.aerospace-technology.com/contractors/sub_contract/lk-precision-parts/" class="wpp-post-title" target="_self">LK Precision Parts</a></h4></div></div></li><li><div class="row"><div class="large-3 columns r-c-img"><a href="https://www.aerospace-technology.com/contractors/aircraft-materials/trb/" class="wpp-post-title" target="_self"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2017/10/logo-53.jpg" alt="logo-53.jpg" /></a></div><div class="large-9 columns r-c-title"><h4><a href="https://www.aerospace-technology.com/contractors/aircraft-materials/trb/" class="wpp-post-title" target="_self">TRB</a></h4></div></div></li>
+              </ul>
+          </div>
+
+        
+    <div id="thb_singlead_widget-6" class="widget cf widget_singlead"><div class="mpu sidebar-mpu-3">
+	<div id="div-gpt-ad-1321444687289-2">
+	<script>    
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-2'); });
+	</script>
+</div>
+</div>
+</div>	</div>
+
+
+<!-- 
+	<div class="newsletter-sign-up">
+		<h2>Sign-up for industry news</h2>
+		<p>New technologies, news, new products, essential guides and more.</p>
+		<div class="cta"><a href="/about-us-print/#subscribe">Subscribe</a></div>
+	</div>
+	<!-- .newsletter-sign-up -->
+ -->
+
+
+
+	
+
+
+	
+
+
+	
+    
+	
+	
+
+	
+
+    
+
+
+</aside>
+
+
+
+
+	</div>
+
+
+
+
+<div class="row green_gd_box">
+	<!-- Top Leaderboard -->
+	<div class="leaderboard">
+		<div id="div-gpt-ad-1321444687289-1">
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-1'); });
+			</script>
+		 </div>
+	</div>
+</div>
+
+
+
+
+
+<style>
+	.sticky-video {
+		/*position: sticky; */
+		top: 0; 
+		z-index: 999; 
+		/*background: white;
+		box-shadow: 0 0 2rem 0 rgba(0,0,0,0.4);*/
+	}
+	.close-dianomi-video .sticky-video {
+		display: none;
+	}
+	.dianomi-sticky-footer {
+		position: fixed;
+		bottom: -400px;
+		left: 0;
+		right: 0;
+		transition: bottom 0.5s ease-in-out;
+		padding: 10px;
+		background: white;
+		z-index: 99999;
+		border-top: solid 1px #ebebeb;
+		box-shadow: 0 2rem 2rem 0 rgba(0,0,0,0.2);
+		text-align: center;
+		
+	}
+	.dianomi-sticky-footer.show {
+		bottom: 0;
+	}
+	.dianomi-sticky-footer h2 {
+		font-size: 1.2rem;
+		margin: 0 auto 1rem auto;
+		text-align: left;
+		width: 710px;
+		max-width: 100%;
+	}
+	@media (min-width: 1024px) {
+		.dianomi-sticky-footer h2 {
+			font-size: 1.4rem;
+			margin: 0 auto 1rem auto;
+			text-align: left;
+			width: 710px;
+			max-width: 100%;
+		}
+	}
+    .dianomi-sticky-footer .close, .close-dianomi {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 40px;
+        height: 40px;
+        background: #0b2d4c;
+        text-indent: -50000px;
+        overflow: hidden;
+        cursor: pointer;
+		margin-top: 0;
+	}
+        .dianomi-sticky-footer .close:before, .close-dianomi:before {
+            content: "";
+            position: absolute;
+            left: 3px;
+            top: 20px;
+            right: 3px;
+            height: 2px;
+            background: white;
+            transform: rotate(45deg);
+        }
+        .dianomi-sticky-footer .close:after, .close-dianomi:after {
+            content: "";
+            position: absolute;
+            left: 3px;
+            top: 20px;
+            right: 3px;
+            height: 2px;
+            background: white;
+            transform: rotate(-45deg);
+        }
+.close-dianomi-footer .dianomi-sticky-footer {
+    display: none;
+}
+.sidebar {
+	min-height: 2000px;
+}
+.sidebar_inner {
+	position: sticky;
+	top: 50px;
+}
+</style>
+
+<!--<div class="client-pop-up article-promo-pop-up">
+
+	<section>
+
+		<h2>Company name</h2>
+
+		<div class="content-label">Recommended for you</div>
+
+		<h3><a href="https://www.packaging-gateway.com/innovation-in-packaging-de/die-losung-der-zukunft-die-digitale-verpackungswirtschaft-in-deutschland">Die Lösung der Zukunft: Die digitale Verpackungswirtschaft in Deutschland</a></h3>
+
+		<div class="feature-image">
+			<a href=""><img src="https://www.packaging-gateway.com/wp-content/uploads/sites/2/2019/08/future-botles.jpg" alt="Future bottles"></a>
+		</div>
+
+		<div class="cta"><a href="https://www.packaging-gateway.com/innovation-in-packaging-de/die-losung-der-zukunft-die-digitale-verpackungswirtschaft-in-deutschland">Continue reading</a></div>
+
+		<div class="close-toggle">Close</div>
+
+	</section>
+
+</div>
+ .client-pop-up -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="company-targeted-pop-up" id="corporate_meed" style="display: none;">
+				<header>
+					<h2>Your recommended content</h2>
+				</header>
+				<div class="row">
+					<div class="large-6 columns recommended-article">
+						<div class="headline-highlight">Recommended article</div>
+
+
+					    	<h3><a href="https://www.corporatehealthandwellness.meed.com/why-we-believe-workplace-health-and-wellness-is-important/" target="_blank">Why we believe workplace health and wellness is important</a></h3>
+				 			<div class="cta"><a href="https://www.corporatehealthandwellness.meed.com/why-we-believe-workplace-health-and-wellness-is-important/" target="_blank">Read</a></div>
+										
+					</div>
+					
+				</div>
+				<div class="close-toggle close-company-targeted-pop-up">Close</div>
+			</div>
+
+
+
+<div class="company-targeted-pop-up" id="globaldata_report" style="display: none;" >
+	<div class="gd-report-download-banner">
+		<img src="//widgixeu-library.s3.amazonaws.com/library/90020059/GlobalData_logo_blue_header.png" at="GlobalData" class="gd-logo">
+		<a href="https://www.verdict.co.uk/download-a-free-10-page-preview-of-our-mergers-acquisitions-in-tmt-thematic-research-2019-report/"><img src="https://www.mining-technology.com/wp-content/uploads/sites/8/2019/12/Download_your_free_sample_Mergers_Acquisitions_v2.jpg" at="Report download" class="report-download-icon">
+		<h3>Download a free 10 page preview of our Mergers & Acquisitions in TMT – Thematic Research 2019 Report </h3></a>
+		<div class="cta-button"><a href="https://www.verdict.co.uk/download-a-free-10-page-preview-of-our-mergers-acquisitions-in-tmt-thematic-research-2019-report/">Get your free download</a></div>
+	</div>
+
+</div>
+
+<div class="company-targeted-pop-up" id="target-novotech" style="display: none;">
+	<header>
+	<h2><strong>Accelerating Clinical Trials</strong>: Your recommended content</h2>
+	</header>
+	<div class="row">
+		<div class="large-6 columns recommended-article">
+		  <div class="headline-highlight">Recommended article</div>
+			<h3><a href="https://www.pharmaceutical-technology.com/sponsored/clinical-trial-continuity-in-asia-pacific-during-the-covid-19-pandemic/">
+		Clinical Trial Continuity in Asia-Pacific during the COVID-19 pandemic</a></h3>
+			<div class="article-image">
+				<a href="https://www.pharmaceutical-technology.com/sponsored/clinical-trial-continuity-in-asia-pacific-during-the-covid-19-pandemic/">
+				<img src="https://www.pharmaceutical-technology.com/wp-content/uploads/sites/10/2018/01/laboratory.jpg"></a>
+			</div>
+			<div class="cta"><a href="https://www.pharmaceutical-technology.com/sponsored/clinical-trial-continuity-in-asia-pacific-during-the-covid-19-pandemic/">Read</a></div>
+		</div>
+	</div>
+<div class="close-toggle close-company-targeted-pop-up">Close</div>
+</div>
+
+<div class="company-targeted-pop-up" id="target-normet" style="display: none;">
+	<header>
+	<h2><strong>Future of Mining</strong>: Your recommended content</h2>
+	</header>
+	<div class="row">
+		<div class="large-6 columns recommended-article">
+		  <div class="headline-highlight">Recommended article</div>
+			<h3><a href="https://www.mining-technology.com/future-of-mining/a-sneak-peek-into-canadas-largest-transit-expansion">
+		A sneak peek into Canada’s largest transit expansion</a></h3>
+			<div class="article-image">
+				<a href="https://www.mining-technology.com/future-of-mining/a-sneak-peek-into-canadas-largest-transit-expansion">
+				<img src="https://www.mining-technology.com/wp-content/uploads/sites/8/2020/05/spraymecfeatured.jpg"></a>
+			</div>
+			<div class="cta"><a href="https://www.mining-technology.com/future-of-mining/a-sneak-peek-into-canadas-largest-transit-expansion">Read</a></div>
+		</div>
+	</div>
+<div class="close-toggle close-company-targeted-pop-up">Close</div>
+</div>
+
+<div class="company-targeted-pop-up" id="target-sandvik" style="display: none;">
+	<header>
+	<h2><strong>Precision medical wire</strong>: Your recommended content</h2>
+	</header>
+	<div class="row">
+		<div class="large-6 columns recommended-article">
+		  <div class="headline-highlight">Recommended article</div>
+			<h3><a href="https://www.medicaldevice-network.com/precision-medical-wire/precision-wire-for-vascular-therapy-how-exera-rises-to-the-challenge">
+		Precision wire for vascular therapy: How EXERA® rises to the challenge</a></h3>
+			<div class="article-image">
+				<a href="https://www.medicaldevice-network.com/precision-medical-wire/precision-wire-for-vascular-therapy-how-exera-rises-to-the-challenge">
+				<img src="https://www.medicaldevice-network.com/wp-content/uploads/sites/11/2020/06/sandvik-pacemaker.jpg"></a>
+			</div>
+			<div class="cta"><a href="https://www.medicaldevice-network.com/precision-medical-wire/precision-wire-for-vascular-therapy-how-exera-rises-to-the-challenge">Read</a></div>
+		</div>
+	</div>
+<div class="close-toggle close-company-targeted-pop-up">Close</div>
+</div>
+
+
+
+
+		<!-- UK Trade Create Pop-up -->
+			
+        	
+			    <div class="client-pop-up" id="uk-trade-create-pop-up">
+			    	<a href="https://creative.compelo.com/marketing-the-world-why-britain-is-great-for-advertising/"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2019/06/Create-pop-up-3.jpg"></a>
+
+				<div class="close-client-pop-up">Close</div>
+			</div>
+			    <!-- .client-pop-up -->
+
+			
+
+
+
+		<!-- UK Trade Tech Pop-up -->
+			
+        	
+			    <div class="client-pop-up" id="uk-trade-tech-pop-up">
+			    	<a href="https://technology.compelo.com/clean-growth-britain/"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2019/06/Tech-pop-up-3.jpg"></a>
+
+				<div class="close-client-pop-up">Close</div>
+			</div>
+			    <!-- .client-pop-up -->
+
+			
+
+
+
+		<!-- UK Trade Life Sciences Pop-up -->
+			
+        	
+			    <div class="client-pop-up" id="uk-trade-life-sciences-pop-up">
+			    	<a href="https://life-sciences.compelo.com/%EF%BB%BFmicrobes-and-medicine-why-the-uk-is-great-for-biotechnology/"><img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2019/06/life-sciences-pop-up-3.jpg"></a>
+
+				<div class="close-client-pop-up">Close</div>
+			</div>
+			    <!-- .client-pop-up -->
+
+			
+
+
+<script>
+	function setCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	permutive.once('Clearbit', function(clearbit){
+		/*
+		if(["United States", "Japan", "China","United Kingdom"].indexOf(clearbit.properties.company.geo.country) >= 0 &&
+			["Communications Equipment", "Media"].indexOf(clearbit.properties.company.category.industry) >= 0 &&
+		  getCookie('UK_Trade_Create') !== "shown") {
+			jQuery("#uk-trade-create-pop-up").addClass("load-client-pop-up");
+			setCookie('UK_Trade_Create', 'shown', 1)
+			permutive.track('ipTarget', {
+				company: clearbit.properties.company.id,
+				target_reason: "UK_Trade_Create",
+				content:  "Marketing the world: Why Britain is great for advertising",
+				content_type: "popup"
+			})
+		} else if(["United States", "Japan", "China"].indexOf(clearbit.properties.company.geo.country) >= 0 &&
+			["Technology Hardware, Storage & Peripherals", "Internet Software & Services", "Diversified Telecommunication Services"].indexOf(clearbit.properties.company.category.industry) >= 0 &&
+		  getCookie('UK_Trade_Tech') !== "shown") {
+			jQuery("#uk-trade-tech-pop-up").addClass("load-client-pop-up");
+			setCookie('UK_Trade_Tech', 'shown', 1)
+			permutive.track('ipTarget', {
+				company: clearbit.properties.company.id,
+				target_reason: "UK_Trade_Tech",
+				content: "Growth Doesn't Have to be a Dirty Word: Lessons from Britain's Clean Tech Industry",
+				content_type: "popup"
+			})
+		} else if(["United States", "Japan", "China"].indexOf(clearbit.properties.company.geo.country) >= 0 &&
+			["Pharmaceuticals","Health Care Providers & Services", "Biotechnology"].indexOf(clearbit.properties.company.category.industry) >= 0 &&
+		  getCookie('UK_Trade_Life_Sciences') !== "shown") {
+			jQuery("#uk-trade-life-sciences-pop-up").addClass("load-client-pop-up");
+			setCookie('UK_Trade_Life_Sciences', 'shown', 1)
+			permutive.track('ipTarget', {
+				company: clearbit.properties.company.id,
+				target_reason: "UK_Trade_Life_Sciences",
+				content: "﻿Microbes and medicine: Why the UK is great for biotechnology",
+				content_type: "popup"
+			})
+		}
+		*/
+		permutive.segment(23691, function(result){
+		  if (result && getCookie('globaldata_report') !== "shown") {	
+		  jQuery('#globaldata_report').css('display','block');		
+		  setCookie('globaldata_report', 'shown', 7)			  	
+		    permutive.track('ipTarget', {
+		 	company:clearbit.properties.company.id,
+	 		target_reason: "Globaldata",
+			content: "Download a free 10 page preview of our Mergers & Acquisitions in TMT – Thematic Research 2019 Report",
+			content_type: "targeted popup",
+			content_url: "https://www.verdict.co.uk/download-a-free-10-page-preview-of-our-mergers-acquisitions-in-tmt-thematic-research-2019-report/"
+			})
+		  }
+		});
+
+		permutive.segment(24097, function(result){
+		  if (result && getCookie('corporate_meed') !== "shown") {	
+		  jQuery('#corporate_meed').css('display','block');		
+		  setCookie('corporate_meed', 'shown', 7)			  	
+		    permutive.track('ipTarget', {
+		 	company:clearbit.properties.company.id,
+	 		target_reason: "CorporateHealthAndWellness",
+			content: "Why we believe workplace health and wellness is important",
+			content_type: "targeted popup",
+			content_url: "https://www.corporatehealthandwellness.meed.com/why-we-believe-workplace-health-and-wellness-is-important/"
+			})
+		  }
+		});
+
+		
+		permutive.segment(30918, function(result){
+		  if (result && getCookie('target-novotech') !== "shown") {	
+		  jQuery('#target-novotech').css('display','block');		
+		  setCookie('target-novotech', 'shown', 1)			  	
+		    permutive.track('ipTarget', {
+		 	company:clearbit.properties.company.id,
+	 		target_reason: "Accelerating Clinical Trials",
+			content: "Clinical Trial Continuity in Asia-Pacific during the COVID-19 pandemic",
+			content_type: "targeted popup",
+			content_url: "https://www.pharmaceutical-technology.com/sponsored/clinical-trial-continuity-in-asia-pacific-during-the-covid-19-pandemic/"
+			})
+		  }
+		});
+		
+		permutive.segment(21482, function(result){
+		  if (result && getCookie('target-normet') !== "shown") {	
+		  jQuery('#target-normet').css('display','block');		
+		  setCookie('target-normet', 'shown', 1)			  	
+		    permutive.track('ipTarget', {
+		 	company:clearbit.properties.company.id,
+	 		target_reason: "Normet",
+			content: "A sneak peek into Canada’s largest transit expansion",
+			content_type: "targeted popup",
+			content_url: "https://www.mining-technology.com/future-of-mining/a-sneak-peek-into-canadas-largest-transit-expansion"
+			})
+		  }
+		});		
+		
+		permutive.segment(33196, function(result){
+		  if (result && getCookie('target-sandvik') !== "shown") {	
+		  jQuery('#target-sandvik').css('display','block');		
+		  setCookie('target-sandvik', 'shown', 1)			  	
+		    permutive.track('ipTarget', {
+		 	company:clearbit.properties.company.id,
+	 		target_reason: "Sandvik",
+			content: "Precision wire for vascular therapy: How EXERA® rises to the challenge",
+			content_type: "targeted popup",
+			content_url: "https://www.medicaldevice-network.com/precision-medical-wire/precision-wire-for-vascular-therapy-how-exera-rises-to-the-challenge"
+			})
+		  }
+		});		
+
+	})
+
+
+</script>
+
+	
+<!-- Second ad goes here: 
+
+
+	
+-->
+
+
+
+
+<!--
+<div class="slide-up-modal">
+
+    <div class="row">
+    	<div class="large-6 columns text-content">
+
+			<div class="content-label">Special report</div>
+			<h2><a href="https://www.globaldata.com/store/report/gdtmt-tr-s216--mergers-acquisitions-in-tmt-thematic-research/?utm_source=verdict_b2b&utm_medium=slide_up_modal&utm_campaign=Telecoms M&As">Explore key mergers and acquisitions in the technology, media, and telecoms industry</a></h2>
+			<div class="cta"><a href="https://www.globaldata.com/store/report/gdtmt-tr-s216--mergers-acquisitions-in-tmt-thematic-research/?utm_source=verdict_b2b&utm_medium=slide_up_modal&utm_campaign=Telecoms M&As">View this report</a></div>
+
+		</div>
+		<div class="large-6 columns slide-up-image">
+
+			<a href="https://www.globaldata.com/store/report/gdtmt-tr-s216--mergers-acquisitions-in-tmt-thematic-research/?utm_source=verdict_b2b&utm_medium=slide_up_modal&utm_campaign=Telecoms M&As"><img src="https://uk-clients7-kgi-verdict-network.pantheonsite.io/power-technology/wp-content/uploads/sites/7/2019/10/slide-up-modal-for-report-store.jpg"></a>
+
+		</div>
+
+		<div class="close-modal close-slide-up-modal">Close</div>
+
+	</div>
+
+</div>
+ .slide-up-modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Corner Modals End here -->
+
+
+
+			<!-- Start Footer -->
+			<footer class="site-footer">
+				
+				<!-- /14453196/Verdict_Network/Verdict_Network_3x3 -->
+				 				<!-- OffT_1x1 start-->
+								<!-- OffT_1x1 end-->
+				<!-- PowT_1x1 start-->
+				                <!-- PowT_1x1 start-->
+				<nav>
+					<ul id="menu-footer" class="menu"><li id="menu-item-15873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15873"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/mediapacks/">About Us</a></li>
+<li id="menu-item-25588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25588"><a href="https://www.aerospace-technology.com/editorial-standards/">Editorial Standards</a></li>
+<li id="menu-item-15319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15319"><a href="https://www.aerospace-technology.com/company-a-z/">Company A-Z</a></li>
+<li id="menu-item-15320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15320"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-15321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15321"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-15322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15322"><a target="_blank" rel="nofollow" href="https://www.aerospace-technology.com/terms-and-conditions/">Terms and Conditions</a></li>
+</ul>				</nav>
+												<p>&copy; Copyright 2024 Verdict Media Limited.</p>
+
+
+			 				
+			</footer>
+			<!-- End Footer -->
+
+<!-- <p class="go-top-tooltip">
+	Go Top
+</p>
+<a href="#" class="go-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
+
+
+
+
+
+<script id="wp-polls-js-extra">
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/www.aerospace-technology.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script src="https://www.aerospace-technology.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.75.3" id="wp-polls-js"></script>
+<script src="https://www.aerospace-technology.com/wp-content/themes/goodlife-wp/assets/js/vendor.min.js?ver=3.1.0" id="thb-vendor-js"></script>
+<script src="https://www.aerospace-technology.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="thb-app-js-extra">
+/* <![CDATA[ */
+var themeajax = {"url":"https:\/\/www.aerospace-technology.com\/wp-admin\/admin-ajax.php","l10n":{"loading":"Loading ...","nomore":"No More Posts"}};
+/* ]]> */
+</script>
+<script src="https://www.aerospace-technology.com/wp-content/themes/goodlife-wp/assets/js/app.min.js?ver=3.1.0" id="thb-app-js"></script>
+<script id="tve-dash-frontend-js-extra">
+/* <![CDATA[ */
+var tve_dash_front = {"ajaxurl":"https:\/\/www.aerospace-technology.com\/wp-admin\/admin-ajax.php","force_ajax_send":"","is_crawler":""};
+/* ]]> */
+</script>
+<script src="https://www.aerospace-technology.com/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=2.2.5.2" id="tve-dash-frontend-js"></script>
+<script src="https://www.aerospace-technology.com/wp-content/themes/goodlife-wp-child/assets/js/ux.js?ver=de57cb730f5d0903135728b254aa6eaf" id="additional-js"></script>
+<script src="https://www.aerospace-technology.com/wp-content/themes/goodlife-wp-child/assets/js/detect-private-browsing.js?ver=de57cb730f5d0903135728b254aa6eaf" id="detect_browsing-js"></script>
+<script>var tcb_post_lists=JSON.parse('[]');</script><script>/*<![CDATA[*/if ( !window.TL_Const ) {var TL_Const={"security":"68b5a159c6","ajax_url":"https:\/\/www.aerospace-technology.com\/wp-admin\/admin-ajax.php","forms":[],"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"custom_post_data":[],"current_screen":{"screen_type":1,"screen_id":0},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","__tcb_lg_msg","_state","_form_type","_error_message_option","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]};} else {ThriveGlobal.$j.extend(true, TL_Const, {"security":"68b5a159c6","ajax_url":"https:\/\/www.aerospace-technology.com\/wp-admin\/admin-ajax.php","forms":[],"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"custom_post_data":[],"current_screen":{"screen_type":1,"screen_id":0},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","__tcb_lg_msg","_state","_form_type","_error_message_option","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]})} /*]]> */</script>	
+
+
+<script src="https:///4e45d88239.js"></script>
+<!--
+<script> 
+	jQuery(".alert-email").click(function() {
+      jQuery("body").addClass("reveal-gdpr");
+    }) 
+
+
+    jQuery(function(){
+    jQuery(document).scroll(function(){
+        if(jQuery(this).scrollTop() >= jQuery('.in-article-alerts').offset().top - 200) {
+            jQuery(".post-content").addClass("show-email-alert");
+        } else {
+            jQuery(".post-content").removeClass("show-email-alert");
+        }
+    });
+});
+</script>id="stick-ads"
+-->
+<script>
+var wrap = jQuery(".mpu");    
+  wrap.on("scroll", function(e) {  
+    if (this.scrollTop < 900) {
+       wrap.addClass("mpuclass");
+    } else {
+       wrap.removeClass("mpuclass");
+    }
+});
+</script>
+<style>
+.mpu {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+}
+</style>
+
+
+
+
+    <script>
+    function onManageWebPushSubscriptionButtonClicked(event) {
+        getSubscriptionState().then(function(state) {
+            if (state.isPushEnabled) {
+                /* Subscribed, opt them out */
+                OneSignal.setSubscription(false);
+            } else {
+                if (state.isOptedOut) {
+                    /* Opted out, opt them back in */
+                    OneSignal.setSubscription(true);
+                } else {
+                    /* Unsubscribed, subscribe them */
+                    OneSignal.registerForPushNotifications();
+                }
+            }
+        });
+        event.preventDefault();
+    }
+
+    function updateMangeWebPushSubscriptionButton(buttonSelector) {
+        var hideWhenSubscribed = false;
+        var subscribeText = "Subscribe to Notifications";
+        var unsubscribeText = "Unsubscribe from Notifications";
+
+        getSubscriptionState().then(function(state) {
+            var buttonText = !state.isPushEnabled || state.isOptedOut ? subscribeText : unsubscribeText;
+
+            var element = document.querySelector(buttonSelector);
+            if (element === null) {
+                return;
+            }
+
+            element.removeEventListener('click', onManageWebPushSubscriptionButtonClicked);
+            element.addEventListener('click', onManageWebPushSubscriptionButtonClicked);
+            element.textContent = buttonText;
+
+            if (state.hideWhenSubscribed && state.isPushEnabled) {
+                element.style.display = "none";
+            } else {
+                element.style.display = "";
+            }
+        });
+    }
+
+    function getSubscriptionState() {
+        return Promise.all([
+          OneSignal.isPushNotificationsEnabled(),
+          OneSignal.isOptedOut()
+        ]).then(function(result) {
+            var isPushEnabled = result[0];
+            var isOptedOut = result[1];
+
+            return {
+                isPushEnabled: isPushEnabled,
+                isOptedOut: isOptedOut
+            };
+        });
+    }
+
+    var OneSignal = OneSignal || [];
+    var buttonSelector = "#my-notification-button";
+
+    /* This example assumes you've already initialized OneSignal */
+    OneSignal.push(function() {
+        // If we're on an unsupported browser, do nothing
+        if (!OneSignal.isPushNotificationsSupported()) {
+            return;
+        }
+        updateMangeWebPushSubscriptionButton(buttonSelector);
+        OneSignal.on("subscriptionChange", function(isSubscribed) {
+            /* If the user's subscription state changes during the page's session, update the button text */
+            updateMangeWebPushSubscriptionButton(buttonSelector);
+        });
+    });
+    </script>
+
+
+
+
+
+
+
+<script>
+jQuery(document).ready(function(){
+	// jQuery(".go-top").hover(function(){
+	// 		jQuery(".go-top-tooltip").toggleClass("top-tooltip")
+	// });
+	});
+</script>
+<script>
+
+
+var body = document.body;
+body.classList.add("loaded");
+
+
+
+	/* Reached project key stats */
+	jQuery(function(){
+    jQuery(document).scroll(function(){
+		if(jQuery('.microformatting').length > 0){
+        if(jQuery(this).scrollTop() >= jQuery('.microformatting').offset().top - 250) {
+            jQuery('body').addClass("reached-microformatting");
+            }
+            else{
+                jQuery('body').removeClass("reached-microformatting");
+            }
+		}
+    });
+}); 
+
+
+/* Reached sidebar related companies */
+	 jQuery(function(){
+    jQuery(document).scroll(function(){
+		if(jQuery('.related-companies').length > 0){
+        if(jQuery(this).scrollTop() >= jQuery('.related-companies').offset().top - 250) {
+            jQuery('body').addClass("reached-related-companies");
+            }
+            else{
+                jQuery('body').removeClass("reached-related-companies");
+            }
+		}
+    });
+ }); 
+
+
+
+jQuery(".close-toggle").click(function(){
+jQuery("body").toggleClass("end-joyride");
+});
+
+jQuery(".close-promo-bar").click(function(){
+jQuery("body").toggleClass("promo-bar-closed");
+});
+
+jQuery(".track-toggle").click(function(){
+jQuery("body").toggleClass("tracker-form-open");
+});
+
+jQuery("#qn1 .first input").click(function(){
+jQuery("body").toggleClass("connectwise-qns-open");
+});
+
+jQuery("#qn1 .last input").click(function(){
+jQuery("body").toggleClass("qn1-other-open");
+});
+
+jQuery("#qn4 .first input").click(function(){
+jQuery("body").toggleClass("positive-comment-open");
+});
+
+jQuery("#qn4 input[value=negative]").click(function(){
+jQuery("body").toggleClass("negative-comment-open");
+});
+
+jQuery("#qn4 .last input").click(function(){
+jQuery("body").toggleClass("neutral-comment-open");
+});
+
+
+jQuery(".close-client-pop-up").click(function(){
+jQuery("#uk-trade-create-pop-up").toggleClass("client-pop-up-closed");
+jQuery("#uk-trade-tech-pop-up").toggleClass("client-pop-up-closed");
+jQuery("#uk-trade-life-sciences-pop-up").toggleClass("client-pop-up-closed");
+});
+
+</script>
+<script>
+	var hoverTime = 1000;
+	var elements = [].slice.apply(document.querySelectorAll('.company-hover-tracking'));
+	elements.forEach(function (el) {
+	var timeout;
+   el.addEventListener('mouseover', function (){
+   var match = jQuery(this).attr('data-url');	
+	var hovertitle = jQuery(this).find('h4').html();
+	var curpostid = jQuery(this).attr('id');	
+	var getpostid = curpostid.replace('company', '');
+   if(!jQuery(this).hasClass("verify")){
+		jQuery(this).addClass("verify");
+		timeout = window.setTimeout(function () {
+			permutive.track('TabClick', {
+				article: {
+					url: match,				  
+					title:hovertitle
+				}
+			});
+		}, hoverTime);
+	}
+  });
+  
+ });
+
+</script>
+<script>
+
+jQuery('.alm-load-more-btn').click(function(){
+	setTimeout(function(){ 
+     jQuery(document).find(".setsrc").each(function(){
+					var srcset = jQuery(this).attr('data-original');
+					jQuery(this).attr("src",srcset);
+	});
+	}, 1500);	
+});
+jQuery(document).ready(function(){
+	setTimeout(function(){ 
+     jQuery(document).find(".setsrc").each(function(){
+					var srcset = jQuery(this).attr('data-original');
+					jQuery(this).attr("src",srcset);
+	});
+	}, 1500);
+});
+
+jQuery(".close-survey").click(function(){
+    jQuery("body").toggleClass("survey-closed");
+});
+
+jQuery(".top-leaderboard-close").click(function(){
+    jQuery("body").toggleClass("top-leaderboard-closed");
+}); 
+
+jQuery(".close-traffic-driving-pop-up").click(function(){
+    jQuery("body").toggleClass("traffic-driving-pop-up-closed");
+}); 
+
+jQuery(".close-company-targeted-pop-up").click(function(){
+    jQuery("body").toggleClass("company-targeted-pop-up-closed");
+});
+
+jQuery(".close-slide-up-modal").click(function(){
+    jQuery("body").toggleClass("slide-up-modal-closed");
+});
+
+
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+
+    if (scroll >= 1000) {
+        jQuery("body").addClass("show-related");
+    } else {
+        jQuery("body").removeClass("show-related");
+    }
+});
+
+
+jQuery(document).ready(function(){
+			
+		var elsubmitpoll = document.getElementById('submitpoll');
+		if(elsubmitpoll){
+			elsubmitpoll.addEventListener("click", function(e){
+			//document.addEventListener( 'wpcf7submit', function( event ) {
+				//e.preventDefault();
+				createCookieforPoll('pullformsubmitted', true, 30);
+				return false;
+			});
+		}		
+		var elleadcapture = document.getElementById('close-full-screen-survey');
+		if(elleadcapture){
+			elleadcapture.addEventListener("click", function(e){
+				createCookieforPoll('leadcaptureclose', true, 1);
+				return false;
+			});
+		}
+		var HPcapture = document.getElementById('close-company-targeted-pop-up-HP');
+		if(HPcapture){
+			HPcapture.addEventListener("click", function(e){
+				createCookieforPoll('close-company-targeted-pop-up-HP', true, 5);
+				return false;
+			});
+		}
+		
+
+		/*var elldjawhitepaperclose = document.getElementById('dja_whitepaper_popup_close');
+		if(elldjawhitepaperclose){
+			elldjawhitepaperclose.addEventListener("click", function(e){
+				createCookieforPoll('dja_whitepaper_popup_close', true, 7);
+				return false;
+			});
+		}
+		var ellilcdoverwhitepaperclose = document.getElementById('ilcdover_whitepaper_popup_close');
+		if(ellilcdoverwhitepaperclose){
+			ellilcdoverwhitepaperclose.addEventListener("click", function(e){
+				createCookieforPoll('ilcdover_whitepaper_popup_close', true, 7);
+				return false;
+			});
+		}*/
+		/*	
+		var ellnsfMedicalWhitepaperClose = document.getElementById('nsf_medical_whitepaper_close');
+		if(ellnsfMedicalWhitepaperClose){
+			ellnsfMedicalWhitepaperClose.addEventListener("click", function(e){
+				createCookieforPoll('nsf_medical_whitepaper_close', true, 7);
+				return false;
+			});
+		}
+		var ellelvalWhitepaperClose = document.getElementById('elval_whitepaper_close');
+		if(ellelvalWhitepaperClose){
+			ellelvalWhitepaperClose.addEventListener("click", function(e){
+				createCookieforPoll('elval_whitepaper_close', true, 7);
+				return false;
+			});
+		}*/
+		/*	
+		var ellcarrollWhitepaperClose = document.getElementById('carroll_whitepaper_close');
+		if(ellcarrollWhitepaperClose){
+			ellcarrollWhitepaperClose.addEventListener("click", function(e){
+				createCookieforPoll('carroll_whitepaper_close', true, 7);
+				return false;
+			});
+		}*/		
+		function createCookieforPoll(name,value,days) {
+			if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			//date.setTime(date.getTime()+(days*1*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			}
+			else var expires = "";
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+		 if (!readCookieforPoll('pullformsubmitted')) {
+			jQuery('#full-screen-survey').css('display','block');
+		  }
+		  if (!readCookieforPoll('close-company-targeted-pop-up-HP')) {
+			jQuery('#HP-German-Popup').css('display','block');
+		  }
+		 
+		  /*
+		  if (!readCookieforPoll('dja_whitepaper_popup_close')) {
+			jQuery('#dja_whitepaper_popup').css('display','block');
+		  }
+		  if (!readCookieforPoll('ilcdover_whitepaper_popup_close')) {
+			jQuery('#ilcdover_whitepaper_popup').css('display','block');
+		  }*/
+		  /*
+		   if (!readCookieforPoll('nsf_medical_whitepaper_close')) {
+			jQuery('#nsf_medical_whitepaper').css('display','block');
+				window.popupCallback = function(response) {
+				 permutive.track('ipTarget', {
+	  			 company: response.company.id,
+				 target_reason: "NSF Medical",
+				content: "EXPLORING THE RELATIONSHIP BETWEEN THE IVDR AND THE IVDD",
+				content_type: "whitepaper popup"
+				})
+				}
+   							
+
+		  }
+
+		  if (!readCookieforPoll('elval_whitepaper_close')) {
+			jQuery('#elval_whitepaper').css('display','block');
+		  }*/
+		  /*
+		  if (!readCookieforPoll('carroll_whitepaper_close')) {
+			jQuery('#carroll_whitepaper').css('display','block');
+		  }*/
+		  
+		 /* if (!readCookieforPoll('leadcaptureclose')) {
+			jQuery('#full-screen-survey-lead-capture').css('display','block');
+		  } */
+		 function readCookieforPoll(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+		
+	
+ jQuery(".close-survey-thank-you").click(function(){
+			    jQuery("body").toggleClass("survey-closed");
+			var url = window.location.href;
+			var res = url.split("#");
+			window.location = res[0];
+ });
+ jQuery('#submitpoll').attr('disabled', 'disabled');
+	jQuery("#pollformEmail").blur(function() 
+	{
+	 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;  
+	 var emailaddress = jQuery("#pollformEmail").val();
+		 if(!emailReg.test(emailaddress)) 
+			jQuery("#emailspan").html('<font color="#cc0000">Please enter valid Email address</font>');    
+		 else {
+		 jQuery("#submitpoll").removeAttr("disabled");
+       jQuery("#emailspan").remove();
+		 }
+ });		
+	 jQuery('#pardotoffers input:checkbox[name=offers]').change(function() {
+		 var value = jQuery('input:checkbox[name=offers]').is(':checked');
+		 jQuery('input:checkbox[name=offers]').val(value);
+	});	
+});
+
+
+
+/* Add class when user scrolls to 800px to show the native article modal ad Cornal Modal */
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+
+     //>=, not <=
+    if (scroll >= 800) {
+        //clearHeader, not clearheader - caps H
+        jQuery("body").addClass("show-corner-modal");
+    }
+});
+jQuery(".close-corner-modal").click(function() {
+jQuery("body").addClass("corner-modal-closed");  
+});
+
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+
+    if (scroll >= 1) {
+        jQuery("body").addClass("fixed-top-ads-mobile");
+    }
+	if (scroll) {
+        jQuery("#addstickyall").addClass("fixed-top-ad-banner-sidebar");
+    }
+});
+jQuery('.mpu').attr('id', 'addstickyall');
+
+</script>
+<script>
+	var companyName = jQuery("input[name=company-name]").val();
+	jQuery("#nextBtn").click(function(){
+		jQuery("#agreeToReceiveEnail").html("I agree to receive email from "+companyName+". You can unsubscribe at any time.");
+	});
+</script>
+
+<!--
+-->
+
+<!-- Document Body -->
+
+<!-- /14453196/Verdict_Network/Verdict_1x1_Tracker -->
+<div id='div-gpt-ad-1568385470525-0' style='width: 1px; height: 1px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1568385470525-0'); });
+  </script>
+</div>
+
+
+<script>
+var elem = document.getElementById("framecovid");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+<style>
+.covidspreaddata{
+    font-size: 16px;
+    padding: 6px 14px;
+    color: #18a1cd;
+    font-weight: normal;
+    font-family: Roboto,sans-serif;
+}
+.covidspreaddata:hover{ 
+cursor: pointer;
+}
+</style>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e0d7642f0a","applicationID":"75405963","transactionName":"ZwADZ0EEWxBQABVRDl5KIFBHDFoNHgITWwlZEwQ=","queueTime":0,"applicationTime":910,"atts":"S0cAEQkeSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html><script>
+       function getParameterByName(name, url) {
+			if (!url) url = window.location.href;
+			name = name.replace(/[\[\]]/g, "\\$&");
+			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+
+		function custom_sort_by_sector(){
+		    var selectedSector = jQuery('#sector').val();
+			var url = window.location.href;
+            var OldValuesectr = getParameterByName('sectr');			
+			if(OldValuesectr){			
+				var reExp = /sectr=([^&]*)/;
+				var newUrl = url.replace(reExp, "sectr=" + selectedSector);
+				window.location.href = newUrl;	
+			}else{
+				if (url.indexOf('?') > -1){
+				   url += '&sectr=' + selectedSector;
+				}else{
+				   url += '?sectr=' + selectedSector;
+				}
+				window.location.href = url;
+		   }	
+			
+		}
+		function custom_sort_by_year(){
+		    var year = jQuery('#year').val();
+			var url = window.location.href; 
+		    var OldValueYr = getParameterByName('yr');
+            if(OldValueYr){			
+				var reExp = /yr=([^&]*)/;
+				var newUrl = url.replace(reExp, "yr=" + year);
+				window.location.href = newUrl;	
+			}else{
+                if (url.indexOf('?') > -1){
+				url += '&yr=' + year;
+				}else{
+				url += '?yr=' + year;
+				}
+				window.location.href = url;	
+            }			
+		}
+		
+		jQuery('#sector').on('change',custom_sort_by_sector);
+		jQuery('#year').on('change',custom_sort_by_year);
+</script>
+
