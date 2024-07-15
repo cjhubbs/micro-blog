@@ -1,0 +1,847 @@
+
+    <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Login Template Title</title><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://service.force.com/embeddedservice/ https://cdn.content.aws-dev2-uswest2.aws.sfdc.cl/ https://cdn.content.aws-prod1-useast1.aws.sfdc.cl/ https://payments.salesforce.com/ https://js.stripe.com/ https://www.paypal.com/sdk/js import: blob: https://uip.canary.lwc.dev https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://www.executivejetmanagement.com https://*.google-analytics.com https://*.doubleclick.net https://*.googletagmanager.com https://*.avinode.com https://*.google.com https://*.bing.com https://*.cookielaw.org https://*.microsoft.com; object-src 'self' www.google.com; style-src 'self' 'unsafe-inline' https://service.force.com/embeddedservice/ https://fonts.googleapis.com/css2 https://fonts.googleapis.com/css blob: https://apps.avinode.com https://netjets.my.salesforce.com https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://*.twitter.com https://executivejetmanagement.com https://*.googletagmanager.com https://*.doubleclick.net https://s3.ap-east-1.amazonaws.com https://s3.ap-northeast-1.amazonaws.com https://s3.ap-northeast-2.amazonaws.com https://s3.ap-northeast-3.amazonaws.com https://s3.ap-south-1.amazonaws.com https://s3.ap-southeast-1.amazonaws.com https://s3.ap-southeast-2.amazonaws.com https://s3.ca-central-1.amazonaws.com https://s3.cn-north-1.amazonaws.com https://s3.cn-northwest-1.amazonaws.com https://s3.eu-central-1.amazonaws.com https://s3.eu-north-1.amazonaws.com https://s3.eu-west-1.amazonaws.com https://s3.eu-west-2.amazonaws.com https://s3.eu-west-3.amazonaws.com https://s3.us-gov-east-1.amazonaws.com https://s3.us-gov-west-1.amazonaws.com https://s3.me-south-1.amazonaws.com https://s3.sa-east-1.amazonaws.com https://s3.us-east-1.amazonaws.com https://s3.us-east-2.amazonaws.com https://s3.us-west-1.amazonaws.com https://s3.us-west-2.amazonaws.com https://s3.amazonaws.com https://*.microsoft.com https://*.bing.com https://*.cookielaw.org https://testcorephone.gryphonnetworks.com https://testsalesforce.gryphonnetworks.com https://corephone.gryphonnetworks.com https://salesforce.gryphonnetworks.com *.walkme.com https://content.analytics.apttus.com https://data.analytics.apttus.com https://netjets--c.visualforce.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.google.com https://*.executivejetmanagement.com; img-src 'self' data: blob: https://netjets.my.salesforce.com https://netjets.file.force.com https://img.youtube.com https://i.ytimg.com https://i.vimeocdn.com https://login.salesforce.com/icons/ https://payments.salesforce.com/icons/ https://cdn.content.aws-prod1-useast1.aws.sfdc.cl/icons/ https://cdn.content.aws-dev2-uswest2.aws.sfdc.cl/icons/ https://www.sandbox.paypal.com https://www.paypal.com https://usa584.sfdc-lywfpd.salesforce.com/icons/ https://apps.avinode.com https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://*.twitter.com https://executivejetmanagement.com https://*.googletagmanager.com https://*.doubleclick.net https://s3.ap-east-1.amazonaws.com https://s3.ap-northeast-1.amazonaws.com https://s3.ap-northeast-2.amazonaws.com https://s3.ap-northeast-3.amazonaws.com https://s3.ap-south-1.amazonaws.com https://s3.ap-southeast-1.amazonaws.com https://s3.ap-southeast-2.amazonaws.com https://s3.ca-central-1.amazonaws.com https://s3.cn-north-1.amazonaws.com https://s3.cn-northwest-1.amazonaws.com https://s3.eu-central-1.amazonaws.com https://s3.eu-north-1.amazonaws.com https://s3.eu-west-1.amazonaws.com https://s3.eu-west-2.amazonaws.com https://s3.eu-west-3.amazonaws.com https://s3.us-gov-east-1.amazonaws.com https://s3.us-gov-west-1.amazonaws.com https://s3.me-south-1.amazonaws.com https://s3.sa-east-1.amazonaws.com https://s3.us-east-1.amazonaws.com https://s3.us-east-2.amazonaws.com https://s3.us-west-1.amazonaws.com https://s3.us-west-2.amazonaws.com https://s3.amazonaws.com https://maps.a.forceusercontent.com https://*.microsoft.com https://*.bing.com https://*.cookielaw.org https://testcorephone.gryphonnetworks.com https://testsalesforce.gryphonnetworks.com https://corephone.gryphonnetworks.com https://salesforce.gryphonnetworks.com *.walkme.com s3.walkmeusercontent.com d2qhvajt3imc89.cloudfront.net https://content.analytics.apttus.com https://data.analytics.apttus.com https://netjets--c.visualforce.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.google.com https://*.executivejetmanagement.com; media-src 'self' blob: https://apps.avinode.com https://netjets.my.salesforce.com https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://*.twitter.com https://executivejetmanagement.com https://*.googletagmanager.com https://*.doubleclick.net https://s3.ap-east-1.amazonaws.com https://s3.ap-northeast-1.amazonaws.com https://s3.ap-northeast-2.amazonaws.com https://s3.ap-northeast-3.amazonaws.com https://s3.ap-south-1.amazonaws.com https://s3.ap-southeast-1.amazonaws.com https://s3.ap-southeast-2.amazonaws.com https://s3.ca-central-1.amazonaws.com https://s3.cn-north-1.amazonaws.com https://s3.cn-northwest-1.amazonaws.com https://s3.eu-central-1.amazonaws.com https://s3.eu-north-1.amazonaws.com https://s3.eu-west-1.amazonaws.com https://s3.eu-west-2.amazonaws.com https://s3.eu-west-3.amazonaws.com https://s3.us-gov-east-1.amazonaws.com https://s3.us-gov-west-1.amazonaws.com https://s3.me-south-1.amazonaws.com https://s3.sa-east-1.amazonaws.com https://s3.us-east-1.amazonaws.com https://s3.us-east-2.amazonaws.com https://s3.us-west-1.amazonaws.com https://s3.us-west-2.amazonaws.com https://s3.amazonaws.com https://*.microsoft.com https://*.bing.com https://*.cookielaw.org https://testcorephone.gryphonnetworks.com https://testsalesforce.gryphonnetworks.com https://corephone.gryphonnetworks.com https://salesforce.gryphonnetworks.com *.walkme.com https://content.analytics.apttus.com https://data.analytics.apttus.com https://netjets--c.visualforce.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.google.com https://*.executivejetmanagement.com; frame-src 'self' https://service.force.com/embeddedservice/ https://usa584.sfdc-lywfpd.salesforce.com https://sfdc-link-preview-staging.sfdc.sh https://sfdc-link-preview.hk.salesforce.com https://cdn.embedly.com https://www.youtube.com https://player.vimeo.com https://play.vidyard.com https://player.cloudinary.com https://fast.wistia.net https://players.brightcove.net https://s1.adis.ws https://scormanywhere.secure.force.com https://appiniummastertrial.secure.force.com https://js.stripe.com/ https://www.paypal.com https://www.sandbox.paypal.com https://*.a.forceusercontent.com/lightningmaps/ https://*.a.forceusercontent.com https://location.force.com https://netjets.file.force.com https://apps.avinode.com https://netjets.my.salesforce.com https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://*.twitter.com https://executivejetmanagement.com https://*.googletagmanager.com https://*.doubleclick.net https://s3.ap-east-1.amazonaws.com https://s3.ap-northeast-1.amazonaws.com https://s3.ap-northeast-2.amazonaws.com https://s3.ap-northeast-3.amazonaws.com https://s3.ap-south-1.amazonaws.com https://s3.ap-southeast-1.amazonaws.com https://s3.ap-southeast-2.amazonaws.com https://s3.ca-central-1.amazonaws.com https://s3.cn-north-1.amazonaws.com https://s3.cn-northwest-1.amazonaws.com https://s3.eu-central-1.amazonaws.com https://s3.eu-north-1.amazonaws.com https://s3.eu-west-1.amazonaws.com https://s3.eu-west-2.amazonaws.com https://s3.eu-west-3.amazonaws.com https://s3.us-gov-east-1.amazonaws.com https://s3.us-gov-west-1.amazonaws.com https://s3.me-south-1.amazonaws.com https://s3.sa-east-1.amazonaws.com https://s3.us-east-1.amazonaws.com https://s3.us-east-2.amazonaws.com https://s3.us-west-1.amazonaws.com https://s3.us-west-2.amazonaws.com https://s3.amazonaws.com https://maps.a.forceusercontent.com https://*.microsoft.com https://*.bing.com https://*.cookielaw.org https://testcorephone.gryphonnetworks.com https://testsalesforce.gryphonnetworks.com https://corephone.gryphonnetworks.com https://salesforce.gryphonnetworks.com *.walkme.com https://content.analytics.apttus.com https://data.analytics.apttus.com https://netjets--c.visualforce.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.google.com https://*.executivejetmanagement.com; font-src 'self' data: https://fonts.gstatic.com/ https://apps.avinode.com https://netjets.my.salesforce.com https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://*.twitter.com https://executivejetmanagement.com https://*.googletagmanager.com https://*.doubleclick.net https://s3.ap-east-1.amazonaws.com https://s3.ap-northeast-1.amazonaws.com https://s3.ap-northeast-2.amazonaws.com https://s3.ap-northeast-3.amazonaws.com https://s3.ap-south-1.amazonaws.com https://s3.ap-southeast-1.amazonaws.com https://s3.ap-southeast-2.amazonaws.com https://s3.ca-central-1.amazonaws.com https://s3.cn-north-1.amazonaws.com https://s3.cn-northwest-1.amazonaws.com https://s3.eu-central-1.amazonaws.com https://s3.eu-north-1.amazonaws.com https://s3.eu-west-1.amazonaws.com https://s3.eu-west-2.amazonaws.com https://s3.eu-west-3.amazonaws.com https://s3.us-gov-east-1.amazonaws.com https://s3.us-gov-west-1.amazonaws.com https://s3.me-south-1.amazonaws.com https://s3.sa-east-1.amazonaws.com https://s3.us-east-1.amazonaws.com https://s3.us-east-2.amazonaws.com https://s3.us-west-1.amazonaws.com https://s3.us-west-2.amazonaws.com https://s3.amazonaws.com https://*.microsoft.com https://*.bing.com https://*.cookielaw.org https://testcorephone.gryphonnetworks.com https://testsalesforce.gryphonnetworks.com https://corephone.gryphonnetworks.com https://salesforce.gryphonnetworks.com *.walkme.com https://content.analytics.apttus.com https://data.analytics.apttus.com https://netjets--c.visualforce.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.google.com https://*.executivejetmanagement.com; connect-src 'self' https://www.paypal.com https://www.sandbox.paypal.com https://netjets.my.salesforce-scrt.com https://o11y.sfproxy-core2.sfdc-lywfpd.svc.sfdcfc.net/ui-telemetry https://apps.avinode.com https://netjets.my.salesforce.com https://*.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://*.2o7.net https://*.adobe.com https://*.twitter.com https://executivejetmanagement.com https://*.googletagmanager.com https://*.doubleclick.net https://s3.ap-east-1.amazonaws.com https://s3.ap-northeast-1.amazonaws.com https://s3.ap-northeast-2.amazonaws.com https://s3.ap-northeast-3.amazonaws.com https://s3.ap-south-1.amazonaws.com https://s3.ap-southeast-1.amazonaws.com https://s3.ap-southeast-2.amazonaws.com https://s3.ca-central-1.amazonaws.com https://s3.cn-north-1.amazonaws.com https://s3.cn-northwest-1.amazonaws.com https://s3.eu-central-1.amazonaws.com https://s3.eu-north-1.amazonaws.com https://s3.eu-west-1.amazonaws.com https://s3.eu-west-2.amazonaws.com https://s3.eu-west-3.amazonaws.com https://s3.us-gov-east-1.amazonaws.com https://s3.us-gov-west-1.amazonaws.com https://s3.me-south-1.amazonaws.com https://s3.sa-east-1.amazonaws.com https://s3.us-east-1.amazonaws.com https://s3.us-east-2.amazonaws.com https://s3.us-west-1.amazonaws.com https://s3.us-west-2.amazonaws.com https://s3.amazonaws.com https://*.microsoft.com https://*.bing.com https://*.cookielaw.org https://testcorephone.gryphonnetworks.com https://testsalesforce.gryphonnetworks.com https://corephone.gryphonnetworks.com https://salesforce.gryphonnetworks.com *.walkme.com https://content.analytics.apttus.com https://data.analytics.apttus.com https://netjets--c.visualforce.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.google.com https://*.executivejetmanagement.com"><!-- OneTrust Cookies Consent Notice start for executivejetmanagement.com -->
+<script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js  type="text/javascript" charset="UTF-8" data-domain-script="812f73f3-75ca-4a32-b9b6-d4b475ba0145" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for executivejetmanagement.com -->
+
+<meta name="google-site-verification" content="g99NJVEdbp_28CwivRE81BG6WLMGwoai9TMm9UsZqKg" />
+<link rel="shortcut icon" href="https://www.executivejetmanagement.com/favicon.ico?v=2" />
+<script src="//assets.adobedtm.com/ffcda0b89e8c/82133ce999f5/launch-7bf850ec21b7.min.js" async></script>
+<script>
+    // Override links target_blank for cms items.
+    var callback = function(){
+        document.addEventListener('click', function(e) {
+            if (e.target.nodeName.toUpperCase() !== "LIGHTNING-FORMATTED-RICH-TEXT") {
+                return;
+            }
+            else {
+                let linkTarget = e.target.getElementsByTagName("A")[0].target;
+                let linkHref = e.target.getElementsByTagName("A")[0].href;
+                if(linkTarget === "_blank" && linkHref.includes("executivejetmanagement.com")) {
+                    e.preventDefault();
+                    window.location = linkHref;
+                }
+            }
+        });
+
+	    const srcVal = 'https://apps.avinode.com/webapp/rest/bootstrap?Avinode-WEB-APP=eyJraWQiOiIxNkVBQkQ5RS1BRjYyLTQ4NTEtODk5Qi1BM0UwMThGRjYxNDciLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIxNDZiZjUwZi0zNWQzLTQxNmMtODA5MC1jYzBlOWEyYWU3M2IiLCJhdmlkb21haW4iOiIuYXZpbm9kZS5jb20iLCJhdml0ZW5hbnQiOjg1OSwiaXNzIjoiYXZpbm9kZSIsImF2aXR5cGUiOjEwLCJhdmlub25jZSI6ImVlZjBkMzVjLThmMzEtNGRkZS1iNjMzLTNhOWQ4OWYwOTZjYyJ9.avmt9aqLTQ3Nx7vVNs5Z-beWiQjZk2sNEiOrFG46SVqvwhJguxMOR_LO27ju-EGldphMhro3nRzxfyzzBC_PNZbKhPHnwgrI1sHQKJa3Rc6__DJ8T1ioRmZO0ihH79RzDN77jD7B9Eqz6-XbZllLndAWC5ZwS0FNKGUtzqrPy3vJ4fNZoQbpQ_V_G_p2m57NCLIvChPcyjvYHuHPS4IXxjEO5ocdRJ1HOHxAjAq-ieleooISbEZaj9VFY1ZF0TmKDliWPcosn1eFVVienWGH-g7OJ_lIn7A96tg8V2oTDPeSXW8VSebT_kKOPPIM137oJbPu0hHz07W4Q_iY1ajNJQ';
+	    const targetDiv = '#avinodeApp';
+        let searchCount = 0;
+        
+        function waitForElementToDisplay(selector, time) {
+        	if(document.querySelector(selector)!=null) {
+                // REmove old tag
+                let curScriptTag = document.querySelector('script[src$="' + srcVal + '"]');
+                if(curScriptTag) {
+                    curScriptTag.remove();
+                }
+				// add New Tag
+            	const scriptTag = document.createElement( 'script' );
+  				scriptTag.setAttribute( 'src', srcVal );
+  				document.body.appendChild( scriptTag );
+            	
+                return;
+        	}
+           	else if(searchCount === 10) {
+                return;
+            }
+        	else {
+				searchCount++;
+            	setTimeout(function() {
+                	waitForElementToDisplay(selector, time);
+            	}, time);
+        	}
+    	}
+        
+        waitForElementToDisplay(targetDiv,250);
+      
+       	let bodyEl = document.getElementsByTagName("BODY")[0];
+        var observer = new MutationObserver(function(mutations) {
+  			mutations.forEach(function(mutation) {
+    			if (mutation.type == "attributes") {
+                    //Page Changed
+					searchCount = 0;
+      				waitForElementToDisplay(targetDiv,250);
+    			}
+  			});
+		});
+
+		observer.observe(bodyEl, {
+  			attributes: true //configure it to listen to attribute changes
+		});
+        
+	};
+
+    if (document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {
+      callback();
+    } else {
+      document.addEventListener("DOMContentLoaded", callback);
+    }
+</script><meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, minimal-ui"/>
+<style>
+        .auraMsgMask, #auraErrorMask, body .auraLoadingBox {
+            display: none;
+        }
+
+        .spaError {
+            padding: 10px;
+        }
+
+        .spaErrorLink {
+            padding: 10px 0;
+            display: block
+        }
+
+        </style><style>:root{--c-paletteIndigo10:rgb(32, 6, 71);--c-popoverWalkthroughHeaderImage:;--c-zIndexDialog:6000;--c-colorPickerSelectorWidth:14rem;--c-nubbinSizeDefault:1rem;--c-paletteCloudBlue40:rgb(5, 98, 138);--c-colorBackgroundContextBarInverseItemHover:rgba(255, 255, 255, 0.2);--c-dropZoneSlotHeight:0.25rem;--c-colorTextTabLabelSelected:rgb(1, 118, 211);--c-colorStrokeBrandActive:rgb(3, 45, 96);--c-paletteIndigo15:rgb(31, 9, 116);--c-cardBodyPadding:0 1rem;--c-varSpacingHorizontalSmall:0.75rem;--c-tableColorBackgroundHeaderResizableHandle:rgb(174, 174, 174);--c-colorBackgroundPathActiveHover:rgb(3, 45, 96);--c-brandPrimaryTransparent:rgba(21, 137, 238, 0.1);--c-brandPrimaryTransparent40:rgba(21, 137, 238, 0.4);--c-colorBorderButtonDefault:rgb(201, 201, 201);--c-paletteIndigo20:rgb(50, 29, 113);--c-popoverColorText:rgb(201, 201, 201);--c-paletteCloudBlue30:rgb(8, 73, 104);--c-colorTextButtonDefaultActive:rgb(1, 118, 211);--c-colorPickerSliderHeight:1.5rem;--c-colorTextIconInverse:rgb(255, 255, 255);--c-heightFooter:3.75rem;--c-splitViewColorBorder:rgb(201, 201, 201);--c-colorBorderRowSelectedHover:rgb(27, 150, 255);--c-fontSizeTextXxSmall:0.625rem;--c-lineHeightHeading:1.25;--c-cardHeaderMargin:0 0 0.75rem;--c-paletteIndigo30:rgb(47, 44, 183);--c-mqMediumLandscape:only screen and (min-width: 48em) and (min-aspect-ratio: 4/3);--c-brandBandImageHeightMedium:12.5rem;--c-illustrationColorSecondary:rgb(207, 233, 254);--c-zIndexDefault:1;--c-colorBorderSelectionActive:rgb(243, 243, 243);--c-paletteCloudBlue20:rgb(2, 50, 72);--c-utilityBarColorBackgroundNotificationFocus:rgb(201, 201, 201);--c-colorTextIconDefaultDisabled:rgb(201, 201, 201);--c-colorTextBrand:rgb(27, 150, 255);--c-durationToastMedium:9.6s;--c-colorBackgroundButtonIconActive:rgb(243, 243, 243);--c-brandHeaderContrastWeak:rgb(145, 145, 145);--c-colorBackgroundNotificationNew:rgb(243, 243, 243);--c-brandHeaderContrastInverseActive:rgb(238, 238, 238);--c-colorBackgroundInputCheckboxSelected:rgb(27, 150, 255);--c-progressColorBorder:rgb(255, 255, 255);--c-spacingXxxSmall:0.125rem;--c-paletteIndigo40:rgb(58, 73, 218);--c-colorBackgroundProgressRingContent:rgb(255, 255, 255);--c-lineHeightButtonSmall:1.75rem;--c-salesforceSansBoldItalicWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-BoldItalic.woff);--c-brandBackgroundDarkTransparent:rgba(221, 219, 218, 0);--c-colorPickerThumbWidth:0.375rem;--c-paletteCloudBlue10:rgb(0, 26, 40);--c-brandHeaderIconActive:rgb(129, 129, 129);--c-widthStageLeftCollapsed:4rem;--c-paletteCloudBlue15:rgb(10, 38, 54);--c-colorBorderOffline:rgb(68, 68, 68);--c-colorBackgroundUtilityBarHover:rgb(243, 243, 243);--c-sliderHandleColorBackgroundHover:rgb(1, 118, 211);--c-colorTextIconInverseHint:rgba(255, 255, 255, 0.5);--c-sizeMedium:20rem;--c-brandPrimaryTransparent10:rgba(21, 137, 238, 0.1);--c-colorBorderIconInverseHintHover:rgba(255, 255, 255, 0.75);--c-colorTextDefault:rgb(3, 45, 96);--c-paletteIndigo50:rgb(88, 103, 232);--c-progressBarHeight:0.125rem;--c-colorBackgroundWarning:rgb(254, 147, 57);--c-colorBackgroundBrandPrimaryActive:rgb(3, 45, 96);--c-paletteBlue90:rgb(216, 230, 254);--c-brandHeaderContrastCool:rgb(1, 68, 134);--c-paletteCloudBlue80:rgb(144, 208, 254);--c-paletteBlue95:rgb(238, 244, 255);--c-colorBorderSelectionHover:rgb(27, 150, 255);--c-zIndexPopup:5000;--c-borderRadiusLarge:0.5rem;--c-colorTextIconInverseHintHover:rgba(255, 255, 255, 0.75);--c-popoverBrandBorderWidth:0.25rem;--c-fontSizeHeadingXLarge:1.75rem;--c-typingIconDotColorBackgroundGrayDark:rgb(201, 201, 201);--c-paletteIndigo65:rgb(142, 155, 239);--c-varSpacingLarge:1.5rem;--c-pageHeaderSpacingMargin:0;--c-fontSizeTextXLarge:1.25rem;--c-paletteIndigo60:rgb(127, 140, 237);--c-paletteCloudBlue70:rgb(26, 185, 255);--c-welcomeMatColorActionShadow:rgba(0, 0, 0, 0.05);--c-colorTextBrowser:rgb(255, 255, 255);--c-welcomeMatSpacingInfo:7.75rem;--c-mqLarge:only screen and (min-width: 64.0625em);--c-paletteIndigo70:rgb(158, 169, 241);--c-squareTappableSmall:2rem;--c-colorTextActionLabel:rgb(116, 116, 116);--c-paletteCloudBlue60:rgb(13, 157, 218);--c-paletteBlue70:rgb(120, 176, 253);--c-colorBorderTabActive:rgb(255, 255, 255);--c-paletteCloudBlue65:rgb(8, 171, 237);--c-globalnavigationItemHeightAccentFocus:4px;--c-colorBorderDestructiveHover:rgb(186, 5, 23);--c-buttonLineHeightTouch:2.65rem;--c-colorTextCustomer:rgb(254, 147, 57);--c-squareIconUtilitySmall:1rem;--c-colorBackgroundModalButtonActive:rgba(0, 0, 0, 0.16);--c-colorTextBrandPrimary:rgb(255, 255, 255);--c-squareIconXSmallBoundary:1.25rem;--c-widthToggle:3rem;--c-paletteIndigo80:rgb(190, 199, 246);--c-welcomeMatMinHeight:25rem;--c-zIndexDocked:4;--c-squareIconMediumBoundaryAlt:2.25rem;--c-colorBorderSelection:rgb(1, 118, 211);--c-paletteBlue80:rgb(170, 203, 255);--c-paletteCloudBlue50:rgb(16, 124, 173);--c-brandHeaderContrastActive:rgb(80, 80, 80);--c-formLabelFontSize:0.75rem;--c-colorTextActionLabelActive:rgb(3, 45, 96);--c-colorBackgroundBackdropTint:rgb(243, 243, 243);--c-durationSlowly:0.4s;--c-colorBackgroundRowHover:rgb(243, 243, 243);--c-popoverWalkthroughAltNubbinColorBackground:rgb(1, 118, 211);--c-spinnerSizeSmall:1.25rem;--c-sliderTrackColorBackgroundFill:rgb(27, 150, 255);--c-welcomeMatWidth:52.0625rem;--c-paletteIndigo95:rgb(241, 243, 251);--c-paletteIndigo90:rgb(224, 229, 248);--c-filesZIndexHover:5;--c-colorTextPill:rgb(1, 118, 211);--c-varSpacingSmall:0.75rem;--c-heightDockedBar:2.5rem;--c-paletteBlue50:rgb(1, 118, 211);--c-colorTextTabLabelHover:rgb(1, 68, 134);--c-fontSizeHeadingXSmall:0.75rem;--c-colorStrokeDisabled:rgb(243, 243, 243);--c-widthPathBorderCurrent:0.125rem;--c-colorBackgroundButtonDefaultHover:rgb(243, 243, 243);--c-varSpacingVerticalXxSmall:0.25rem;--c-colorTextButtonDefaultHover:rgb(1, 118, 211);--c-durationPromptly:0.2s;--c-colorBorderPathCurrent:rgb(1, 68, 134);--c-colorBackgroundButtonDefaultActive:rgb(243, 243, 243);--c-colorTextStageLeft:rgb(243, 243, 243);--c-colorBorderHint:rgb(3, 45, 96);--c-colorTextPrimary:rgb(3, 45, 96);--c-brandBandColorBackgroundSecondaryTransparent:rgba(0, 0, 0, 0);--c-paletteBlue60:rgb(27, 150, 255);--c-cardColorBackground:rgb(255, 255, 255);--c-brandHeaderIcon:rgb(145, 145, 145);--c-paletteBlue65:rgb(87, 163, 253);--c-spacingLarge:1.5rem;--c-pageHeaderColorBorder:rgba(0, 0, 0, 0);--c-cardFooterMargin:0.75rem;--c-fontSizeTextSmall:0.8125rem;--c-colorTextLinkInverseActive:rgba(255, 255, 255, 0.5);--c-durationToastShort:4.8s;--c-lineHeightButton:1.875rem;--c-panelDockedLeftShadow:1px 0 3px rgba(0,0,0,0.25);--c-panelDockedRightShadow:-1px 0 3px 0 rgba(0,0,0,0.25);--c-colorTextLinkPrimaryHover:rgb(1, 118, 211);--c-shadowButton:0 1px 1px 0 rgba(0, 0, 0, 0.05);--c-welcomeMatMaxHeight:37.5rem;--c-colorBorderToggleChecked:rgb(255, 255, 255);--c-shadowHeader:0 2px 4px rgba(0, 0, 0, 0.07);--c-sizeXxLarge:60rem;--c-colorBackgroundDockedPanelHeader:rgb(255, 255, 255);--c-paletteBlue30:rgb(1, 68, 134);--c-lineHeightSalespath:1.5rem;--c-shadowDrag:0 2px 4px 0 rgba(0, 0, 0, 0.40);--c-colorBackgroundPathExpanded:rgb(255, 255, 255);--c-colorBackground:rgb(243, 243, 243);--c-colorBackgroundInput:rgb(255, 255, 255);--c-sizeSmall:15rem;--c-userDefaultAvatar:url(/_slds/images/profile_avatar_200.png?cache=7bdcafae);--c-colorTextButtonInverse:rgb(243, 243, 243);--c-colorBackgroundInputCheckboxDisabled:rgb(201, 201, 201);--c-tableColorTextHeader:rgb(68, 68, 68);--c-paletteBlue40:rgb(11, 92, 171);--c-cardColorBorder:rgb(201, 201, 201);--c-squareIconUtilityMedium:1.25rem;--c-colorBackgroundButtonSuccessHover:rgb(46, 132, 74);--c-colorBorderButtonBrandDisabled:rgba(0, 0, 0, 0);--c-fontSizeHeadingXxSmall:0.625rem;--c-colorBackgroundButtonInverseActive:rgba(0, 0, 0, 0.24);--c-illustrationEmptyStateEvents:url(/_slds/images/illustrations/empty-state-events.svg?cache=985b247a);--c-colorBackgroundToggle:rgb(174, 174, 174);--c-colorBackgroundStencil:rgb(243, 243, 243);--c-welcomeMatCheckSize:0.625rem;--c-colorTextButtonBrandHover:rgb(255, 255, 255);--c-buttonColorBackgroundSecondary:rgba(255, 255, 255, 0.8);--c-paletteBlue10:rgb(0, 22, 57);--c-varSpacingVerticalLarge:1.5rem;--c-colorBorderReminder:rgb(243, 243, 243);--c-colorBrandDark:rgb(1, 118, 211);--c-paletteBlue15:rgb(3, 35, 77);--c-colorBorderBrandPrimaryFocus:rgb(1, 118, 211);--c-salesforceSansItalicWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Italic.woff);--c-colorBorderBrandPrimaryActive:rgb(3, 45, 96);--c-datepickerColorTextDayAdjacentMonth:rgb(116, 116, 116);--c-colorBorderErrorAlt:rgb(254, 143, 125);--c-shadowReminder:0 2px 3px 0 rgba(0, 0, 0, 0.20);--c-brandTextLinkActive:rgb(1, 68, 134);--c-pageHeaderColorBackground:rgb(243, 243, 243);--c-salesforceSansBoldWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Bold.woff2);--c-fontSizeHeadingLarge:1.5rem;--c-colorBackgroundStencilAlt:rgb(243, 243, 243);--c-paletteBlue20:rgb(3, 45, 96);--c-elevationInverseShadow3Below:0 -3px 3px 0 rgba(0, 0, 0, 0.16) inset;--c-varSpacingHorizontalXxSmall:0.25rem;--c-colorBorderSeparatorAlt:rgb(201, 201, 201);--c-colorPickerRangeHeight:5rem;--c-colorBackgroundButtonIcon:rgba(0, 0, 0, 0);--c-paletteTeal15:rgb(7, 40, 37);--c-buttonIconColorBorderPrimary:rgb(255, 255, 255);--c-brandAccessibleActive:rgb(1, 68, 134);--c-paletteYellow80:rgb(252, 192, 3);--c-zIndexSpinner:9050;--c-colorBackgroundContextTabBarItem:rgb(255, 255, 255);--c-fontWeightBold:700;--c-paletteTeal10:rgb(7, 27, 18);--c-colorBackgroundContextBarItemActive:rgb(255, 255, 255);--c-shadowFocusInset:0 0 2px 2px #1b96ff inset;--c-colorBackgroundAltInverse:rgb(3, 45, 96);--c-colorBackgroundPathIncompleteHover:rgb(201, 201, 201);--c-squareIconMediumContent:1rem;--c-colorBackgroundContextBar:rgb(255, 255, 255);--c-colorTextInverseHover:rgb(174, 174, 174);--c-colorBackgroundInputActive:rgb(255, 255, 255);--c-brandContrast:rgb(26, 27, 30);--c-colorTextSecondary:rgb(116, 116, 116);--c-fillHeaderButtonHover:rgb(1, 68, 134);--c-fontFamilyText:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--c-welcomeMatCompleteIconSize:1.25rem;--c-varSpacingXxLarge:3rem;--c-paletteYellow95:rgb(251, 243, 224);--c-paletteYellow90:rgb(249, 227, 182);--c-brandBackgroundPrimary:rgb(250, 250, 249);--c-paletteTeal20:rgb(2, 52, 52);--c-progressRingWidth:0.1875rem;--c-paletteYellow65:rgb(215, 147, 4);--c-paletteYellow60:rgb(202, 133, 1);--c-colorBorderInputCheckboxSelectedCheckmark:rgb(255, 255, 255);--c-colorBorderCanvasElementSelectionHover:rgb(1, 68, 134);--c-borderRadiusSmall:0.125rem;--c-progressBarColorBackground:rgb(201, 201, 201);--c-durationInstantly:0s;--c-colorBackgroundToastSuccess:rgb(46, 132, 74);--c-tabsFontWeight:400;--c-colorBackgroundPost:rgb(243, 243, 243);--c-colorTextPlaceholderInverse:rgb(243, 243, 243);--c-colorTextInputIcon:rgb(174, 174, 174);--c-sliderHandleShadow:rgba(0, 0, 0, 0.16) 0 2px 3px;--c-paletteYellow70:rgb(228, 162, 1);--c-fontWeightLight:300;--c-colorTextError:rgb(234, 0, 30);--c-varSpacingXxSmall:0.25rem;--c-colorBorderInput:rgb(201, 201, 201);--c-brandAccessible:rgb(1, 118, 211);--c-pageColorBackgroundPrimary:rgb(255, 255, 255);--c-cardShadow:none;--c-lineClamp:3;--c-welcomeMatWidthProgressBar:12.5rem;--c-progressColorBackgroundShade:rgb(243, 243, 243);--c-globalActionFillHover:rgb(1, 68, 134);--c-illustrationEmptyStateAssistant:url(/_slds/images/illustrations/empty-state-assistant.svg?cache=127a789e);--c-varSpacingHorizontalXSmall:0.5rem;--c-colorPickerInputCustomHexFontSize:0.75rem;--c-varSpacingMedium:1rem;--c-colorBackgroundShadeDark:rgb(201, 201, 201);--c-colorPickerSwatchesWidth:13.3rem;--c-squareIconLargeBoundaryAlt:5rem;--c-colorBorderInputDisabled:rgb(201, 201, 201);--c-paletteYellow40:rgb(140, 75, 2);--c-cardWrapperSpacing:1rem;--c-colorBackgroundNotificationBadgeActive:rgb(3, 45, 96);--c-colorBackgroundHighlight:rgb(250, 255, 189);--c-colorBackgroundRowActive:rgb(243, 243, 243);--c-componentSpacingMargin:0;--c-colorBorderButtonFocusInverse:rgb(243, 243, 243);--c-shadowButtonFocus:0 0 3px #0176d3;--c-varSpacingVerticalXLarge:2rem;--c-tableColorBackgroundHeaderHover:rgb(243, 243, 243);--c-colorBackgroundDockedPanel:rgb(255, 255, 255);--c-colorTextTertiary:rgb(116, 116, 116);--c-varSpacingVerticalXxLarge:3rem;--c-paletteYellow50:rgb(168, 100, 3);--c-brandContrastActive:rgb(13, 14, 18);--c-squareIconLargeContent:2rem;--c-colorPickerSliderThumbColorBackground:rgb(243, 243, 243);--c-inputStaticFontSize:0.8125rem;--c-borderWidthThin:1px;--c-fontWeightRegular:400;--c-colorBackgroundButtonSuccess:rgb(69, 198, 90);--c-splitViewColorBackgroundRowHover:rgb(255, 255, 255);--c-paletteYellow20:rgb(79, 33, 0);--c-bannerUserDefaultImage:;--c-elevation8:8;--c-brandDark:rgb(1, 118, 211);--c-colorBackgroundPathCurrentHover:rgb(255, 255, 255);--c-elevation0:0;--c-elevation2:2;--c-pageHeaderJoinedColorBorder:rgb(201, 201, 201);--c-elevation4:4;--c-durationPaused:3.2s;--c-colorBrand:rgb(27, 150, 255);--c-colorBackgroundPathComplete:rgb(59, 167, 85);--c-progressColorBorderHover:rgb(1, 118, 211);--c-spacingXxSmall:0.25rem;--c-tableCellSpacing:0.5rem;--c-colorBorderContextBarThemeDefault:rgb(13, 157, 218);--c-colorBackgroundAnchor:rgb(243, 243, 243);--c-paletteYellow30:rgb(111, 52, 0);--c-shadowButtonFocusInverse:0 0 3px #f3f3f3;--c-welcomeMatFontSizeInfoTitle:2.625rem;--c-colorBorderLinkFocusInverse:rgb(243, 243, 243);--c-borderRadiusCircle:50%;--c-buttonColorBorderSecondary:rgba(255, 255, 255, 0.8);--c-colorTextSuccessInverse:rgb(69, 198, 90);--c-varSpacingXLarge:2rem;--c-sizeXLarge:40rem;--c-varSpacingHorizontalXxxSmall:0.125rem;--c-elevation3Inset:-3;--c-lineHeightTab:2.5rem;--c-colorBackgroundDestructiveActive:rgb(142, 3, 15);--c-colorTextLinkPrimaryActive:rgb(3, 45, 96);--c-colorBackgroundPageHeader:rgb(255, 255, 255);--c-colorBackgroundPill:rgb(255, 255, 255);--c-fillBrandHover:rgb(1, 68, 134);--c-colorBorderContextBarItem:rgba(0, 0, 0, 0.2);--c-borderStrokeWidthThin:1px;--c-progressColorBorderShade:rgb(243, 243, 243);--c-heightHeader:2.75rem;--c-shadowInlineEdit:0 2px 4px 4px rgba(0, 0, 0, 0.16);--c-colorBackgroundNotificationBadgeHover:rgb(1, 68, 134);--c-borderRadiusPill:15rem;--c-colorTextButtonInverseDisabled:rgba(255, 255, 255, 0.5);--c-sizeXxxSmall:3rem;--c-colorBackgroundSuccessDarker:rgb(25, 78, 49);--c-colorBackgroundToggleHover:rgb(147, 147, 147);--c-paletteYellow15:rgb(46, 34, 4);--c-paletteYellow10:rgb(40, 18, 2);--c-cardSpacingSmall:0.75rem;--c-illustrationEmptyStateTasks:url(/_slds/images/illustrations/empty-state-tasks.svg?cache=dc5e5e5b);--c-brandBandScrimHeight:3.125rem;--c-popoverWalkthroughColorBackground:rgb(0, 22, 57);--c-colorBorderErrorDark:rgb(254, 143, 125);--c-heightTappableSmall:2rem;--c-colorBackgroundButtonBrandDisabled:rgb(243, 243, 243);--c-colorBorderPrimary:rgb(201, 201, 201);--c-colorGray1:rgb(255, 255, 255);--c-fontSizeXLarge:1.5rem;--c-varSquareIconMediumBoundary:2rem;--c-colorGray5:rgb(221, 219, 218);--c-colorGray4:rgb(236, 235, 234);--c-colorGray3:rgb(243, 242, 242);--c-colorGray2:rgb(250, 250, 249);--c-opacity8:0.8;--c-salesforceSansBoldItalicWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-BoldItalic.woff2);--c-opacity5:0.5;--c-squareIconGlobalIdentityIcon:1.25rem;--c-colorBackgroundBrowser:rgb(116, 116, 116);--c-colorTextIconInverseActive:rgb(255, 255, 255);--c-shadowDocked:0 -2px 2px 0 rgba(0, 0, 0, 0.16);--c-colorBackgroundInputError:rgb(253, 221, 227);--c-colorGray9:rgb(112, 110, 107);--c-colorGray8:rgb(150, 148, 146);--c-colorGray7:rgb(176, 173, 171);--c-colorGray6:rgb(201, 199, 197);--c-colorTextLinkInverse:rgb(255, 255, 255);--c-squareIconSmallBoundary:1.5rem;--c-varSpacingHorizontalXLarge:2rem;--c-colorBackgroundDark:rgb(243, 243, 243);--c-colorTextWarningAlt:rgb(140, 75, 2);--c-elevationInverseShadow2:0 -2px 2px 0 rgba(0, 0, 0, 0.16);--c-elevationInverseShadow0:none;--c-colorStrokeBrand:rgb(1, 118, 211);--c-colorBackgroundToggleActive:rgb(1, 68, 134);--c-colorBorderContextBarDivider:rgba(255, 255, 255, 0.2);--c-zIndexToast:10000;--c-colorBackgroundContextBarActionHighlight:rgba(255, 255, 255, 0.2);--c-colorBackgroundBrandPrimaryFocus:rgb(1, 68, 134);--c-buttonColorBackgroundBrandPrimary:rgb(1, 118, 211);--c-brandHeaderContrastWarm:rgb(186, 5, 23);--c-buttonColorTextPrimary:rgb(255, 255, 255);--c-colorBrandDarker:rgb(1, 68, 134);--c-colorBorderPathCurrentHover:rgb(3, 45, 96);--c-colorTextButtonDefaultDisabled:rgb(201, 201, 201);--c-colorBackgroundPathLost:rgb(234, 0, 30);--c-einsteinHeaderBackground:url(/_slds/images/einstein-headers/einstein-header-background.svg?cache=ff7fa2ff);--c-brandTextLink:rgb(1, 118, 211);--c-sliderTrackColorBackground:rgb(243, 243, 243);--c-colorContrastPrimary:rgb(243, 243, 243);--c-groupDefaultAvatar:url(/_slds/images/group_avatar_200.png?cache=a0044dae);--c-templateProfileGutters:0;--c-sizeXxSmall:6rem;--c-colorBackgroundPayload:rgb(243, 243, 243);--c-paletteCloudBlue90:rgb(207, 233, 254);--c-colorBackgroundPathActive:rgb(1, 68, 134);--c-colorTextDestructive:rgb(234, 0, 30);--c-squareIconLargeBoundary:3rem;--c-colorBorderWarning:rgb(254, 147, 57);--c-shadowSoftPrimaryHover:none;--c-paletteCloudBlue95:rgb(234, 245, 254);--c-spacingSmall:0.75rem;--c-colorBackgroundErrorDark:rgb(186, 5, 23);--c-brandHeaderContrastWeakDisabled:rgba(166, 166, 166, 0.25);--c-squareIconMediumContentAlt:0.875rem;--c-colorBackgroundButtonInverse:rgba(0, 0, 0, 0);--c-brandHeader:rgb(255, 255, 255);--c-lineHeightText:1.5;--c-widthStageLeftExpanded:15rem;--c-colorBackgroundError:rgb(254, 92, 76);--c-colorTextButtonBrandActive:rgb(255, 255, 255);--c-fontFamily:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--c-mqMedium:only screen and (min-width: 48em);--c-brandDarkActive:rgb(37, 48, 69);--c-colorBackgroundPathStepActionActive:rgb(0, 22, 57);--c-neutrafaceDisplayWoff2:url(/_slds/fonts/NeutrafaceDisplay.woff2?cache=2.9.0);--c-spacingMedium:1rem;--c-colorTextModal:rgb(255, 255, 255);--c-spinnerSizeLarge:2.75rem;--c-carouselIndicatorColorBackgroundHover:rgb(243, 243, 243);--c-shadowActionOverflowFooter:0 -2px 4px #f3f3f3;--c-popoverWalkthroughHeaderColorBackground:rgb(3, 45, 96);--c-colorBackgroundPathWon:rgb(46, 132, 74);--c-lineHeightToggle:1.3rem;--c-neutrafaceDisplayWoff:url(/_slds/fonts/NeutrafaceDisplay.woff?cache=2.9.0);--c-cardFooterPadding:0 1rem 0.75rem;--c-sliderHandleColorBackground:rgb(27, 150, 255);--c-colorBackgroundErrorAlt:rgb(254, 143, 125);--c-colorBackgroundIndicatorDot:rgb(3, 45, 96);--c-chatMessageColorBackgroundInbound:rgb(243, 243, 243);--c-elevationShadow0:none;--c-heightPill:1.625rem;--c-elevationShadow4:0 4px 4px 0 rgba(0, 0, 0, 0.16);--c-elevationShadow2:0 2px 2px 0 rgba(0, 0, 0, 0.16);--c-elevationShadow8:0 8px 8px 0 rgba(0, 0, 0, 0.16);--c-varFontSize8:1.5rem;--c-colorBackgroundButtonDefaultDisabled:rgb(255, 255, 255);--c-varFontSize7:1.25rem;--c-elevationInverseShadow8:0 -8px 8px 0 rgba(0, 0, 0, 0.16);--c-varFontSize9:1.75rem;--c-brandBandColorBackgroundPrimary:rgba(0, 0, 0, 0);--c-colorTextButtonBrand:rgb(255, 255, 255);--c-elevationInverseShadow4:0 -4px 4px 0 rgba(0, 0, 0, 0.16);--c-colorBackgroundToggleActiveHover:rgb(1, 68, 134);--c-welcomeMatBackgroundImageInfo:url(/_slds/images/welcome-mat/bg-info@2x.png?cache=ddb4e82f);--c-varFontSize2:0.75rem;--c-varFontSize1:0.625rem;--c-varFontSize4:0.875rem;--c-pageHeaderSpacingRow:0.75rem 1rem;--c-varFontSize3:0.8125rem;--c-varFontSize6:1.125rem;--c-varFontSize5:1rem;--c-varSpacingVerticalMedium:1rem;--c-pageHeaderSpacingPadding:1rem;--c-colorTextModalButton:rgb(116, 116, 116);--c-colorBackgroundPrimary:rgb(255, 255, 255);--c-colorTextInputFocusInverse:rgb(3, 45, 96);--c-colorBackgroundScrollbarTrack:rgb(201, 201, 201);--c-paletteNeutral70:rgb(174, 174, 174);--c-brandPrimaryActive:rgb(1, 118, 211);--c-popoverWalkthroughAltImage:;--c-nubbinTriangleOffset:-0.1875rem;--c-salesforceSansLightWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Light.woff);--c-colorBorderSuccessDark:rgb(46, 132, 74);--c-mqHighRes:only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2),screen and (min-resolution: 192dpi),screen and (min-resolution: 2dppx);--c-brandBandColorBackgroundPrimaryTransparent:rgba(0, 0, 0, 0);--c-colorBackgroundContextBarInverseItemActive:rgba(255, 255, 255, 0.4);--c-colorTextButtonDefaultHint:rgb(174, 174, 174);--c-salesforceSansItalicWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Italic.woff2);--c-paletteGreen60:rgb(59, 167, 85);--c-heightContextBar:2.5rem;--c-colorBackgroundOrgSwitcherArrow:rgb(0, 22, 57);--c-paletteGreen65:rgb(65, 182, 88);--c-brandHeaderContrastInverse:rgb(255, 255, 255);--c-notificationColorBackgroundInverse:rgb(116, 116, 116);--c-colorBackgroundButtonIconDisabled:rgb(255, 255, 255);--c-paletteNeutral60:rgb(147, 147, 147);--c-colorBorderContextBarThemeDefaultAlt:rgb(243, 243, 243);--c-fillBrand:rgb(1, 118, 211);--c-colorBackgroundInputCheckbox:rgb(255, 255, 255);--c-colorBorder:rgb(201, 201, 201);--c-squareIconSmall:1rem;--c-varSpacingHorizontalMedium:1rem;--c-illustrationColorPrimary:rgb(144, 208, 254);--c-varSpacingVerticalXSmall:0.5rem;--c-colorTextPlaceholder:rgb(116, 116, 116);--c-einsteinHeaderBackgroundColor:rgb(144, 208, 254);--c-paletteGreen70:rgb(69, 198, 90);--c-brandHeaderContrast:rgb(94, 94, 94);--c-inputStaticColor:rgb(24, 24, 24);--c-paletteNeutral90:rgb(229, 229, 229);--c-paletteGreen90:rgb(205, 239, 196);--c-spacingXxLarge:3rem;--c-shadowDropDown:0 2px 3px 0 rgba(0, 0, 0, 0.16);--c-paletteNeutral95:rgb(243, 243, 243);--c-colorBackgroundModal:rgb(255, 255, 255);--c-elevationShadow3Below:0 3px 3px 0 rgba(0, 0, 0, 0.16) inset;--c-paletteRed80:rgb(254, 184, 171);--c-sliderTrackWidth:100%;--c-elevation32:32;--c-globalHeaderColorBackground:rgb(255, 255, 255);--c-spacingXLarge:2rem;--c-paletteGreen80:rgb(145, 219, 139);--c-colorBorderInputActive:rgb(27, 150, 255);--c-varSpacingXSmall:0.5rem;--c-paletteNeutral80:rgb(201, 201, 201);--c-colorBackgroundModalButton:rgba(0, 0, 0, 0.07);--c-colorBorderPathDivider:rgb(255, 255, 255);--c-colorTextIconDefault:rgb(116, 116, 116);--c-zIndexDeepdive:-99999;--c-elevation16:16;--c-paletteRed90:rgb(254, 222, 216);--c-globalnavigationItemHeightAccentActive:3px;--c-templateGutters:0;--c-paletteRed95:rgb(254, 241, 238);--c-buttonColorBorderBrandPrimary:rgb(1, 118, 211);--c-buttonIconBoundaryTouch:2.75rem;--c-brandBackgroundPrimaryTransparent:rgba(176, 196, 223, 0);--c-fillHeaderButtonFocus:rgb(1, 118, 211);--c-colorBorderError:rgb(234, 0, 30);--c-colorTextLinkHover:rgb(1, 68, 134);--c-paletteGreen95:rgb(235, 247, 230);--c-einsteinHeaderFigure:url(/_slds/images/einstein-headers/einstein-figure.svg?cache=ec975fb1);--c-colorBorderRowSelected:rgb(1, 118, 211);--c-colorStrokeBrandHover:rgb(1, 118, 211);--c-paletteNeutral30:rgb(68, 68, 68);--c-varSpacingVerticalXxxSmall:0.125rem;--c-paletteHotOrange10:rgb(40, 18, 2);--c-colorTextButtonBrandDisabled:rgb(255, 255, 255);--c-squareIconXSmallContent:0.5rem;--c-varFontSize10:2rem;--c-paletteRed60:rgb(254, 92, 76);--c-varFontSize11:2.625rem;--c-paletteRed65:rgb(254, 119, 101);--c-buttonBorderRadius:.25rem;--c-squareTappableXSmall:1.5rem;--c-colorBackgroundGuidance:rgb(255, 255, 255);--c-colorTextContextBarInverse:rgb(255, 255, 255);--c-paletteNeutral20:rgb(46, 46, 46);--c-fontFamilyHeading:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--c-paletteRed70:rgb(254, 143, 125);--c-brandHeaderContrastCoolActive:rgb(1, 68, 134);--c-borderWidthThick:2px;--c-pageHeaderShadow:none;--c-spinnerSizeXxSmall:0.5rem;--c-tableColorBackgroundHeader:rgb(255, 255, 255);--c-pageHeaderColorBackgroundAlt:rgb(255, 255, 255);--c-colorBorderBrandPrimaryHover:rgb(1, 118, 211);--c-colorTextTabLabelActive:rgb(3, 45, 96);--c-paletteNeutral50:rgb(116, 116, 116);--c-colorBackgroundTempModalTint:rgba(126, 140, 153, 0.8);--c-fontSizeMedium:1rem;--c-colorBorderButtonBrand:rgb(1, 118, 211);--c-paletteHotOrange30:rgb(126, 38, 0);--c-paletteRed40:rgb(186, 5, 23);--c-brandBandImageHeightSmall:6rem;--c-colorTextInverseWeak:rgb(174, 174, 174);--c-colorTextInverse:rgb(255, 255, 255);--c-shadowLinkFocusInverse:0 0 3px #f3f3f3;--c-squareIconXxSmallBoundary:1rem;--c-lineHeightReset:1;--c-verticalNavigationColorBackgroundShadeRowActive:rgb(243, 243, 243);--c-colorBackgroundTempModal:rgba(126, 140, 153, 0.8);--c-colorBackgroundToggleDisabled:rgb(174, 174, 174);--c-colorGray13:rgb(8, 7, 7);--c-colorGray10:rgb(81, 79, 77);--c-paletteNeutral40:rgb(92, 92, 92);--c-colorBorderInverse:rgb(0, 22, 57);--c-carouselIndicatorColorBackgroundActive:rgb(1, 118, 211);--c-colorBackgroundBackdrop:rgba(255, 255, 255, 0.75);--c-colorGray12:rgb(43, 40, 38);--c-colorGray11:rgb(62, 62, 60);--c-colorTextContextBarActionTrigger:rgba(255, 255, 255, 0.4);--c-paletteHotOrange20:rgb(74, 36, 19);--c-colorBackgroundNotification:rgb(255, 255, 255);--c-colorBackgroundPathStepActionCurrent:rgb(1, 68, 134);--c-badgeColorBackgroundInverse:rgb(116, 116, 116);--c-colorBorderSeparatorInverse:rgb(3, 45, 96);--c-paletteRed50:rgb(234, 0, 30);--c-colorBackgroundSpinnerDot:rgb(174, 174, 174);--c-colorBackgroundButtonBrandActive:rgb(3, 45, 96);--c-paletteHotOrange15:rgb(66, 22, 4);--c-sliderHandleColorBackgroundFocus:rgb(1, 118, 211);--c-spinnerSizeMedium:2rem;--c-brandPrimary:rgb(27, 150, 255);--c-paletteHotOrange50:rgb(216, 58, 0);--c-colorTextLinkPrimaryFocus:rgb(1, 118, 211);--c-colorTextInputDisabled:rgb(116, 116, 116);--c-brandLogoImage:;--c-brandLight:rgb(244, 246, 254);--c-paletteRed20:rgb(100, 1, 3);--c-fillHeaderButton:rgb(174, 174, 174);--c-varLineHeightText:1.5;--c-colorBackgroundPathCurrent:rgb(255, 255, 255);--c-colorBackgroundOffline:rgb(68, 68, 68);--c-colorBorderTabSelected:rgb(1, 118, 211);--c-colorTextWarning:rgb(254, 147, 57);--c-salesforceSansRegularWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Regular.woff);--c-paletteHotOrange40:rgb(170, 48, 1);--c-cardSpacingLarge:1.5rem;--c-paletteRed30:rgb(142, 3, 15);--c-fontSizeMediumA:1.125rem;--c-borderRadiusMedium:0.25rem;--c-colorPickerSliderThumbBorderColor:rgb(68, 68, 68);--c-shadowSoftPrimary:none;--c-zIndexDropdown:7000;--c-paletteHotOrange70:rgb(255, 144, 110);--c-verticalNavigationColorBackgroundShadeRowHover:rgb(243, 243, 243);--c-squareIconMediumBoundary:2rem;--c-colorBackgroundButtonDefaultFocus:rgb(243, 243, 243);--c-heightTappable:2.75rem;--c-colorBackgroundToastError:rgb(234, 0, 30);--c-brandBandDefaultImage:;--c-durationQuickly:0.1s;--c-colorBackgroundSelection:rgb(216, 230, 254);--c-paletteHotOrange60:rgb(255, 93, 45);--c-colorBackgroundActionbarIconUtility:rgb(116, 116, 116);--c-colorBackgroundNotificationBadgeFocus:rgb(1, 68, 134);--c-paletteHotOrange65:rgb(255, 120, 79);--c-cardFooterTextAlign:right;--c-colorBorderBrandDark:rgb(1, 68, 134);--c-brandBackgroundDark:rgb(232, 232, 232);--c-avatarGroupColorBackgroundLightest:rgb(255, 255, 255);--c-colorTextContextBar:rgb(68, 68, 68);--c-inputStaticFontWeight:400;--c-paletteRed10:rgb(48, 12, 1);--c-colorTextLinkDisabled:rgb(3, 45, 96);--c-colorTextPathCurrent:rgb(1, 68, 134);--c-paletteRed15:rgb(74, 12, 4);--c-zIndexOverlay:8000;--c-buttonColorBorderPrimary:rgb(243, 243, 243);--c-paletteHotOrange90:rgb(255, 222, 213);--c-shadowImage:0 1px 1px rgba(0, 0, 0, 0.16);--c-paletteHotOrange95:rgb(254, 241, 237);--c-cardHeaderPadding:0.75rem 1rem 0;--c-colorBorderSeparatorAlt2:rgb(201, 201, 201);--c-fillBrandActive:rgb(3, 45, 96);--c-fontSizeTextMedium:1rem;--c-spacingXSmall:0.5rem;--c-chatMessageColorBackgroundOutboundAgent:rgb(116, 116, 116);--c-colorBackgroundButtonIconHover:rgb(243, 243, 243);--c-sliderHandleColorBackgroundActive:rgb(1, 118, 211);--c-colorBorderSuccess:rgb(145, 219, 139);--c-colorTextIconInverseHover:rgb(255, 255, 255);--c-componentSpacingPadding:1rem;--c-colorBorderDestructiveActive:rgb(142, 3, 15);--c-colorBackgroundButtonInverseDisabled:rgba(0, 0, 0, 0);--c-colorTextTabLabelFocus:rgb(1, 68, 134);--c-paletteHotOrange80:rgb(254, 185, 165);--c-colorBackgroundNotificationBadge:rgb(234, 0, 30);--c-zIndexReminder:8500;--c-colorBackgroundImageOverlay:rgba(0, 0, 0, 0.4);--c-colorBackgroundReminderHover:rgb(255, 255, 255);--c-colorTextPathCurrentHover:rgb(3, 45, 96);--c-colorBackgroundCustomer:rgb(254, 147, 57);--c-colorBackgroundButtonDefault:rgb(255, 255, 255);--c-colorBackgroundInverseLight:rgb(3, 45, 96);--c-salesforceSansBoldWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Bold.woff);--c-progressColorBorderActive:rgb(27, 150, 255);--c-fontSizeLarge:1.25rem;--c-brandHeaderContrastWeakActive:rgb(129, 129, 129);--c-brandHeaderContrastWarmActive:rgb(186, 5, 23);--c-squareToggleSlider:1.25rem;--c-progressBarColorBackgroundFillSuccess:rgb(46, 132, 74);--c-colorBackgroundButtonBrand:rgb(1, 118, 211);--c-colorBackgroundWarningDark:rgb(254, 147, 57);--c-colorTextIconUtility:rgb(174, 174, 174);--c-colorBackgroundScrollbar:rgb(243, 243, 243);--c-chatMessageColorBackgroundStatus:rgb(255, 255, 255);--c-colorBackgroundTempModalTintAlt:rgba(255, 255, 255, 0.75);--c-pageHeaderBorderRadius:0;--c-palettePink95:rgb(254, 240, 243);--c-welcomeMatColorIconComplete:rgb(201, 201, 201);--c-palettePink90:rgb(253, 221, 227);--c-paletteViolet50:rgb(186, 1, 255);--c-paletteTeal30:rgb(2, 77, 76);--c-colorTextIconInverseDisabled:rgba(255, 255, 255, 0.15);--c-bannerGroupDefaultImage:;--c-colorBorderBrand:rgb(27, 150, 255);--c-colorBackgroundInfo:rgb(116, 116, 116);--c-heightToggle:1.5rem;--c-badgeColorBackgroundLightest:rgb(255, 255, 255);--c-brandBandColorBackgroundSecondary:rgba(0, 0, 0, 0);--c-shadowSoftPrimaryActive:none;--c-colorTextIconDefaultHint:rgb(174, 174, 174);--c-colorBackgroundChromeMobile:rgb(1, 118, 211);--c-colorPickerSwatchSize:1.25rem;--c-colorBackgroundPathIncomplete:rgb(243, 243, 243);--c-paletteTeal40:rgb(5, 103, 100);--c-colorTextToggleDisabled:rgb(201, 201, 201);--c-paletteViolet40:rgb(150, 2, 199);--c-colorTextLinkInverseHover:rgba(255, 255, 255, 0.75);--c-palettePink80:rgb(253, 182, 197);--c-zIndexModal:9000;--c-pageHeaderIconSize:2.25rem;--c-colorTextDestructiveHover:rgb(186, 5, 23);--c-colorBorderCanvasElementSelection:rgb(26, 185, 255);--c-colorBackgroundSuccess:rgb(69, 198, 90);--c-carouselIndicatorColorBackground:rgb(255, 255, 255);--c-sliderTrackHeight:4px;--c-squareIconSmallContent:0.75rem;--c-colorBackgroundInputDisabled:rgb(243, 243, 243);--c-paletteTeal50:rgb(11, 130, 124);--c-palettePink70:rgb(254, 138, 167);--c-paletteViolet30:rgb(115, 3, 148);--c-mqSmall:only screen and (max-width: 47.9375em);--c-brandBandImageHeightLarge:18.75rem;--c-carouselIndicatorWidth:1rem;--c-colorTextLinkActive:rgb(3, 45, 96);--c-squareIconXxSmallContent:.875rem;--c-fontSizeXSmall:0.625rem;--c-palettePink65:rgb(254, 114, 152);--c-sliderColorBackgroundDisabled:rgb(243, 243, 243);--c-colorContrastSecondary:rgb(255, 255, 255);--c-welcomeMatColorBackgroundProgressBar:rgb(255, 255, 255);--c-globalActionIconSize:1.5rem;--c-paletteViolet20:rgb(72, 26, 84);--c-fontSizeHeadingSmall:0.875rem;--c-colorPickerRangeIndicatorSize:0.75rem;--c-paletteOrange15:rgb(55, 30, 3);--c-sliderHandleSize:1rem;--c-tableBorderRadius:0;--c-paletteTeal60:rgb(6, 165, 154);--c-userDefaultAvatarSmall:url(/_slds/images/profile_avatar_96.png?cache=3c01f25f);--c-buttonColorBackgroundPrimary:rgb(255, 255, 255);--c-colorPickerInputCustomHexWidth:4.2rem;--c-paletteOrange10:rgb(32, 22, 0);--c-palettePink60:rgb(255, 83, 138);--c-paletteTeal65:rgb(3, 180, 167);--c-colorBackgroundRowSelected:rgb(243, 243, 243);--c-colorBackgroundContextBarBrandAccent:rgb(13, 157, 218);--c-fontFamilyMonospace:Consolas, Menlo, Monaco, Courier, monospace;--c-cardFooterColorBorder:rgba(0, 0, 0, 0);--c-palettePurple80:rgb(215, 191, 242);--c-varSpacingHorizontalLarge:1.5rem;--c-colorTextRequired:rgb(234, 0, 30);--c-elevationShadow16:0 16px 16px 0 rgba(0, 0, 0, 0.16);--c-paletteViolet10:rgb(46, 0, 57);--c-shadowHardPrimary:none;--c-paletteOrange20:rgb(62, 43, 2);--c-paletteViolet15:rgb(61, 1, 87);--c-radioButtonGroupLineHeightTouch:2.69rem;--c-colorBackgroundBrandPrimary:rgb(1, 118, 211);--c-paletteTeal70:rgb(1, 195, 179);--c-colorBackgroundUtilityBarActive:rgb(27, 150, 255);--c-zIndexSticky:100;--c-colorBackgroundContextBarShadow:linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 100%);--c-paletteTeal80:rgb(4, 225, 203);--c-palettePurple90:rgb(236, 225, 249);--c-squareIconUtilityLarge:1.5rem;--c-fontSize10:2rem;--c-groupDefaultAvatarMedium:url(/_slds/images/group_avatar_160.png?cache=b8fe8e83);--c-elevationShadow32:0 32px 32px 0 rgba(0, 0, 0, 0.16);--c-paletteOrange30:rgb(95, 62, 2);--c-colorBorderButtonInverseDisabled:rgba(255, 255, 255, 0.15);--c-fontSize11:2.625rem;--c-einsteinHeaderTextShadow:#cfe9fe;--c-palettePurple95:rgb(246, 242, 251);--c-squareTappableXxSmall:1.25rem;--c-colorBackgroundDestructiveHover:rgb(142, 3, 15);--c-fontSize9:1.75rem;--c-colorBackgroundLight:rgb(255, 255, 255);--c-fontSize8:1.5rem;--c-paletteTeal90:rgb(172, 243, 228);--c-shadowActive:0 0 2px #0176d3;--c-fontSize1:0.625rem;--c-paletteNeutral100:rgb(255, 255, 255);--c-colorTextLink:rgb(1, 118, 211);--c-pageHeaderTitleFontSize:1.125rem;--c-fontSize3:0.8125rem;--c-fontSize2:0.75rem;--c-colorTextLinkInverseDisabled:rgba(255, 255, 255, 0.15);--c-fontSize5:1rem;--c-fontSize4:0.875rem;--c-fontSize7:1.25rem;--c-fontSize6:1.125rem;--c-spacingNone:0;--c-paletteOrange40:rgb(130, 81, 1);--c-inputReadonlyFontWeight:400;--c-palettePurple60:rgb(173, 123, 238);--c-paletteTeal95:rgb(222, 249, 243);--c-colorStrokeHeaderButton:rgb(174, 174, 174);--c-typingIconDotColorBackgroundGray:rgb(201, 201, 201);--c-palettePurple65:rgb(183, 141, 239);--c-pageHeaderTitleFontWeight:400;--c-colorBackgroundButtonIconFocus:rgb(243, 243, 243);--c-groupDefaultAvatarSmall:url(/_slds/images/group_avatar_96.png?cache=d0659d12);--c-colorBackgroundModalBrand:rgb(1, 68, 134);--c-colorTextInverseActive:rgb(26, 185, 255);--c-colorBackgroundHighlightSearch:rgb(255, 240, 63);--c-paletteOrange50:rgb(169, 100, 4);--c-colorBackgroundSuccessDark:rgb(46, 132, 74);--c-shadowOverlay:0 -2px 4px rgba(0, 0, 0, 0.07);--c-sizeXSmall:12rem;--c-colorBackgroundDestructive:rgb(186, 5, 23);--c-typingIconDotSize:.5rem;--c-palettePurple70:rgb(194, 158, 241);--c-colorBorderInfo:rgb(116, 116, 116);--c-colorTextTabLabel:rgb(3, 45, 96);--c-palettePink15:rgb(75, 6, 32);--c-popoverWalkthroughColorBackgroundAlt:rgb(1, 118, 211);--c-durationImmediately:0.05s;--c-palettePink10:rgb(55, 1, 20);--c-elevationInverseShadow16:0 -16px 16px 0 rgba(0, 0, 0, 0.16);--c-salesforceSansLightWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Light.woff2);--c-splitViewWidth:25rem;--c-colorBorderIconInverseHint:rgba(255, 255, 255, 0.5);--c-brandDisabled:rgb(201, 199, 197);--c-paletteOrange60:rgb(221, 122, 1);--c-palettePurple40:rgb(117, 38, 227);--c-paletteOrange65:rgb(243, 131, 3);--c-progressColorBackground:rgb(255, 255, 255);--c-colorBorderContextBarThemeDefaultActive:rgb(243, 243, 243);--c-avatarGroupColorBackgroundInverse:rgb(116, 116, 116);--c-colorBackgroundAlt2:rgb(243, 243, 243);--c-cardFontWeight:400;--c-colorPickerSwatchShadow:inset 0 0 1px rgba(0,0,0,0.4);--c-paletteOrange70:rgb(254, 147, 57);--c-colorTextIconBrand:rgb(1, 118, 211);--c-colorTextButtonDefault:rgb(1, 118, 211);--c-palettePurple50:rgb(144, 80, 233);--c-pathButtonWidthFixed:13rem;--c-sizeLarge:25rem;--c-userDefaultAvatarMedium:url(/_slds/images/profile_avatar_160.png?cache=bfba2c9a);--c-colorBorderDestructive:rgb(234, 0, 30);--c-colorTextWeak:rgb(116, 116, 116);--c-fontSizeHeadingMedium:1.125rem;--c-mqSingleColumnRecordLayout:(max-width: 599px);--c-colorBackgroundInputSearch:rgba(0, 0, 0, 0.16);--c-welcomeMatBackgroundColorInfo:rgb(207, 233, 254);--c-colorBorderBrandPrimary:rgb(27, 150, 255);--c-colorBackgroundInverse:rgb(0, 22, 57);--c-maxWidthActionOverflowMenu:512px;--c-paletteNeutral10:rgb(24, 24, 24);--c-carouselColorBackground:rgb(255, 255, 255);--c-colorTextLabel:rgb(116, 116, 116);--c-colorBackgroundButtonSuccessActive:rgb(46, 132, 74);--c-squareIconLarge:3.125rem;--c-spinnerSizeXSmall:1rem;--c-paletteOrange80:rgb(255, 186, 144);--c-cardSpacingMargin:1rem;--c-colorTextBrowserActive:rgba(0, 0, 0, 0.4);--c-colorBackgroundButtonBrandHover:rgb(1, 68, 134);--c-chatMessageColorBackgroundOutbound:rgb(1, 68, 134);--c-colorTextIconDefaultActive:rgb(3, 45, 96);--c-palettePurple20:rgb(64, 16, 117);--c-colorTextIconDefaultHover:rgb(1, 118, 211);--c-colorTextLinkPrimary:rgb(1, 118, 211);--c-fontSizeTextXSmall:0.75rem;--c-colorBackgroundToast:rgb(116, 116, 116);--c-fontSizeXxLarge:2rem;--c-heightSalesPath:2rem;--c-colorTextIconDefaultHintBorderless:rgb(243, 243, 243);--c-paletteOrange95:rgb(255, 241, 234);--c-colorForegroundPrimary:rgb(255, 255, 255);--c-paletteOrange90:rgb(254, 223, 208);--c-colorBackgroundRowNew:rgb(205, 239, 196);--c-fontSizeTextLarge:1.125rem;--c-paletteGreen15:rgb(12, 41, 18);--c-colorBackgroundShade:rgb(243, 243, 243);--c-paletteGreen10:rgb(7, 27, 18);--c-palettePurple30:rgb(90, 27, 169);--c-varSpacingXxxSmall:0.125rem;--c-brandLightActive:rgb(227, 229, 237);--c-welcomeMatTextColorInfo:rgb(3, 45, 96);--c-colorBackgroundIconWaffle:rgb(116, 116, 116);--c-colorBackgroundContextBarItemHover:rgb(255, 255, 255);--c-fontSizeXLargeA:1.57rem;--c-colorBackgroundPathCompleteHover:rgb(46, 132, 74);--c-palettePink50:rgb(227, 6, 106);--c-paletteViolet90:rgb(242, 222, 254);--c-paletteGreen20:rgb(28, 51, 38);--c-paletteViolet95:rgb(249, 240, 255);--c-colorBorderContextBarThemeDefaultHover:rgb(50, 29, 113);--c-squareIconMedium:2.375rem;--c-textTransform:none;--c-colorBackgroundBrandPrimaryHover:rgb(1, 68, 134);--c-colorTextSuccess:rgb(46, 132, 74);--c-carouselIndicatorColorBackgroundFocus:rgb(1, 68, 134);--c-colorBackgroundChromeDesktop:rgb(255, 255, 255);--c-borderStrokeWidthThick:2px;--c-colorBackgroundReminder:rgb(243, 243, 243);--c-palettePurple15:rgb(48, 11, 96);--c-colorTextToast:rgb(243, 243, 243);--c-paletteViolet80:rgb(229, 185, 254);--c-colorBackgroundAlt:rgb(255, 255, 255);--c-palettePink40:rgb(182, 5, 84);--c-paletteGreen30:rgb(25, 78, 49);--c-palettePurple10:rgb(36, 6, 67);--c-elevationInverseShadow32:0 -32px 32px 0 rgba(0, 0, 0, 0.16);--c-colorBorderCustomer:rgb(254, 147, 57);--c-tableColorBackgroundStripes:rgb(243, 243, 243);--c-varSpacingVerticalSmall:0.75rem;--c-palettePink30:rgb(138, 3, 62);--c-paletteViolet70:rgb(216, 146, 254);--c-colorBorderContextBarInverseItem:rgba(255, 255, 255, 0.2);--c-utilityBarColorBackgroundNotificationBadge:rgb(254, 92, 76);--c-colorTextTabLabelDisabled:rgb(243, 243, 243);--c-heightInput:1.875rem;--c-squareTappable:2.75rem;--c-fontSizeSmall:0.875rem;--c-paletteGreen40:rgb(57, 101, 71);--c-tableColorBackgroundHeaderFocus:rgb(255, 255, 255);--c-salesforceSansRegularWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Regular.woff2);--c-varSpacingHorizontalXxLarge:3rem;--c-navigationPannel:rgb(244, 246, 249);--c-paletteViolet65:rgb(209, 125, 254);--c-progressBarColorBackgroundFill:rgb(26, 185, 255);--c-colorBorderSeparator:rgb(243, 243, 243);--c-paletteGreen50:rgb(46, 132, 74);--c-brandHeaderIconDisabled:rgba(145, 145, 145, 0.25);--c-palettePink20:rgb(97, 2, 42);--c-splitViewColorBackground:rgb(243, 243, 243);--c-colorBackgroundSecondary:rgb(243, 243, 243);--c-colorTextLinkFocus:rgb(1, 68, 134);--c-paletteViolet60:rgb(203, 101, 255);--SS_TF-paletteIndigo10:rgb(32, 6, 71);--SS_TF-popoverWalkthroughHeaderImage:;--SS_TF-zIndexDialog:6000;--SS_TF-colorPickerSelectorWidth:14rem;--SS_TF-nubbinSizeDefault:1rem;--SS_TF-paletteCloudBlue40:rgb(5, 98, 138);--SS_TF-colorBackgroundContextBarInverseItemHover:rgba(255, 255, 255, 0.2);--SS_TF-dropZoneSlotHeight:0.25rem;--SS_TF-colorTextTabLabelSelected:rgb(1, 118, 211);--SS_TF-colorStrokeBrandActive:rgb(3, 45, 96);--SS_TF-paletteIndigo15:rgb(31, 9, 116);--SS_TF-cardBodyPadding:0 1rem;--SS_TF-varSpacingHorizontalSmall:0.75rem;--SS_TF-tableColorBackgroundHeaderResizableHandle:rgb(174, 174, 174);--SS_TF-colorBackgroundPathActiveHover:rgb(3, 45, 96);--SS_TF-brandPrimaryTransparent:rgba(21, 137, 238, 0.1);--SS_TF-brandPrimaryTransparent40:rgba(21, 137, 238, 0.4);--SS_TF-colorBorderButtonDefault:rgb(201, 201, 201);--SS_TF-paletteIndigo20:rgb(50, 29, 113);--SS_TF-popoverColorText:rgb(201, 201, 201);--SS_TF-paletteCloudBlue30:rgb(8, 73, 104);--SS_TF-colorTextButtonDefaultActive:rgb(1, 118, 211);--SS_TF-colorPickerSliderHeight:1.5rem;--SS_TF-colorTextIconInverse:rgb(255, 255, 255);--SS_TF-heightFooter:3.75rem;--SS_TF-splitViewColorBorder:rgb(201, 201, 201);--SS_TF-colorBorderRowSelectedHover:rgb(27, 150, 255);--SS_TF-fontSizeTextXxSmall:0.625rem;--SS_TF-lineHeightHeading:1.25;--SS_TF-cardHeaderMargin:0 0 0.75rem;--SS_TF-paletteIndigo30:rgb(47, 44, 183);--SS_TF-mqMediumLandscape:only screen and (min-width: 48em) and (min-aspect-ratio: 4/3);--SS_TF-brandBandImageHeightMedium:12.5rem;--SS_TF-illustrationColorSecondary:rgb(207, 233, 254);--SS_TF-zIndexDefault:1;--SS_TF-colorBorderSelectionActive:rgb(243, 243, 243);--SS_TF-paletteCloudBlue20:rgb(2, 50, 72);--SS_TF-utilityBarColorBackgroundNotificationFocus:rgb(201, 201, 201);--SS_TF-colorTextIconDefaultDisabled:rgb(201, 201, 201);--SS_TF-colorTextBrand:rgb(27, 150, 255);--SS_TF-durationToastMedium:9.6s;--SS_TF-colorBackgroundButtonIconActive:rgb(243, 243, 243);--SS_TF-brandHeaderContrastWeak:rgb(145, 145, 145);--SS_TF-colorBackgroundNotificationNew:rgb(243, 243, 243);--SS_TF-brandHeaderContrastInverseActive:rgb(238, 238, 238);--SS_TF-colorBackgroundInputCheckboxSelected:rgb(27, 150, 255);--SS_TF-progressColorBorder:rgb(255, 255, 255);--SS_TF-spacingXxxSmall:0.125rem;--SS_TF-paletteIndigo40:rgb(58, 73, 218);--SS_TF-colorBackgroundProgressRingContent:rgb(255, 255, 255);--SS_TF-lineHeightButtonSmall:1.75rem;--SS_TF-salesforceSansBoldItalicWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-BoldItalic.woff);--SS_TF-brandBackgroundDarkTransparent:rgba(221, 219, 218, 0);--SS_TF-colorPickerThumbWidth:0.375rem;--SS_TF-paletteCloudBlue10:rgb(0, 26, 40);--SS_TF-brandHeaderIconActive:rgb(129, 129, 129);--SS_TF-widthStageLeftCollapsed:4rem;--SS_TF-paletteCloudBlue15:rgb(10, 38, 54);--SS_TF-colorBorderOffline:rgb(68, 68, 68);--SS_TF-colorBackgroundUtilityBarHover:rgb(243, 243, 243);--SS_TF-sliderHandleColorBackgroundHover:rgb(1, 118, 211);--SS_TF-colorTextIconInverseHint:rgba(255, 255, 255, 0.5);--SS_TF-sizeMedium:20rem;--SS_TF-brandPrimaryTransparent10:rgba(21, 137, 238, 0.1);--SS_TF-colorBorderIconInverseHintHover:rgba(255, 255, 255, 0.75);--SS_TF-colorTextDefault:rgb(3, 45, 96);--SS_TF-paletteIndigo50:rgb(88, 103, 232);--SS_TF-progressBarHeight:0.125rem;--SS_TF-colorBackgroundWarning:rgb(254, 147, 57);--SS_TF-colorBackgroundBrandPrimaryActive:rgb(3, 45, 96);--SS_TF-paletteBlue90:rgb(216, 230, 254);--SS_TF-brandHeaderContrastCool:rgb(1, 68, 134);--SS_TF-paletteCloudBlue80:rgb(144, 208, 254);--SS_TF-paletteBlue95:rgb(238, 244, 255);--SS_TF-colorBorderSelectionHover:rgb(27, 150, 255);--SS_TF-zIndexPopup:5000;--SS_TF-borderRadiusLarge:0.5rem;--SS_TF-colorTextIconInverseHintHover:rgba(255, 255, 255, 0.75);--SS_TF-popoverBrandBorderWidth:0.25rem;--SS_TF-fontSizeHeadingXLarge:1.75rem;--SS_TF-typingIconDotColorBackgroundGrayDark:rgb(201, 201, 201);--SS_TF-paletteIndigo65:rgb(142, 155, 239);--SS_TF-varSpacingLarge:1.5rem;--SS_TF-pageHeaderSpacingMargin:0;--SS_TF-fontSizeTextXLarge:1.25rem;--SS_TF-paletteIndigo60:rgb(127, 140, 237);--SS_TF-paletteCloudBlue70:rgb(26, 185, 255);--SS_TF-welcomeMatColorActionShadow:rgba(0, 0, 0, 0.05);--SS_TF-colorTextBrowser:rgb(255, 255, 255);--SS_TF-welcomeMatSpacingInfo:7.75rem;--SS_TF-mqLarge:only screen and (min-width: 64.0625em);--SS_TF-paletteIndigo70:rgb(158, 169, 241);--SS_TF-squareTappableSmall:2rem;--SS_TF-colorTextActionLabel:rgb(116, 116, 116);--SS_TF-paletteCloudBlue60:rgb(13, 157, 218);--SS_TF-paletteBlue70:rgb(120, 176, 253);--SS_TF-colorBorderTabActive:rgb(255, 255, 255);--SS_TF-paletteCloudBlue65:rgb(8, 171, 237);--SS_TF-globalnavigationItemHeightAccentFocus:4px;--SS_TF-colorBorderDestructiveHover:rgb(186, 5, 23);--SS_TF-buttonLineHeightTouch:2.65rem;--SS_TF-colorTextCustomer:rgb(254, 147, 57);--SS_TF-squareIconUtilitySmall:1rem;--SS_TF-colorBackgroundModalButtonActive:rgba(0, 0, 0, 0.16);--SS_TF-colorTextBrandPrimary:rgb(255, 255, 255);--SS_TF-squareIconXSmallBoundary:1.25rem;--SS_TF-widthToggle:3rem;--SS_TF-paletteIndigo80:rgb(190, 199, 246);--SS_TF-welcomeMatMinHeight:25rem;--SS_TF-zIndexDocked:4;--SS_TF-squareIconMediumBoundaryAlt:2.25rem;--SS_TF-colorBorderSelection:rgb(1, 118, 211);--SS_TF-paletteBlue80:rgb(170, 203, 255);--SS_TF-paletteCloudBlue50:rgb(16, 124, 173);--SS_TF-brandHeaderContrastActive:rgb(80, 80, 80);--SS_TF-formLabelFontSize:0.75rem;--SS_TF-colorTextActionLabelActive:rgb(3, 45, 96);--SS_TF-colorBackgroundBackdropTint:rgb(243, 243, 243);--SS_TF-durationSlowly:0.4s;--SS_TF-colorBackgroundRowHover:rgb(243, 243, 243);--SS_TF-popoverWalkthroughAltNubbinColorBackground:rgb(1, 118, 211);--SS_TF-spinnerSizeSmall:1.25rem;--SS_TF-sliderTrackColorBackgroundFill:rgb(27, 150, 255);--SS_TF-welcomeMatWidth:52.0625rem;--SS_TF-paletteIndigo95:rgb(241, 243, 251);--SS_TF-paletteIndigo90:rgb(224, 229, 248);--SS_TF-filesZIndexHover:5;--SS_TF-colorTextPill:rgb(1, 118, 211);--SS_TF-varSpacingSmall:0.75rem;--SS_TF-heightDockedBar:2.5rem;--SS_TF-paletteBlue50:rgb(1, 118, 211);--SS_TF-colorTextTabLabelHover:rgb(1, 68, 134);--SS_TF-fontSizeHeadingXSmall:0.75rem;--SS_TF-colorStrokeDisabled:rgb(243, 243, 243);--SS_TF-widthPathBorderCurrent:0.125rem;--SS_TF-colorBackgroundButtonDefaultHover:rgb(243, 243, 243);--SS_TF-varSpacingVerticalXxSmall:0.25rem;--SS_TF-colorTextButtonDefaultHover:rgb(1, 118, 211);--SS_TF-durationPromptly:0.2s;--SS_TF-colorBorderPathCurrent:rgb(1, 68, 134);--SS_TF-colorBackgroundButtonDefaultActive:rgb(243, 243, 243);--SS_TF-colorTextStageLeft:rgb(243, 243, 243);--SS_TF-colorBorderHint:rgb(3, 45, 96);--SS_TF-colorTextPrimary:rgb(3, 45, 96);--SS_TF-brandBandColorBackgroundSecondaryTransparent:rgba(0, 0, 0, 0);--SS_TF-paletteBlue60:rgb(27, 150, 255);--SS_TF-cardColorBackground:rgb(255, 255, 255);--SS_TF-brandHeaderIcon:rgb(145, 145, 145);--SS_TF-paletteBlue65:rgb(87, 163, 253);--SS_TF-spacingLarge:1.5rem;--SS_TF-pageHeaderColorBorder:rgba(0, 0, 0, 0);--SS_TF-cardFooterMargin:0.75rem;--SS_TF-fontSizeTextSmall:0.8125rem;--SS_TF-colorTextLinkInverseActive:rgba(255, 255, 255, 0.5);--SS_TF-durationToastShort:4.8s;--SS_TF-lineHeightButton:1.875rem;--SS_TF-panelDockedLeftShadow:1px 0 3px rgba(0,0,0,0.25);--SS_TF-panelDockedRightShadow:-1px 0 3px 0 rgba(0,0,0,0.25);--SS_TF-colorTextLinkPrimaryHover:rgb(1, 118, 211);--SS_TF-shadowButton:0 1px 1px 0 rgba(0, 0, 0, 0.05);--SS_TF-welcomeMatMaxHeight:37.5rem;--SS_TF-colorBorderToggleChecked:rgb(255, 255, 255);--SS_TF-shadowHeader:0 2px 4px rgba(0, 0, 0, 0.07);--SS_TF-sizeXxLarge:60rem;--SS_TF-colorBackgroundDockedPanelHeader:rgb(255, 255, 255);--SS_TF-paletteBlue30:rgb(1, 68, 134);--SS_TF-lineHeightSalespath:1.5rem;--SS_TF-shadowDrag:0 2px 4px 0 rgba(0, 0, 0, 0.40);--SS_TF-colorBackgroundPathExpanded:rgb(255, 255, 255);--SS_TF-colorBackground:rgb(243, 243, 243);--SS_TF-colorBackgroundInput:rgb(255, 255, 255);--SS_TF-sizeSmall:15rem;--SS_TF-userDefaultAvatar:url(/_slds/images/profile_avatar_200.png?cache=7bdcafae);--SS_TF-colorTextButtonInverse:rgb(243, 243, 243);--SS_TF-colorBackgroundInputCheckboxDisabled:rgb(201, 201, 201);--SS_TF-tableColorTextHeader:rgb(68, 68, 68);--SS_TF-paletteBlue40:rgb(11, 92, 171);--SS_TF-cardColorBorder:rgb(201, 201, 201);--SS_TF-squareIconUtilityMedium:1.25rem;--SS_TF-colorBackgroundButtonSuccessHover:rgb(46, 132, 74);--SS_TF-colorBorderButtonBrandDisabled:rgba(0, 0, 0, 0);--SS_TF-fontSizeHeadingXxSmall:0.625rem;--SS_TF-colorBackgroundButtonInverseActive:rgba(0, 0, 0, 0.24);--SS_TF-illustrationEmptyStateEvents:url(/_slds/images/illustrations/empty-state-events.svg?cache=985b247a);--SS_TF-colorBackgroundToggle:rgb(174, 174, 174);--SS_TF-colorBackgroundStencil:rgb(243, 243, 243);--SS_TF-welcomeMatCheckSize:0.625rem;--SS_TF-colorTextButtonBrandHover:rgb(255, 255, 255);--SS_TF-buttonColorBackgroundSecondary:rgba(255, 255, 255, 0.8);--SS_TF-paletteBlue10:rgb(0, 22, 57);--SS_TF-varSpacingVerticalLarge:1.5rem;--SS_TF-colorBorderReminder:rgb(243, 243, 243);--SS_TF-colorBrandDark:rgb(1, 118, 211);--SS_TF-paletteBlue15:rgb(3, 35, 77);--SS_TF-colorBorderBrandPrimaryFocus:rgb(1, 118, 211);--SS_TF-salesforceSansItalicWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Italic.woff);--SS_TF-colorBorderBrandPrimaryActive:rgb(3, 45, 96);--SS_TF-datepickerColorTextDayAdjacentMonth:rgb(116, 116, 116);--SS_TF-colorBorderErrorAlt:rgb(254, 143, 125);--SS_TF-shadowReminder:0 2px 3px 0 rgba(0, 0, 0, 0.20);--SS_TF-brandTextLinkActive:rgb(1, 68, 134);--SS_TF-pageHeaderColorBackground:rgb(243, 243, 243);--SS_TF-salesforceSansBoldWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Bold.woff2);--SS_TF-fontSizeHeadingLarge:1.5rem;--SS_TF-colorBackgroundStencilAlt:rgb(243, 243, 243);--SS_TF-paletteBlue20:rgb(3, 45, 96);--SS_TF-elevationInverseShadow3Below:0 -3px 3px 0 rgba(0, 0, 0, 0.16) inset;--SS_TF-varSpacingHorizontalXxSmall:0.25rem;--SS_TF-colorBorderSeparatorAlt:rgb(201, 201, 201);--SS_TF-colorPickerRangeHeight:5rem;--SS_TF-colorBackgroundButtonIcon:rgba(0, 0, 0, 0);--SS_TF-paletteTeal15:rgb(7, 40, 37);--SS_TF-buttonIconColorBorderPrimary:rgb(255, 255, 255);--SS_TF-brandAccessibleActive:rgb(1, 68, 134);--SS_TF-paletteYellow80:rgb(252, 192, 3);--SS_TF-zIndexSpinner:9050;--SS_TF-colorBackgroundContextTabBarItem:rgb(255, 255, 255);--SS_TF-fontWeightBold:700;--SS_TF-paletteTeal10:rgb(7, 27, 18);--SS_TF-colorBackgroundContextBarItemActive:rgb(255, 255, 255);--SS_TF-shadowFocusInset:0 0 2px 2px #1b96ff inset;--SS_TF-colorBackgroundAltInverse:rgb(3, 45, 96);--SS_TF-colorBackgroundPathIncompleteHover:rgb(201, 201, 201);--SS_TF-squareIconMediumContent:1rem;--SS_TF-colorBackgroundContextBar:rgb(255, 255, 255);--SS_TF-colorTextInverseHover:rgb(174, 174, 174);--SS_TF-colorBackgroundInputActive:rgb(255, 255, 255);--SS_TF-brandContrast:rgb(26, 27, 30);--SS_TF-colorTextSecondary:rgb(116, 116, 116);--SS_TF-fillHeaderButtonHover:rgb(1, 68, 134);--SS_TF-fontFamilyText:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--SS_TF-welcomeMatCompleteIconSize:1.25rem;--SS_TF-varSpacingXxLarge:3rem;--SS_TF-paletteYellow95:rgb(251, 243, 224);--SS_TF-paletteYellow90:rgb(249, 227, 182);--SS_TF-brandBackgroundPrimary:rgb(250, 250, 249);--SS_TF-paletteTeal20:rgb(2, 52, 52);--SS_TF-progressRingWidth:0.1875rem;--SS_TF-paletteYellow65:rgb(215, 147, 4);--SS_TF-paletteYellow60:rgb(202, 133, 1);--SS_TF-colorBorderInputCheckboxSelectedCheckmark:rgb(255, 255, 255);--SS_TF-colorBorderCanvasElementSelectionHover:rgb(1, 68, 134);--SS_TF-borderRadiusSmall:0.125rem;--SS_TF-progressBarColorBackground:rgb(201, 201, 201);--SS_TF-durationInstantly:0s;--SS_TF-colorBackgroundToastSuccess:rgb(46, 132, 74);--SS_TF-tabsFontWeight:400;--SS_TF-colorBackgroundPost:rgb(243, 243, 243);--SS_TF-colorTextPlaceholderInverse:rgb(243, 243, 243);--SS_TF-colorTextInputIcon:rgb(174, 174, 174);--SS_TF-sliderHandleShadow:rgba(0, 0, 0, 0.16) 0 2px 3px;--SS_TF-paletteYellow70:rgb(228, 162, 1);--SS_TF-fontWeightLight:300;--SS_TF-colorTextError:rgb(234, 0, 30);--SS_TF-varSpacingXxSmall:0.25rem;--SS_TF-colorBorderInput:rgb(201, 201, 201);--SS_TF-brandAccessible:rgb(1, 118, 211);--SS_TF-pageColorBackgroundPrimary:rgb(255, 255, 255);--SS_TF-cardShadow:none;--SS_TF-lineClamp:3;--SS_TF-welcomeMatWidthProgressBar:12.5rem;--SS_TF-progressColorBackgroundShade:rgb(243, 243, 243);--SS_TF-globalActionFillHover:rgb(1, 68, 134);--SS_TF-illustrationEmptyStateAssistant:url(/_slds/images/illustrations/empty-state-assistant.svg?cache=127a789e);--SS_TF-varSpacingHorizontalXSmall:0.5rem;--SS_TF-colorPickerInputCustomHexFontSize:0.75rem;--SS_TF-varSpacingMedium:1rem;--SS_TF-colorBackgroundShadeDark:rgb(201, 201, 201);--SS_TF-colorPickerSwatchesWidth:13.3rem;--SS_TF-squareIconLargeBoundaryAlt:5rem;--SS_TF-colorBorderInputDisabled:rgb(201, 201, 201);--SS_TF-paletteYellow40:rgb(140, 75, 2);--SS_TF-cardWrapperSpacing:1rem;--SS_TF-colorBackgroundNotificationBadgeActive:rgb(3, 45, 96);--SS_TF-colorBackgroundHighlight:rgb(250, 255, 189);--SS_TF-colorBackgroundRowActive:rgb(243, 243, 243);--SS_TF-componentSpacingMargin:0;--SS_TF-colorBorderButtonFocusInverse:rgb(243, 243, 243);--SS_TF-shadowButtonFocus:0 0 3px #0176d3;--SS_TF-varSpacingVerticalXLarge:2rem;--SS_TF-tableColorBackgroundHeaderHover:rgb(243, 243, 243);--SS_TF-colorBackgroundDockedPanel:rgb(255, 255, 255);--SS_TF-colorTextTertiary:rgb(116, 116, 116);--SS_TF-varSpacingVerticalXxLarge:3rem;--SS_TF-paletteYellow50:rgb(168, 100, 3);--SS_TF-brandContrastActive:rgb(13, 14, 18);--SS_TF-squareIconLargeContent:2rem;--SS_TF-colorPickerSliderThumbColorBackground:rgb(243, 243, 243);--SS_TF-inputStaticFontSize:0.8125rem;--SS_TF-borderWidthThin:1px;--SS_TF-fontWeightRegular:400;--SS_TF-colorBackgroundButtonSuccess:rgb(69, 198, 90);--SS_TF-splitViewColorBackgroundRowHover:rgb(255, 255, 255);--SS_TF-paletteYellow20:rgb(79, 33, 0);--SS_TF-bannerUserDefaultImage:;--SS_TF-elevation8:8;--SS_TF-brandDark:rgb(1, 118, 211);--SS_TF-colorBackgroundPathCurrentHover:rgb(255, 255, 255);--SS_TF-elevation0:0;--SS_TF-elevation2:2;--SS_TF-pageHeaderJoinedColorBorder:rgb(201, 201, 201);--SS_TF-elevation4:4;--SS_TF-durationPaused:3.2s;--SS_TF-colorBrand:rgb(27, 150, 255);--SS_TF-colorBackgroundPathComplete:rgb(59, 167, 85);--SS_TF-progressColorBorderHover:rgb(1, 118, 211);--SS_TF-spacingXxSmall:0.25rem;--SS_TF-tableCellSpacing:0.5rem;--SS_TF-colorBorderContextBarThemeDefault:rgb(13, 157, 218);--SS_TF-colorBackgroundAnchor:rgb(243, 243, 243);--SS_TF-paletteYellow30:rgb(111, 52, 0);--SS_TF-shadowButtonFocusInverse:0 0 3px #f3f3f3;--SS_TF-welcomeMatFontSizeInfoTitle:2.625rem;--SS_TF-colorBorderLinkFocusInverse:rgb(243, 243, 243);--SS_TF-borderRadiusCircle:50%;--SS_TF-buttonColorBorderSecondary:rgba(255, 255, 255, 0.8);--SS_TF-colorTextSuccessInverse:rgb(69, 198, 90);--SS_TF-varSpacingXLarge:2rem;--SS_TF-sizeXLarge:40rem;--SS_TF-varSpacingHorizontalXxxSmall:0.125rem;--SS_TF-elevation3Inset:-3;--SS_TF-lineHeightTab:2.5rem;--SS_TF-colorBackgroundDestructiveActive:rgb(142, 3, 15);--SS_TF-colorTextLinkPrimaryActive:rgb(3, 45, 96);--SS_TF-colorBackgroundPageHeader:rgb(255, 255, 255);--SS_TF-colorBackgroundPill:rgb(255, 255, 255);--SS_TF-fillBrandHover:rgb(1, 68, 134);--SS_TF-colorBorderContextBarItem:rgba(0, 0, 0, 0.2);--SS_TF-borderStrokeWidthThin:1px;--SS_TF-progressColorBorderShade:rgb(243, 243, 243);--SS_TF-heightHeader:2.75rem;--SS_TF-shadowInlineEdit:0 2px 4px 4px rgba(0, 0, 0, 0.16);--SS_TF-colorBackgroundNotificationBadgeHover:rgb(1, 68, 134);--SS_TF-borderRadiusPill:15rem;--SS_TF-colorTextButtonInverseDisabled:rgba(255, 255, 255, 0.5);--SS_TF-sizeXxxSmall:3rem;--SS_TF-colorBackgroundSuccessDarker:rgb(25, 78, 49);--SS_TF-colorBackgroundToggleHover:rgb(147, 147, 147);--SS_TF-paletteYellow15:rgb(46, 34, 4);--SS_TF-paletteYellow10:rgb(40, 18, 2);--SS_TF-cardSpacingSmall:0.75rem;--SS_TF-illustrationEmptyStateTasks:url(/_slds/images/illustrations/empty-state-tasks.svg?cache=dc5e5e5b);--SS_TF-brandBandScrimHeight:3.125rem;--SS_TF-popoverWalkthroughColorBackground:rgb(0, 22, 57);--SS_TF-colorBorderErrorDark:rgb(254, 143, 125);--SS_TF-heightTappableSmall:2rem;--SS_TF-colorBackgroundButtonBrandDisabled:rgb(243, 243, 243);--SS_TF-colorBorderPrimary:rgb(201, 201, 201);--SS_TF-colorGray1:rgb(255, 255, 255);--SS_TF-fontSizeXLarge:1.5rem;--SS_TF-varSquareIconMediumBoundary:2rem;--SS_TF-colorGray5:rgb(221, 219, 218);--SS_TF-colorGray4:rgb(236, 235, 234);--SS_TF-colorGray3:rgb(243, 242, 242);--SS_TF-colorGray2:rgb(250, 250, 249);--SS_TF-opacity8:0.8;--SS_TF-salesforceSansBoldItalicWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-BoldItalic.woff2);--SS_TF-opacity5:0.5;--SS_TF-squareIconGlobalIdentityIcon:1.25rem;--SS_TF-colorBackgroundBrowser:rgb(116, 116, 116);--SS_TF-colorTextIconInverseActive:rgb(255, 255, 255);--SS_TF-shadowDocked:0 -2px 2px 0 rgba(0, 0, 0, 0.16);--SS_TF-colorBackgroundInputError:rgb(253, 221, 227);--SS_TF-colorGray9:rgb(112, 110, 107);--SS_TF-colorGray8:rgb(150, 148, 146);--SS_TF-colorGray7:rgb(176, 173, 171);--SS_TF-colorGray6:rgb(201, 199, 197);--SS_TF-colorTextLinkInverse:rgb(255, 255, 255);--SS_TF-squareIconSmallBoundary:1.5rem;--SS_TF-varSpacingHorizontalXLarge:2rem;--SS_TF-colorBackgroundDark:rgb(243, 243, 243);--SS_TF-colorTextWarningAlt:rgb(140, 75, 2);--SS_TF-elevationInverseShadow2:0 -2px 2px 0 rgba(0, 0, 0, 0.16);--SS_TF-elevationInverseShadow0:none;--SS_TF-colorStrokeBrand:rgb(1, 118, 211);--SS_TF-colorBackgroundToggleActive:rgb(1, 68, 134);--SS_TF-colorBorderContextBarDivider:rgba(255, 255, 255, 0.2);--SS_TF-zIndexToast:10000;--SS_TF-colorBackgroundContextBarActionHighlight:rgba(255, 255, 255, 0.2);--SS_TF-colorBackgroundBrandPrimaryFocus:rgb(1, 68, 134);--SS_TF-buttonColorBackgroundBrandPrimary:rgb(1, 118, 211);--SS_TF-brandHeaderContrastWarm:rgb(186, 5, 23);--SS_TF-buttonColorTextPrimary:rgb(255, 255, 255);--SS_TF-colorBrandDarker:rgb(1, 68, 134);--SS_TF-colorBorderPathCurrentHover:rgb(3, 45, 96);--SS_TF-colorTextButtonDefaultDisabled:rgb(201, 201, 201);--SS_TF-colorBackgroundPathLost:rgb(234, 0, 30);--SS_TF-einsteinHeaderBackground:url(/_slds/images/einstein-headers/einstein-header-background.svg?cache=ff7fa2ff);--SS_TF-brandTextLink:rgb(1, 118, 211);--SS_TF-sliderTrackColorBackground:rgb(243, 243, 243);--SS_TF-colorContrastPrimary:rgb(243, 243, 243);--SS_TF-groupDefaultAvatar:url(/_slds/images/group_avatar_200.png?cache=a0044dae);--SS_TF-templateProfileGutters:0;--SS_TF-sizeXxSmall:6rem;--SS_TF-colorBackgroundPayload:rgb(243, 243, 243);--SS_TF-paletteCloudBlue90:rgb(207, 233, 254);--SS_TF-colorBackgroundPathActive:rgb(1, 68, 134);--SS_TF-colorTextDestructive:rgb(234, 0, 30);--SS_TF-squareIconLargeBoundary:3rem;--SS_TF-colorBorderWarning:rgb(254, 147, 57);--SS_TF-shadowSoftPrimaryHover:none;--SS_TF-paletteCloudBlue95:rgb(234, 245, 254);--SS_TF-spacingSmall:0.75rem;--SS_TF-colorBackgroundErrorDark:rgb(186, 5, 23);--SS_TF-brandHeaderContrastWeakDisabled:rgba(166, 166, 166, 0.25);--SS_TF-squareIconMediumContentAlt:0.875rem;--SS_TF-colorBackgroundButtonInverse:rgba(0, 0, 0, 0);--SS_TF-brandHeader:rgb(255, 255, 255);--SS_TF-lineHeightText:1.5;--SS_TF-widthStageLeftExpanded:15rem;--SS_TF-colorBackgroundError:rgb(254, 92, 76);--SS_TF-colorTextButtonBrandActive:rgb(255, 255, 255);--SS_TF-fontFamily:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--SS_TF-mqMedium:only screen and (min-width: 48em);--SS_TF-brandDarkActive:rgb(37, 48, 69);--SS_TF-colorBackgroundPathStepActionActive:rgb(0, 22, 57);--SS_TF-neutrafaceDisplayWoff2:url(/_slds/fonts/NeutrafaceDisplay.woff2?cache=2.9.0);--SS_TF-spacingMedium:1rem;--SS_TF-colorTextModal:rgb(255, 255, 255);--SS_TF-spinnerSizeLarge:2.75rem;--SS_TF-carouselIndicatorColorBackgroundHover:rgb(243, 243, 243);--SS_TF-shadowActionOverflowFooter:0 -2px 4px #f3f3f3;--SS_TF-popoverWalkthroughHeaderColorBackground:rgb(3, 45, 96);--SS_TF-colorBackgroundPathWon:rgb(46, 132, 74);--SS_TF-lineHeightToggle:1.3rem;--SS_TF-neutrafaceDisplayWoff:url(/_slds/fonts/NeutrafaceDisplay.woff?cache=2.9.0);--SS_TF-cardFooterPadding:0 1rem 0.75rem;--SS_TF-sliderHandleColorBackground:rgb(27, 150, 255);--SS_TF-colorBackgroundErrorAlt:rgb(254, 143, 125);--SS_TF-colorBackgroundIndicatorDot:rgb(3, 45, 96);--SS_TF-chatMessageColorBackgroundInbound:rgb(243, 243, 243);--SS_TF-elevationShadow0:none;--SS_TF-heightPill:1.625rem;--SS_TF-elevationShadow4:0 4px 4px 0 rgba(0, 0, 0, 0.16);--SS_TF-elevationShadow2:0 2px 2px 0 rgba(0, 0, 0, 0.16);--SS_TF-elevationShadow8:0 8px 8px 0 rgba(0, 0, 0, 0.16);--SS_TF-varFontSize8:1.5rem;--SS_TF-colorBackgroundButtonDefaultDisabled:rgb(255, 255, 255);--SS_TF-varFontSize7:1.25rem;--SS_TF-elevationInverseShadow8:0 -8px 8px 0 rgba(0, 0, 0, 0.16);--SS_TF-varFontSize9:1.75rem;--SS_TF-brandBandColorBackgroundPrimary:rgba(0, 0, 0, 0);--SS_TF-colorTextButtonBrand:rgb(255, 255, 255);--SS_TF-elevationInverseShadow4:0 -4px 4px 0 rgba(0, 0, 0, 0.16);--SS_TF-colorBackgroundToggleActiveHover:rgb(1, 68, 134);--SS_TF-welcomeMatBackgroundImageInfo:url(/_slds/images/welcome-mat/bg-info@2x.png?cache=ddb4e82f);--SS_TF-varFontSize2:0.75rem;--SS_TF-varFontSize1:0.625rem;--SS_TF-varFontSize4:0.875rem;--SS_TF-pageHeaderSpacingRow:0.75rem 1rem;--SS_TF-varFontSize3:0.8125rem;--SS_TF-varFontSize6:1.125rem;--SS_TF-varFontSize5:1rem;--SS_TF-varSpacingVerticalMedium:1rem;--SS_TF-pageHeaderSpacingPadding:1rem;--SS_TF-colorTextModalButton:rgb(116, 116, 116);--SS_TF-colorBackgroundPrimary:rgb(255, 255, 255);--SS_TF-colorTextInputFocusInverse:rgb(3, 45, 96);--SS_TF-colorBackgroundScrollbarTrack:rgb(201, 201, 201);--SS_TF-paletteNeutral70:rgb(174, 174, 174);--SS_TF-brandPrimaryActive:rgb(1, 118, 211);--SS_TF-popoverWalkthroughAltImage:;--SS_TF-nubbinTriangleOffset:-0.1875rem;--SS_TF-salesforceSansLightWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Light.woff);--SS_TF-colorBorderSuccessDark:rgb(46, 132, 74);--SS_TF-mqHighRes:only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2),screen and (min-resolution: 192dpi),screen and (min-resolution: 2dppx);--SS_TF-brandBandColorBackgroundPrimaryTransparent:rgba(0, 0, 0, 0);--SS_TF-colorBackgroundContextBarInverseItemActive:rgba(255, 255, 255, 0.4);--SS_TF-colorTextButtonDefaultHint:rgb(174, 174, 174);--SS_TF-salesforceSansItalicWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Italic.woff2);--SS_TF-paletteGreen60:rgb(59, 167, 85);--SS_TF-heightContextBar:2.5rem;--SS_TF-colorBackgroundOrgSwitcherArrow:rgb(0, 22, 57);--SS_TF-paletteGreen65:rgb(65, 182, 88);--SS_TF-brandHeaderContrastInverse:rgb(255, 255, 255);--SS_TF-notificationColorBackgroundInverse:rgb(116, 116, 116);--SS_TF-colorBackgroundButtonIconDisabled:rgb(255, 255, 255);--SS_TF-paletteNeutral60:rgb(147, 147, 147);--SS_TF-colorBorderContextBarThemeDefaultAlt:rgb(243, 243, 243);--SS_TF-fillBrand:rgb(1, 118, 211);--SS_TF-colorBackgroundInputCheckbox:rgb(255, 255, 255);--SS_TF-colorBorder:rgb(201, 201, 201);--SS_TF-squareIconSmall:1rem;--SS_TF-varSpacingHorizontalMedium:1rem;--SS_TF-illustrationColorPrimary:rgb(144, 208, 254);--SS_TF-varSpacingVerticalXSmall:0.5rem;--SS_TF-colorTextPlaceholder:rgb(116, 116, 116);--SS_TF-einsteinHeaderBackgroundColor:rgb(144, 208, 254);--SS_TF-paletteGreen70:rgb(69, 198, 90);--SS_TF-brandHeaderContrast:rgb(94, 94, 94);--SS_TF-inputStaticColor:rgb(24, 24, 24);--SS_TF-paletteNeutral90:rgb(229, 229, 229);--SS_TF-paletteGreen90:rgb(205, 239, 196);--SS_TF-spacingXxLarge:3rem;--SS_TF-shadowDropDown:0 2px 3px 0 rgba(0, 0, 0, 0.16);--SS_TF-paletteNeutral95:rgb(243, 243, 243);--SS_TF-colorBackgroundModal:rgb(255, 255, 255);--SS_TF-elevationShadow3Below:0 3px 3px 0 rgba(0, 0, 0, 0.16) inset;--SS_TF-paletteRed80:rgb(254, 184, 171);--SS_TF-sliderTrackWidth:100%;--SS_TF-elevation32:32;--SS_TF-globalHeaderColorBackground:rgb(255, 255, 255);--SS_TF-spacingXLarge:2rem;--SS_TF-paletteGreen80:rgb(145, 219, 139);--SS_TF-colorBorderInputActive:rgb(27, 150, 255);--SS_TF-varSpacingXSmall:0.5rem;--SS_TF-paletteNeutral80:rgb(201, 201, 201);--SS_TF-colorBackgroundModalButton:rgba(0, 0, 0, 0.07);--SS_TF-colorBorderPathDivider:rgb(255, 255, 255);--SS_TF-colorTextIconDefault:rgb(116, 116, 116);--SS_TF-zIndexDeepdive:-99999;--SS_TF-elevation16:16;--SS_TF-paletteRed90:rgb(254, 222, 216);--SS_TF-globalnavigationItemHeightAccentActive:3px;--SS_TF-templateGutters:0;--SS_TF-paletteRed95:rgb(254, 241, 238);--SS_TF-buttonColorBorderBrandPrimary:rgb(1, 118, 211);--SS_TF-buttonIconBoundaryTouch:2.75rem;--SS_TF-brandBackgroundPrimaryTransparent:rgba(176, 196, 223, 0);--SS_TF-fillHeaderButtonFocus:rgb(1, 118, 211);--SS_TF-colorBorderError:rgb(234, 0, 30);--SS_TF-colorTextLinkHover:rgb(1, 68, 134);--SS_TF-paletteGreen95:rgb(235, 247, 230);--SS_TF-einsteinHeaderFigure:url(/_slds/images/einstein-headers/einstein-figure.svg?cache=ec975fb1);--SS_TF-colorBorderRowSelected:rgb(1, 118, 211);--SS_TF-colorStrokeBrandHover:rgb(1, 118, 211);--SS_TF-paletteNeutral30:rgb(68, 68, 68);--SS_TF-varSpacingVerticalXxxSmall:0.125rem;--SS_TF-paletteHotOrange10:rgb(40, 18, 2);--SS_TF-colorTextButtonBrandDisabled:rgb(255, 255, 255);--SS_TF-squareIconXSmallContent:0.5rem;--SS_TF-varFontSize10:2rem;--SS_TF-paletteRed60:rgb(254, 92, 76);--SS_TF-varFontSize11:2.625rem;--SS_TF-paletteRed65:rgb(254, 119, 101);--SS_TF-buttonBorderRadius:.25rem;--SS_TF-squareTappableXSmall:1.5rem;--SS_TF-colorBackgroundGuidance:rgb(255, 255, 255);--SS_TF-colorTextContextBarInverse:rgb(255, 255, 255);--SS_TF-paletteNeutral20:rgb(46, 46, 46);--SS_TF-fontFamilyHeading:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--SS_TF-paletteRed70:rgb(254, 143, 125);--SS_TF-brandHeaderContrastCoolActive:rgb(1, 68, 134);--SS_TF-borderWidthThick:2px;--SS_TF-pageHeaderShadow:none;--SS_TF-spinnerSizeXxSmall:0.5rem;--SS_TF-tableColorBackgroundHeader:rgb(255, 255, 255);--SS_TF-pageHeaderColorBackgroundAlt:rgb(255, 255, 255);--SS_TF-colorBorderBrandPrimaryHover:rgb(1, 118, 211);--SS_TF-colorTextTabLabelActive:rgb(3, 45, 96);--SS_TF-paletteNeutral50:rgb(116, 116, 116);--SS_TF-colorBackgroundTempModalTint:rgba(126, 140, 153, 0.8);--SS_TF-fontSizeMedium:1rem;--SS_TF-colorBorderButtonBrand:rgb(1, 118, 211);--SS_TF-paletteHotOrange30:rgb(126, 38, 0);--SS_TF-paletteRed40:rgb(186, 5, 23);--SS_TF-brandBandImageHeightSmall:6rem;--SS_TF-colorTextInverseWeak:rgb(174, 174, 174);--SS_TF-colorTextInverse:rgb(255, 255, 255);--SS_TF-shadowLinkFocusInverse:0 0 3px #f3f3f3;--SS_TF-squareIconXxSmallBoundary:1rem;--SS_TF-lineHeightReset:1;--SS_TF-verticalNavigationColorBackgroundShadeRowActive:rgb(243, 243, 243);--SS_TF-colorBackgroundTempModal:rgba(126, 140, 153, 0.8);--SS_TF-colorBackgroundToggleDisabled:rgb(174, 174, 174);--SS_TF-colorGray13:rgb(8, 7, 7);--SS_TF-colorGray10:rgb(81, 79, 77);--SS_TF-paletteNeutral40:rgb(92, 92, 92);--SS_TF-colorBorderInverse:rgb(0, 22, 57);--SS_TF-carouselIndicatorColorBackgroundActive:rgb(1, 118, 211);--SS_TF-colorBackgroundBackdrop:rgba(255, 255, 255, 0.75);--SS_TF-colorGray12:rgb(43, 40, 38);--SS_TF-colorGray11:rgb(62, 62, 60);--SS_TF-colorTextContextBarActionTrigger:rgba(255, 255, 255, 0.4);--SS_TF-paletteHotOrange20:rgb(74, 36, 19);--SS_TF-colorBackgroundNotification:rgb(255, 255, 255);--SS_TF-colorBackgroundPathStepActionCurrent:rgb(1, 68, 134);--SS_TF-badgeColorBackgroundInverse:rgb(116, 116, 116);--SS_TF-colorBorderSeparatorInverse:rgb(3, 45, 96);--SS_TF-paletteRed50:rgb(234, 0, 30);--SS_TF-colorBackgroundSpinnerDot:rgb(174, 174, 174);--SS_TF-colorBackgroundButtonBrandActive:rgb(3, 45, 96);--SS_TF-paletteHotOrange15:rgb(66, 22, 4);--SS_TF-sliderHandleColorBackgroundFocus:rgb(1, 118, 211);--SS_TF-spinnerSizeMedium:2rem;--SS_TF-brandPrimary:rgb(27, 150, 255);--SS_TF-paletteHotOrange50:rgb(216, 58, 0);--SS_TF-colorTextLinkPrimaryFocus:rgb(1, 118, 211);--SS_TF-colorTextInputDisabled:rgb(116, 116, 116);--SS_TF-brandLogoImage:url(/_slds/images/logo-noname.svg?cache=380754d9);--SS_TF-brandLight:rgb(244, 246, 254);--SS_TF-paletteRed20:rgb(100, 1, 3);--SS_TF-fillHeaderButton:rgb(174, 174, 174);--SS_TF-varLineHeightText:1.5;--SS_TF-colorBackgroundPathCurrent:rgb(255, 255, 255);--SS_TF-colorBackgroundOffline:rgb(68, 68, 68);--SS_TF-colorBorderTabSelected:rgb(1, 118, 211);--SS_TF-colorTextWarning:rgb(254, 147, 57);--SS_TF-salesforceSansRegularWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Regular.woff);--SS_TF-paletteHotOrange40:rgb(170, 48, 1);--SS_TF-cardSpacingLarge:1.5rem;--SS_TF-paletteRed30:rgb(142, 3, 15);--SS_TF-fontSizeMediumA:1.125rem;--SS_TF-borderRadiusMedium:0.25rem;--SS_TF-colorPickerSliderThumbBorderColor:rgb(68, 68, 68);--SS_TF-shadowSoftPrimary:none;--SS_TF-zIndexDropdown:7000;--SS_TF-paletteHotOrange70:rgb(255, 144, 110);--SS_TF-verticalNavigationColorBackgroundShadeRowHover:rgb(243, 243, 243);--SS_TF-squareIconMediumBoundary:2rem;--SS_TF-colorBackgroundButtonDefaultFocus:rgb(243, 243, 243);--SS_TF-heightTappable:2.75rem;--SS_TF-colorBackgroundToastError:rgb(234, 0, 30);--SS_TF-brandBandDefaultImage:;--SS_TF-durationQuickly:0.1s;--SS_TF-colorBackgroundSelection:rgb(216, 230, 254);--SS_TF-paletteHotOrange60:rgb(255, 93, 45);--SS_TF-colorBackgroundActionbarIconUtility:rgb(116, 116, 116);--SS_TF-colorBackgroundNotificationBadgeFocus:rgb(1, 68, 134);--SS_TF-paletteHotOrange65:rgb(255, 120, 79);--SS_TF-cardFooterTextAlign:right;--SS_TF-colorBorderBrandDark:rgb(1, 68, 134);--SS_TF-brandBackgroundDark:rgb(232, 232, 232);--SS_TF-avatarGroupColorBackgroundLightest:rgb(255, 255, 255);--SS_TF-colorTextContextBar:rgb(68, 68, 68);--SS_TF-inputStaticFontWeight:400;--SS_TF-paletteRed10:rgb(48, 12, 1);--SS_TF-colorTextLinkDisabled:rgb(3, 45, 96);--SS_TF-colorTextPathCurrent:rgb(1, 68, 134);--SS_TF-paletteRed15:rgb(74, 12, 4);--SS_TF-zIndexOverlay:8000;--SS_TF-buttonColorBorderPrimary:rgb(243, 243, 243);--SS_TF-paletteHotOrange90:rgb(255, 222, 213);--SS_TF-shadowImage:0 1px 1px rgba(0, 0, 0, 0.16);--SS_TF-paletteHotOrange95:rgb(254, 241, 237);--SS_TF-cardHeaderPadding:0.75rem 1rem 0;--SS_TF-colorBorderSeparatorAlt2:rgb(201, 201, 201);--SS_TF-fillBrandActive:rgb(3, 45, 96);--SS_TF-fontSizeTextMedium:1rem;--SS_TF-spacingXSmall:0.5rem;--SS_TF-chatMessageColorBackgroundOutboundAgent:rgb(116, 116, 116);--SS_TF-colorBackgroundButtonIconHover:rgb(243, 243, 243);--SS_TF-sliderHandleColorBackgroundActive:rgb(1, 118, 211);--SS_TF-colorBorderSuccess:rgb(145, 219, 139);--SS_TF-colorTextIconInverseHover:rgb(255, 255, 255);--SS_TF-componentSpacingPadding:1rem;--SS_TF-colorBorderDestructiveActive:rgb(142, 3, 15);--SS_TF-colorBackgroundButtonInverseDisabled:rgba(0, 0, 0, 0);--SS_TF-colorTextTabLabelFocus:rgb(1, 68, 134);--SS_TF-paletteHotOrange80:rgb(254, 185, 165);--SS_TF-colorBackgroundNotificationBadge:rgb(234, 0, 30);--SS_TF-zIndexReminder:8500;--SS_TF-colorBackgroundImageOverlay:rgba(0, 0, 0, 0.4);--SS_TF-colorBackgroundReminderHover:rgb(255, 255, 255);--SS_TF-colorTextPathCurrentHover:rgb(3, 45, 96);--SS_TF-colorBackgroundCustomer:rgb(254, 147, 57);--SS_TF-colorBackgroundButtonDefault:rgb(255, 255, 255);--SS_TF-colorBackgroundInverseLight:rgb(3, 45, 96);--SS_TF-salesforceSansBoldWoff:url(/_slds/fonts/v2.3.0/SalesforceSans-Bold.woff);--SS_TF-progressColorBorderActive:rgb(27, 150, 255);--SS_TF-fontSizeLarge:1.25rem;--SS_TF-brandHeaderContrastWeakActive:rgb(129, 129, 129);--SS_TF-brandHeaderContrastWarmActive:rgb(186, 5, 23);--SS_TF-squareToggleSlider:1.25rem;--SS_TF-progressBarColorBackgroundFillSuccess:rgb(46, 132, 74);--SS_TF-colorBackgroundButtonBrand:rgb(1, 118, 211);--SS_TF-colorBackgroundWarningDark:rgb(254, 147, 57);--SS_TF-colorTextIconUtility:rgb(174, 174, 174);--SS_TF-colorBackgroundScrollbar:rgb(243, 243, 243);--SS_TF-chatMessageColorBackgroundStatus:rgb(255, 255, 255);--SS_TF-colorBackgroundTempModalTintAlt:rgba(255, 255, 255, 0.75);--SS_TF-pageHeaderBorderRadius:0;--SS_TF-palettePink95:rgb(254, 240, 243);--SS_TF-welcomeMatColorIconComplete:rgb(201, 201, 201);--SS_TF-palettePink90:rgb(253, 221, 227);--SS_TF-paletteViolet50:rgb(186, 1, 255);--SS_TF-paletteTeal30:rgb(2, 77, 76);--SS_TF-colorTextIconInverseDisabled:rgba(255, 255, 255, 0.15);--SS_TF-bannerGroupDefaultImage:;--SS_TF-colorBorderBrand:rgb(27, 150, 255);--SS_TF-colorBackgroundInfo:rgb(116, 116, 116);--SS_TF-heightToggle:1.5rem;--SS_TF-badgeColorBackgroundLightest:rgb(255, 255, 255);--SS_TF-brandBandColorBackgroundSecondary:rgba(0, 0, 0, 0);--SS_TF-shadowSoftPrimaryActive:none;--SS_TF-colorTextIconDefaultHint:rgb(174, 174, 174);--SS_TF-colorBackgroundChromeMobile:rgb(1, 118, 211);--SS_TF-colorPickerSwatchSize:1.25rem;--SS_TF-colorBackgroundPathIncomplete:rgb(243, 243, 243);--SS_TF-paletteTeal40:rgb(5, 103, 100);--SS_TF-colorTextToggleDisabled:rgb(201, 201, 201);--SS_TF-paletteViolet40:rgb(150, 2, 199);--SS_TF-colorTextLinkInverseHover:rgba(255, 255, 255, 0.75);--SS_TF-palettePink80:rgb(253, 182, 197);--SS_TF-zIndexModal:9000;--SS_TF-pageHeaderIconSize:2.25rem;--SS_TF-colorTextDestructiveHover:rgb(186, 5, 23);--SS_TF-colorBorderCanvasElementSelection:rgb(26, 185, 255);--SS_TF-colorBackgroundSuccess:rgb(69, 198, 90);--SS_TF-carouselIndicatorColorBackground:rgb(255, 255, 255);--SS_TF-sliderTrackHeight:4px;--SS_TF-squareIconSmallContent:0.75rem;--SS_TF-colorBackgroundInputDisabled:rgb(243, 243, 243);--SS_TF-paletteTeal50:rgb(11, 130, 124);--SS_TF-palettePink70:rgb(254, 138, 167);--SS_TF-paletteViolet30:rgb(115, 3, 148);--SS_TF-mqSmall:only screen and (max-width: 47.9375em);--SS_TF-brandBandImageHeightLarge:18.75rem;--SS_TF-carouselIndicatorWidth:1rem;--SS_TF-colorTextLinkActive:rgb(3, 45, 96);--SS_TF-squareIconXxSmallContent:.875rem;--SS_TF-fontSizeXSmall:0.625rem;--SS_TF-palettePink65:rgb(254, 114, 152);--SS_TF-sliderColorBackgroundDisabled:rgb(243, 243, 243);--SS_TF-colorContrastSecondary:rgb(255, 255, 255);--SS_TF-welcomeMatColorBackgroundProgressBar:rgb(255, 255, 255);--SS_TF-globalActionIconSize:1.5rem;--SS_TF-paletteViolet20:rgb(72, 26, 84);--SS_TF-fontSizeHeadingSmall:0.875rem;--SS_TF-colorPickerRangeIndicatorSize:0.75rem;--SS_TF-paletteOrange15:rgb(55, 30, 3);--SS_TF-sliderHandleSize:1rem;--SS_TF-tableBorderRadius:0;--SS_TF-paletteTeal60:rgb(6, 165, 154);--SS_TF-userDefaultAvatarSmall:url(/_slds/images/profile_avatar_96.png?cache=3c01f25f);--SS_TF-buttonColorBackgroundPrimary:rgb(255, 255, 255);--SS_TF-colorPickerInputCustomHexWidth:4.2rem;--SS_TF-paletteOrange10:rgb(32, 22, 0);--SS_TF-palettePink60:rgb(255, 83, 138);--SS_TF-paletteTeal65:rgb(3, 180, 167);--SS_TF-colorBackgroundRowSelected:rgb(243, 243, 243);--SS_TF-colorBackgroundContextBarBrandAccent:rgb(13, 157, 218);--SS_TF-fontFamilyMonospace:Consolas, Menlo, Monaco, Courier, monospace;--SS_TF-cardFooterColorBorder:rgba(0, 0, 0, 0);--SS_TF-palettePurple80:rgb(215, 191, 242);--SS_TF-varSpacingHorizontalLarge:1.5rem;--SS_TF-colorTextRequired:rgb(234, 0, 30);--SS_TF-elevationShadow16:0 16px 16px 0 rgba(0, 0, 0, 0.16);--SS_TF-paletteViolet10:rgb(46, 0, 57);--SS_TF-shadowHardPrimary:none;--SS_TF-paletteOrange20:rgb(62, 43, 2);--SS_TF-paletteViolet15:rgb(61, 1, 87);--SS_TF-radioButtonGroupLineHeightTouch:2.69rem;--SS_TF-colorBackgroundBrandPrimary:rgb(1, 118, 211);--SS_TF-paletteTeal70:rgb(1, 195, 179);--SS_TF-colorBackgroundUtilityBarActive:rgb(27, 150, 255);--SS_TF-zIndexSticky:100;--SS_TF-colorBackgroundContextBarShadow:linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 100%);--SS_TF-paletteTeal80:rgb(4, 225, 203);--SS_TF-palettePurple90:rgb(236, 225, 249);--SS_TF-squareIconUtilityLarge:1.5rem;--SS_TF-fontSize10:2rem;--SS_TF-groupDefaultAvatarMedium:url(/_slds/images/group_avatar_160.png?cache=b8fe8e83);--SS_TF-elevationShadow32:0 32px 32px 0 rgba(0, 0, 0, 0.16);--SS_TF-paletteOrange30:rgb(95, 62, 2);--SS_TF-colorBorderButtonInverseDisabled:rgba(255, 255, 255, 0.15);--SS_TF-fontSize11:2.625rem;--SS_TF-einsteinHeaderTextShadow:#cfe9fe;--SS_TF-palettePurple95:rgb(246, 242, 251);--SS_TF-squareTappableXxSmall:1.25rem;--SS_TF-colorBackgroundDestructiveHover:rgb(142, 3, 15);--SS_TF-fontSize9:1.75rem;--SS_TF-colorBackgroundLight:rgb(255, 255, 255);--SS_TF-fontSize8:1.5rem;--SS_TF-paletteTeal90:rgb(172, 243, 228);--SS_TF-shadowActive:0 0 2px #0176d3;--SS_TF-fontSize1:0.625rem;--SS_TF-paletteNeutral100:rgb(255, 255, 255);--SS_TF-colorTextLink:rgb(1, 118, 211);--SS_TF-pageHeaderTitleFontSize:1.125rem;--SS_TF-fontSize3:0.8125rem;--SS_TF-fontSize2:0.75rem;--SS_TF-colorTextLinkInverseDisabled:rgba(255, 255, 255, 0.15);--SS_TF-fontSize5:1rem;--SS_TF-fontSize4:0.875rem;--SS_TF-fontSize7:1.25rem;--SS_TF-fontSize6:1.125rem;--SS_TF-spacingNone:0;--SS_TF-paletteOrange40:rgb(130, 81, 1);--SS_TF-inputReadonlyFontWeight:400;--SS_TF-palettePurple60:rgb(173, 123, 238);--SS_TF-paletteTeal95:rgb(222, 249, 243);--SS_TF-colorStrokeHeaderButton:rgb(174, 174, 174);--SS_TF-typingIconDotColorBackgroundGray:rgb(201, 201, 201);--SS_TF-palettePurple65:rgb(183, 141, 239);--SS_TF-pageHeaderTitleFontWeight:400;--SS_TF-colorBackgroundButtonIconFocus:rgb(243, 243, 243);--SS_TF-groupDefaultAvatarSmall:url(/_slds/images/group_avatar_96.png?cache=d0659d12);--SS_TF-colorBackgroundModalBrand:rgb(1, 68, 134);--SS_TF-colorTextInverseActive:rgb(26, 185, 255);--SS_TF-colorBackgroundHighlightSearch:rgb(255, 240, 63);--SS_TF-paletteOrange50:rgb(169, 100, 4);--SS_TF-colorBackgroundSuccessDark:rgb(46, 132, 74);--SS_TF-shadowOverlay:0 -2px 4px rgba(0, 0, 0, 0.07);--SS_TF-sizeXSmall:12rem;--SS_TF-colorBackgroundDestructive:rgb(186, 5, 23);--SS_TF-typingIconDotSize:.5rem;--SS_TF-palettePurple70:rgb(194, 158, 241);--SS_TF-colorBorderInfo:rgb(116, 116, 116);--SS_TF-colorTextTabLabel:rgb(3, 45, 96);--SS_TF-palettePink15:rgb(75, 6, 32);--SS_TF-popoverWalkthroughColorBackgroundAlt:rgb(1, 118, 211);--SS_TF-durationImmediately:0.05s;--SS_TF-palettePink10:rgb(55, 1, 20);--SS_TF-elevationInverseShadow16:0 -16px 16px 0 rgba(0, 0, 0, 0.16);--SS_TF-salesforceSansLightWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Light.woff2);--SS_TF-splitViewWidth:25rem;--SS_TF-colorBorderIconInverseHint:rgba(255, 255, 255, 0.5);--SS_TF-brandDisabled:rgb(201, 199, 197);--SS_TF-paletteOrange60:rgb(221, 122, 1);--SS_TF-palettePurple40:rgb(117, 38, 227);--SS_TF-paletteOrange65:rgb(243, 131, 3);--SS_TF-progressColorBackground:rgb(255, 255, 255);--SS_TF-colorBorderContextBarThemeDefaultActive:rgb(243, 243, 243);--SS_TF-avatarGroupColorBackgroundInverse:rgb(116, 116, 116);--SS_TF-colorBackgroundAlt2:rgb(243, 243, 243);--SS_TF-cardFontWeight:400;--SS_TF-colorPickerSwatchShadow:inset 0 0 1px rgba(0,0,0,0.4);--SS_TF-paletteOrange70:rgb(254, 147, 57);--SS_TF-colorTextIconBrand:rgb(1, 118, 211);--SS_TF-colorTextButtonDefault:rgb(1, 118, 211);--SS_TF-palettePurple50:rgb(144, 80, 233);--SS_TF-pathButtonWidthFixed:13rem;--SS_TF-sizeLarge:25rem;--SS_TF-userDefaultAvatarMedium:url(/_slds/images/profile_avatar_160.png?cache=bfba2c9a);--SS_TF-colorBorderDestructive:rgb(234, 0, 30);--SS_TF-colorTextWeak:rgb(116, 116, 116);--SS_TF-fontSizeHeadingMedium:1.125rem;--SS_TF-mqSingleColumnRecordLayout:(max-width: 599px);--SS_TF-colorBackgroundInputSearch:rgba(0, 0, 0, 0.16);--SS_TF-welcomeMatBackgroundColorInfo:rgb(207, 233, 254);--SS_TF-colorBorderBrandPrimary:rgb(27, 150, 255);--SS_TF-colorBackgroundInverse:rgb(0, 22, 57);--SS_TF-maxWidthActionOverflowMenu:512px;--SS_TF-paletteNeutral10:rgb(24, 24, 24);--SS_TF-carouselColorBackground:rgb(255, 255, 255);--SS_TF-colorTextLabel:rgb(116, 116, 116);--SS_TF-colorBackgroundButtonSuccessActive:rgb(46, 132, 74);--SS_TF-squareIconLarge:3.125rem;--SS_TF-spinnerSizeXSmall:1rem;--SS_TF-paletteOrange80:rgb(255, 186, 144);--SS_TF-cardSpacingMargin:1rem;--SS_TF-colorTextBrowserActive:rgba(0, 0, 0, 0.4);--SS_TF-colorBackgroundButtonBrandHover:rgb(1, 68, 134);--SS_TF-chatMessageColorBackgroundOutbound:rgb(1, 68, 134);--SS_TF-colorTextIconDefaultActive:rgb(3, 45, 96);--SS_TF-palettePurple20:rgb(64, 16, 117);--SS_TF-colorTextIconDefaultHover:rgb(1, 118, 211);--SS_TF-colorTextLinkPrimary:rgb(1, 118, 211);--SS_TF-fontSizeTextXSmall:0.75rem;--SS_TF-colorBackgroundToast:rgb(116, 116, 116);--SS_TF-fontSizeXxLarge:2rem;--SS_TF-heightSalesPath:2rem;--SS_TF-colorTextIconDefaultHintBorderless:rgb(243, 243, 243);--SS_TF-paletteOrange95:rgb(255, 241, 234);--SS_TF-colorForegroundPrimary:rgb(255, 255, 255);--SS_TF-paletteOrange90:rgb(254, 223, 208);--SS_TF-colorBackgroundRowNew:rgb(205, 239, 196);--SS_TF-fontSizeTextLarge:1.125rem;--SS_TF-paletteGreen15:rgb(12, 41, 18);--SS_TF-colorBackgroundShade:rgb(243, 243, 243);--SS_TF-paletteGreen10:rgb(7, 27, 18);--SS_TF-palettePurple30:rgb(90, 27, 169);--SS_TF-varSpacingXxxSmall:0.125rem;--SS_TF-brandLightActive:rgb(227, 229, 237);--SS_TF-welcomeMatTextColorInfo:rgb(3, 45, 96);--SS_TF-colorBackgroundIconWaffle:rgb(116, 116, 116);--SS_TF-colorBackgroundContextBarItemHover:rgb(255, 255, 255);--SS_TF-fontSizeXLargeA:1.57rem;--SS_TF-colorBackgroundPathCompleteHover:rgb(46, 132, 74);--SS_TF-palettePink50:rgb(227, 6, 106);--SS_TF-paletteViolet90:rgb(242, 222, 254);--SS_TF-paletteGreen20:rgb(28, 51, 38);--SS_TF-paletteViolet95:rgb(249, 240, 255);--SS_TF-colorBorderContextBarThemeDefaultHover:rgb(50, 29, 113);--SS_TF-squareIconMedium:2.375rem;--SS_TF-textTransform:none;--SS_TF-colorBackgroundBrandPrimaryHover:rgb(1, 68, 134);--SS_TF-colorTextSuccess:rgb(46, 132, 74);--SS_TF-carouselIndicatorColorBackgroundFocus:rgb(1, 68, 134);--SS_TF-colorBackgroundChromeDesktop:rgb(255, 255, 255);--SS_TF-borderStrokeWidthThick:2px;--SS_TF-colorBackgroundReminder:rgb(243, 243, 243);--SS_TF-palettePurple15:rgb(48, 11, 96);--SS_TF-colorTextToast:rgb(243, 243, 243);--SS_TF-paletteViolet80:rgb(229, 185, 254);--SS_TF-colorBackgroundAlt:rgb(255, 255, 255);--SS_TF-palettePink40:rgb(182, 5, 84);--SS_TF-paletteGreen30:rgb(25, 78, 49);--SS_TF-palettePurple10:rgb(36, 6, 67);--SS_TF-elevationInverseShadow32:0 -32px 32px 0 rgba(0, 0, 0, 0.16);--SS_TF-colorBorderCustomer:rgb(254, 147, 57);--SS_TF-tableColorBackgroundStripes:rgb(243, 243, 243);--SS_TF-varSpacingVerticalSmall:0.75rem;--SS_TF-palettePink30:rgb(138, 3, 62);--SS_TF-paletteViolet70:rgb(216, 146, 254);--SS_TF-colorBorderContextBarInverseItem:rgba(255, 255, 255, 0.2);--SS_TF-utilityBarColorBackgroundNotificationBadge:rgb(254, 92, 76);--SS_TF-colorTextTabLabelDisabled:rgb(243, 243, 243);--SS_TF-heightInput:1.875rem;--SS_TF-squareTappable:2.75rem;--SS_TF-fontSizeSmall:0.875rem;--SS_TF-paletteGreen40:rgb(57, 101, 71);--SS_TF-tableColorBackgroundHeaderFocus:rgb(255, 255, 255);--SS_TF-salesforceSansRegularWoff2:url(/_slds/fonts/v2.3.0/SalesforceSans-Regular.woff2);--SS_TF-varSpacingHorizontalXxLarge:3rem;--SS_TF-paletteViolet65:rgb(209, 125, 254);--SS_TF-progressBarColorBackgroundFill:rgb(26, 185, 255);--SS_TF-colorBorderSeparator:rgb(243, 243, 243);--SS_TF-paletteGreen50:rgb(46, 132, 74);--SS_TF-brandHeaderIconDisabled:rgba(145, 145, 145, 0.25);--SS_TF-palettePink20:rgb(97, 2, 42);--SS_TF-splitViewColorBackground:rgb(243, 243, 243);--SS_TF-colorBackgroundSecondary:rgb(243, 243, 243);--SS_TF-colorTextLinkFocus:rgb(1, 68, 134);--SS_TF-paletteViolet60:rgb(203, 101, 255);}</style><link data-href="/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22cac%22%3A0%2C%22app%22%3A%22siteforce%3AloginApp2%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AloginApp2%22%3A%22pcPPayqcZQMGCHm8xPXO1w%22%7D%2C%22styleContext%22%3A%7B%22c%22%3A%22other%22%2C%22x%22%3A%5B%22isDesktop%22%5D%2C%22tokens%22%3A%5B%22markup%3A%2F%2Fforce%3AsldsTokens%22%2C%22markup%3A%2F%2Fsiteforce%3AnapiliAuraTokens%22%2C%22markup%3A%2F%2Fsiteforce%3AneutralTokens%22%2C%22markup%3A%2F%2Fsiteforce%3AserializedTokens%22%2C%22markup%3A%2F%2Fsiteforce%3AcommunityTokens%22%2C%22markup%3A%2F%2Fsiteforce%3AauraDynamicTokens%22%5D%2C%22tuid%22%3A%229iSrLs9AY4UABjB7Qfv97A%22%2C%22cuid%22%3A801198189%7D%2C%22pathPrefix%22%3A%22%22%7D/app.css?2=&aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%2219862d73-c1d7-4aa2-baa1-444a79579792%22%2C%22formFactor%22%3A%22LARGE%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%2214d18397-a133-4841-b2fc-9656e6aad3f9%22%2C%22publishedChangelistNum%22%3A%22443%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Login%22%2C%22uds%22%3A%22false%22%2C%22viewType%22%3A%22Published%22%7D" class="auraCss" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" id="siteforce_fontStyleSheet" href="/s/sfsites/runtimedownload/fonts.css?lastMod=1640022154000&brandSet=19862d73-c1d7-4aa2-baa1-444a79579792" type="text/css"/>
+<style id="themeCSS"></style><style id="customCSS">/* *************************************************
+** HEADER - START
+**************************************************** */
+
+.logoImage {
+    height: 21px !important;
+    width: 290px !important;
+    margin-top: 5px !important;
+    margin-left: 15px !important;
+}
+@media screen and (min-width: 521px) {
+    .logoImage {
+        height: 35px !important;
+        width: 400px !important; 
+    }
+}
+
+.forceCommunityThemeNav li {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+@media screen and (min-width: 521px) {
+    .forceCommunityThemeNav li .subMenu {
+        width: 200px;
+    }
+}
+
+/* hide home in the navigation */
+.forceCommunityThemeNav .comm-navigation__top-level-item.mainNavItem:first-child {
+    display: none;
+}
+
+/* custom Contact Us button (fixed position) */
+.forceCommunityRichText a.contactUsButton {
+    background-color: #d47f29;
+    border-color: #d47f29;
+    border-radius: 0;
+    font-size: 1.125rem;
+    min-width: 135px;
+    padding: 5px 24px;
+    position: fixed;
+    right: 0;
+    top: 92px;
+    width: auto;
+    z-index: 4;
+}
+
+.forceCommunityRichText a.contactUsButton:hover,
+.forceCommunityRichText a.contactUsButton:focus {
+    background-color: #c07224;
+    border-color: #c07224;
+    color: #ffffff !important;
+}
+
+@media only screen and (min-width: 48em) {
+    .forceCommunityThemeNav.jepsonInnerHeader .mainNavItem .linkBtn:hover,
+    .forceCommunityThemeNav.jepsonHomeHeader .mainNavItem .linkBtn:hover {
+        border-bottom: 2px solid rgb(0, 56, 112);
+    }
+}
+
+/* Mobile and Tablet - adjust top placement */
+@media screen and (max-width: 767px) {
+    .forceCommunityRichText a.contactUsButton {
+        top: 48px;
+    }
+    
+    .forceCommunityThemeNav .visible-links {
+        margin-top: 41px;
+    }
+}
+
+/* Mobile - stretches across window, slide down navigation */
+@media screen and (max-width: 520px) {
+    .forceCommunityRichText a.contactUsButton {
+        width: 100%;
+    }
+}
+
+/* *************************************************
+** HEADER - END
+**************************************************** */
+
+/* *************************************************
+** GENERAL - START
+**************************************************** */
+
+.orangeKPITextHome {
+    color: #d47f29;
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 3rem;
+    line-height: 3.125rem;
+    margin: -20px 0;
+}
+
+.orangeKPITextAircraft {
+    color: #d47f29;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: -24px;
+}
+
+.orangeTextAircraft {
+    color: #d47f29;
+    font-size: 1.125rem;
+    margin-bottom: -24px;
+}
+
+.orangeKPITextCareers {
+    color: #d47f29;
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    margin: -20px 0;
+}
+
+/* *************************************************
+** GENERAL - END
+**************************************************** */
+
+/* *************************************************
+** ANCHOR - START
+**************************************************** */
+
+.anchor {
+    position: relative;
+}
+
+.anchor a {
+    position: absolute;
+    top: -82px;
+    left: 0;
+}
+
+/* *************************************************
+** ANCHOR - END
+**************************************************** */
+
+/* *************************************************
+** BUTTON - START
+**************************************************** */
+
+div.ui-widget svg[data-key=''] {
+    display: none;
+}
+
+.ui-widget .slds-button_brand,
+.ui-widget div.forceCommunityContactSupportForm .contactSupportButton {
+    border-radius: 0;
+    font-size: 1.1875rem;
+    padding: .75rem 1.25rem;
+}
+
+.ui-widget .slds-button_brand:hover,
+.ui-widget .slds-button_brand:focus,
+.ui-widget div.forceCommunityContactSupportForm .contactSupportButton:hover,
+.ui-widget div.forceCommunityContactSupportForm .contactSupportButton:focus {
+    text-decoration: underline;
+}
+
+/* *************************************************
+** BUTTON - END
+**************************************************** */
+
+/* *************************************************
+** CARD LAYOUT - START
+**************************************************** */
+/*
+.forceCommunityCardLayout > .slds-grid > .slds-is-relative,
+.forceCommunityCardLayout > .slds-grid_reverse > .slds-is-relative {
+    min-width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .forceCommunityCardLayout > .slds-grid > .slds-is-relative,
+    .forceCommunityCardLayout > .slds-grid_reverse > .slds-is-relative {
+        min-width: unset;
+    }
+}
+*/
+/* *************************************************
+** CARD LAYOUT - END
+**************************************************** */
+
+/* *************************************************
+** CMS SINGLE ITEM - START
+**************************************************** */
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h1,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h1,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h1,
+.forceCommunityCardLayout.js-content .js-content-subtitle span h2,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h2,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h2,
+.forceCommunityCardLayout.js-content .js-content-subtitle span h3,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h3,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h3,
+.forceCommunityCardLayout.js-content .js-content-subtitle span h4,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h4,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h4,
+.forceCommunityCardLayout.js-content .js-content-subtitle span h5,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h5,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h5,
+.forceCommunityCardLayout.js-content .js-content-subtitle span h6,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h6,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h6 {
+    padding-bottom: .375rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h1,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h1,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h1 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h2,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h2,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h2 {
+    font-size: 1.875rem;
+    line-height: 2rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h3,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h3,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h4,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h4,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h4 {
+    font-size: 1.375rem;
+    font-weight: bold;
+    line-height: 1.8125rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h5,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h5,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h5 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span h6,
+.forceCommunityTileLayout.js-content .js-content-subtitle span h6,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span h6 {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: .9375rem;
+}
+
+.forceCommunityCardLayout.js-content .js-content-subtitle span p,
+.forceCommunityTileLayout.js-content .js-content-subtitle span p,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span p,
+.forceCommunityCardLayout.js-content .js-content-subtitle span ol,
+.forceCommunityTileLayout.js-content .js-content-subtitle span ol,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span ol,
+.forceCommunityCardLayout.js-content .js-content-subtitle span ul,
+.forceCommunityTileLayout.js-content .js-content-subtitle span ul,
+.forceCommunityBannerLayout.js-content .js-content-subtitle span ul {
+    font-size: 1.125rem;
+}
+
+/* *************************************************
+** CMS SINGLE ITEM - END
+**************************************************** */
+
+/* *************************************************
+** CTA - START
+**************************************************** */
+
+.njejm-cta {
+    background-color: #323639;
+    padding: 30px 0;
+}
+
+.njejm-cta_title {
+    color: #d9c0a1;
+    font-family: PT Serif;
+    font-size: 1.875rem;
+    line-height: 2rem;
+}
+
+.njejm-cta_details,
+.njejm-cta .njejm-cta_details a {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #ffffff;
+}
+
+.njejm-cta .njejm-cta_details a {
+    text-decoration: underline;
+}
+
+.njejm-cta .njejm-cta_details a:hover,
+.njejm-cta .njejm-cta_details a:focus {
+    color: #ffffff;
+    opacity: .75;
+}
+
+.njejm-cta a.njejm-cta_button {
+    background-color: #d9c0a1;
+    border-radius: 0;
+    color: #323639;
+    display: inline-block;
+    font-size: 1.1875rem;
+    line-height: 1.5rem;
+    padding: .75rem 1.25rem;
+    width: 100%;
+}
+
+.njejm-cta a.njejm-cta_button:hover,
+.njejm-cta a.njejm-cta_button:focus {
+    background-color: #ceb596;
+}
+
+.njejm-cta_book-flight {
+    background-color: rgb(249, 249, 249);
+    font-size: 1.125rem;
+}
+
+@media screen and (min-width: 800px) {
+    p.njejm-cta_book-flights--item {
+        display: inline-block;
+    }
+}
+
+/* *************************************************
+** CTA - END
+**************************************************** */
+
+/* *************************************************
+** HEADLINE - START
+**************************************************** */
+
+.forceCommunityHeadline h1.headlineTitle {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+.forceCommunityHeadline p.headlineInfo {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+/* *************************************************
+** HEADLINE - END
+**************************************************** */
+
+/* *************************************************
+** HERO - START
+**************************************************** */
+
+.hero .forceCommunityThemeHeroBase h1.contentCaption,
+.hero .forceCommunityThemeHeroBase h2.contentTitle,
+.hero .forceCommunityThemeHeroBase p.contentSubtitle {
+    text-shadow: 0 0 1.5rem #003870 !important;
+}
+
+.hero .forceCommunityThemeHeroBase h1.contentCaption {
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+
+}
+
+.hero .forceCommunityThemeHeroBase h2.contentTitle {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.hero .forceCommunityThemeHeroBase p.contentSubtitle {
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+}
+
+.hero .forceCommunityThemeHeroBase a.ctaBtnOne,
+.hero .forceCommunityThemeHeroBase a.ctaBtnTwo {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding: .75rem 1.25rem;
+}
+
+.hero .forceCommunityThemeHeroBase a.ctaBtnOne:hover,
+.hero .forceCommunityThemeHeroBase a.ctaBtnTwo:hover {
+    text-decoration: underline;
+}
+
+
+/* linear gradient for hero image */
+.hero .bgOverlay.comm-is-absolute {
+    background-image: linear-gradient(180deg, #003870 0%, rgba(8,71,129,0.00) 100%) !important;
+}
+
+/* *************************************************
+** HERO - START
+**************************************************** */
+
+/* *************************************************
+** RICH CONTENT EDITOR - START
+**************************************************** */
+
+.forceCommunityRichText.forceCommunityRichTextInline h1,
+.forceCommunityRichText.forceCommunityRichTextInline h2,
+.forceCommunityRichText.forceCommunityRichTextInline h3,
+.forceCommunityRichText.forceCommunityRichTextInline h4,
+.forceCommunityRichText.forceCommunityRichTextInline h5,
+.forceCommunityRichText.forceCommunityRichTextInline h6 {
+    padding-bottom: .375rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline h1 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline h2 {
+    font-size: 1.875rem;
+    line-height: 2rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline h4 {
+    font-size: 1.375rem;
+    font-weight: bold;
+    line-height: 1.8125rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline h5 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline h6 {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: .9375rem;
+}
+
+.forceCommunityRichText.forceCommunityRichTextInline p,
+.forceCommunityRichText.forceCommunityRichTextInline ol,
+.forceCommunityRichText.forceCommunityRichTextInline ul {
+    font-size: 1.125rem;
+}
+
+/* *************************************************
+** RICH CONTENT EDITOR - END
+**************************************************** */
+
+/* *************************************************
+** TABLE (CA PRIVACY) - START
+**************************************************** */
+
+.njejm-table_ca-privacy table {
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+@media (max-width: 48em) {
+    .njejm-table_ca-privacy .njejm_word-break {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+}
+
+.njejm-table_ca-privacy table, th, td {
+    border: solid 1px black;
+    vertical-align: top;
+    padding: 3px;
+}
+
+.njejm-table_ca-privacy th {
+    background-color: #dddddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forceCommunityRichText .njejm-table_ca-privacy ul {
+    padding-left: 0;
+}
+
+.forceCommunityRichText .njejm-table_ca-privacy li {
+    padding-left: 1em;
+}
+
+/* *************************************************
+** TABLE (CA PRIVACY) - END
+**************************************************** */
+
+/* *************************************************
+** TABLE (JET GALLERY) - START
+**************************************************** */
+
+.njejm-table_jet-gallery .slds-grid {
+    padding: 20px 0;
+    border-bottom: solid 1px #d9c0a1;
+    font-size: 1.125rem;
+}
+
+.njejm-table_jet-gallery .slds-grid:first-child {
+    border-top: solid 3px #d9c0a1;
+}
+
+.njejm-table_jet-gallery .slds-grid:last-child {
+    border-bottom-width: 3px;
+}
+
+.njejm-table_jet-gallery .slds-grid .slds-grid {
+    border-bottom: none;
+    padding: 0;
+}
+
+.njejm-table_jet-gallery > .slds-grid > .slds-col:first-child {
+    font-weight: bold;
+}
+
+@media (max-width: 48em) {
+    .njejm-table_jet-gallery .slds-grid .slds-col:first-child {
+        padding-bottom: 10px;
+    }
+
+    .njejm-table_jet-gallery .slds-grid .slds-grid .slds-col {
+        padding-bottom: 10px;
+    }
+
+    .njejm-table_jet-gallery .slds-grid .slds-grid .slds-col:last-child {
+        padding-bottom: 0;
+    }
+}
+
+/* *************************************************
+** TABLE (JET GALLERY) - END
+**************************************************** */
+
+/* *************************************************
+** TESTIMONIAL - START
+**************************************************** */
+
+.njejm-testimonial_quote {
+    color: #d47f29;
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+    font-style: italic;
+    font-family: PT Serif;
+}
+
+.njejm-testimonial_quote-attribution {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* *************************************************
+** TESTIMONIAL - END
+**************************************************** */
+
+/* *************************************************
+** CONTACT FORM - START
+**************************************************** */
+.forceCommunityContactSupportConfirmation > .requestSummaryHeader,
+.forceCommunityContactSupportConfirmation > .slds-grid {
+    display: none;
+}
+/* *************************************************
+** CONTACT FORM - END
+**************************************************** */
+
+/* *************************************************
+** FOOTER - START
+**************************************************** */
+
+.njejm-footer {
+    color: #323639;
+}
+
+.njejm-footer a {
+    font-weight: bold;
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--twitter,
+.njejm-footer a.njejm-footer_social-media-icon--linkedin,
+.njejm-footer a.njejm-footer_social-media-icon--instagram,
+.njejm-footer a.njejm-footer_social-media-icon--facebook {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.njejm-footer a.njejm-footer_social-media-icon:hover .icon-default,
+.njejm-footer a.njejm-footer_social-media-icon .icon-hover {
+    display: none;
+}
+
+.njejm-footer a.njejm-footer_social-media-icon .icon-default,
+.njejm-footer a.njejm-footer_social-media-icon:hover .icon-hover {
+    display: inline-block;
+}
+
+/*.njejm-footer a.njejm-footer_social-media-icon--twitter {
+    background-image: url(/sfsites/c/resource/1579731895000/twitter_icon_svg);
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--twitter:hover {
+    background-image: url(/sfsites/c/resource/1579731895000/twitter_icon_hover_svg);
+}*/
+
+.njejm-footer a.njejm-footer_social-media-icon--linkedin {
+    background-image: url(/sfsites/c/resource/1579731895000/linkedin_icon_svg);
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--linkedin:hover {
+    background-image: url(/sfsites/c/resource/1579731895000/linkedin_icon_hover_svg);
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--instagram {
+    background-image: url(/sfsites/c/resource/1579731895000/instagram_icon_svg);
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--instagram:hover {
+    background-image: url(/sfsites/c/resource/1579731895000/instagram_icon_hover_svg);
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--facebook {
+    background-image: url(/sfsites/c/resource/1579731895000/facebook_icon_svg);
+}
+
+.njejm-footer a.njejm-footer_social-media-icon--facebook:hover {
+    background-image: url(/sfsites/c/resource/1579731895000/facebook_icon_hover_svg);
+}
+
+.njejm-footer_item--mobile-padding-bottom {
+    margin-bottom: 1.25rem;
+}
+
+.njejm-footer_largeText {
+    font-size: 1rem;
+}
+
+.njejm-footer_mediumText {
+    font-size: .875rem;
+}
+
+.njejm-footer_smallText {
+    font-size: .75rem;
+}
+
+.njejm-footer_bottom {
+    background-color: #F9F9F9;
+}
+
+@media screen and (min-width: 1023px) {
+    .njejm-footer_item--mobile-padding-bottom {
+        margin-bottom: 0;
+    }
+
+    p.njejm-footer_item {
+        display: inline-block;
+    }
+
+    .njejm-footer_item:after {
+        border-right: 1px solid #cccccc;
+        content: '';
+        height: 90%;
+        margin: 20px;
+    }
+
+    .njejm-footer_item:last-child:after {
+        border-right: none;
+    }
+
+    .njejm-footer {
+        text-align: center;
+    }
+}
+
+/* *************************************************
+** FOOTER - END
+**************************************************** */
+
+/* *************************************************
+** OVERRIDE ONETRUST BUTTON - START
+**************************************************** */
+
+ 
+
+button#ot-sdk-btn.ot-sdk-show-settings {
+  all: unset;
+  appearance: none;
+  padding: 0 0 8px 0;
+  border: none;
+  font-size: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: var(--lwc-varLineHeightText, 1.5);
+  color: var(--lwc-colorTextLink, rgb(0, 56, 112));
+  cursor: pointer;
+}
+
+ 
+
+button#ot-sdk-btn.ot-sdk-show-settings:hover {
+  background-color: unset;
+  color: var(--lwc-colorTextLink, rgb(0, 56, 112));
+  text-decoration: underline;
+}
+
+ 
+
+/* *************************************************
+** OVERRIDE ONETRUST BUTTON - END
+**************************************************** */
+
+/* *************************************************
+** DARKSITE - START
+**************************************************** */
+.bottom-banner * {
+    color: white !important;
+}
+
+.bottom-banner a {
+    text-decoration: underline;
+}
+
+.darksite-modal .body * {
+    color: white !important;
+}
+
+.darksite-modal .body a {
+    text-decoration: underline;
+}
+/* *************************************************
+** DARKSITE - END
+**************************************************** */</style><style>.salesforceIdentityLoginTemplate2 .assistiveText{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}:root{--dxp-g-root:var(--lwc-dxpGRoot,rgb(255, 255, 255));--dxp-g-root-1:var(--lwc-dxpGRoot1,rgb(235, 235, 235));--dxp-g-root-2:var(--lwc-dxpGRoot2,rgb(194, 194, 194));--dxp-g-root-3:var(--lwc-dxpGRoot3,rgb(133, 133, 133));--dxp-g-root-contrast:var(--lwc-dxpGRootContrast,rgb(51, 51, 51));--dxp-g-root-contrast-1:var(--lwc-dxpGRootContrast1,rgb(31, 31, 31));--dxp-g-root-contrast-2:var(--lwc-dxpGRootContrast2,rgb(0, 0, 0));--dxp-g-root-contrast-3:var(--lwc-dxpGRootContrast3,rgb(0, 0, 0));--dxp-g-neutral:var(--lwc-dxpGNeutral,#ecebea);--dxp-g-neutral-1:var(--lwc-dxpGNeutral1,rgb(217, 215, 213));--dxp-g-neutral-2:var(--lwc-dxpGNeutral2,rgb(178, 174, 170));--dxp-g-neutral-3:var(--lwc-dxpGNeutral3,rgb(118, 113, 107));--dxp-g-neutral-contrast:var(--lwc-dxpGNeutralContrast,#000);--dxp-g-neutral-contrast-1:var(--lwc-dxpGNeutralContrast1,#000);--dxp-g-neutral-contrast-2:var(--lwc-dxpGNeutralContrast2,#000);--dxp-g-neutral-contrast-3:var(--lwc-dxpGNeutralContrast3,#fff);--dxp-g-brand:var(--lwc-dxpGBrand,rgb(0, 56, 112));--dxp-g-brand-1:var(--lwc-dxpGBrand1,rgb(0, 36, 71));--dxp-g-brand-2:var(--lwc-dxpGBrand2,rgb(0, 0, 0));--dxp-g-brand-3:var(--lwc-dxpGBrand3,rgb(0, 0, 0));--dxp-g-brand-contrast:var(--lwc-dxpGBrandContrast,rgb(255, 255, 255));--dxp-g-brand-contrast-1:var(--lwc-dxpGBrandContrast1,rgb(255, 255, 255));--dxp-g-brand-contrast-2:var(--lwc-dxpGBrandContrast2,rgb(255, 255, 255));--dxp-g-brand-contrast-3:var(--lwc-dxpGBrandContrast3,rgb(255, 255, 255));--dxp-g-success:#4bca81;--dxp-g-success-1:#36b66c;--dxp-g-success-2:#237747;--dxp-g-success-3:#07190f;--dxp-g-success-contrast:#000;--dxp-g-success-contrast-1:#000;--dxp-g-success-contrast-2:#fff;--dxp-g-success-contrast-3:#fff;--dxp-g-destructive:#c23934;--dxp-g-destructive-1:#a2302b;--dxp-g-destructive-2:#611d1a;--dxp-g-destructive-3:#010000;--dxp-g-destructive-contrast:#fff;--dxp-g-destructive-contrast-1:#fff;--dxp-g-destructive-contrast-2:#fff;--dxp-g-destructive-contrast-3:#fff;--dxp-g-warning:#ffb75d;--dxp-g-warning-1:#ffa534;--dxp-g-warning-2:#e27d00;--dxp-g-warning-3:#673900;--dxp-g-warning-contrast:#000;--dxp-g-warning-contrast-1:#000;--dxp-g-warning-contrast-2:#000;--dxp-g-warning-contrast-3:#fff;--dxp-g-info:#16325c;--dxp-g-info-1:#0e203b;--dxp-g-info-2:#000000;--dxp-g-info-3:#000000;--dxp-g-info-contrast:#fff;--dxp-g-info-contrast-1:#fff;--dxp-g-info-contrast-2:#fff;--dxp-g-info-contrast-3:#fff;--dxp-g-offline:#444;--dxp-g-offline-1:#303030;--dxp-g-offline-2:#070707;--dxp-g-offline-3:#000000;--dxp-g-offline-contrast:#fff;--dxp-g-offline-contrast-1:#fff;--dxp-g-offline-contrast-2:#fff;--dxp-g-offline-contrast-3:#fff;--dxp-g-spacing-none:0!important;--dxp-g-spacing-xxxsmall:.125rem;--dxp-g-spacing-xxsmall:.25rem;--dxp-g-spacing-xsmall:.5rem;--dxp-g-spacing-small:.75rem;--dxp-g-spacing-medium:1rem;--dxp-g-spacing-large:1.5rem;--dxp-g-spacing-xlarge:2rem;--dxp-g-spacing-xxlarge:3rem;--dxp-g-root-font-family:var(--lwc-fontFamily,Source Sans Pro);--dxp-g-heading-font-family:var(--lwc-fontFamilyHeader,PT Serif);--dxp-g-font-size-1:.625rem;--dxp-g-font-size-2:.75rem;--dxp-g-font-size-3:.8125rem;--dxp-g-font-size-4:.875rem;--dxp-g-font-size-5:1rem;--dxp-g-font-size-6:1.125rem;--dxp-g-font-size-7:1.25rem;--dxp-g-font-size-8:1.5rem;--dxp-g-font-size-9:1.75rem;--dxp-g-font-size-10:2rem;--dxp-g-font-size-11:2.625rem;--dxp-s-html-font-size:16px;--dxp-s-text-heading-extra-large-font-family:var(--lwc-fontFamilyHeader,PT Serif);--dxp-s-text-heading-extra-large-font-size:2.5rem;--dxp-s-text-heading-extra-large-font-style:normal;--dxp-s-text-heading-extra-large-font-weight:300;--dxp-s-text-heading-extra-large-text-decoration:none;--dxp-s-text-heading-extra-large-text-transform:var(--lwc-textTransform,none);--dxp-s-text-heading-extra-large-line-height:1.25;--dxp-s-text-heading-extra-large-letter-spacing:0;--dxp-s-text-heading-large-font-family:var(--lwc-fontFamilyHeader,PT Serif);--dxp-s-text-heading-large-font-size:1.75rem;--dxp-s-text-heading-large-font-style:normal;--dxp-s-text-heading-large-font-weight:300;--dxp-s-text-heading-large-text-decoration:none;--dxp-s-text-heading-large-text-transform:var(--lwc-textTransform,none);--dxp-s-text-heading-large-line-height:1.25;--dxp-s-text-heading-large-letter-spacing:0;--dxp-s-text-heading-medium-font-family:var(--lwc-fontFamilyHeader,PT Serif);--dxp-s-text-heading-medium-font-size:1.25rem;--dxp-s-text-heading-medium-font-style:normal;--dxp-s-text-heading-medium-font-weight:300;--dxp-s-text-heading-medium-text-decoration:none;--dxp-s-text-heading-medium-text-transform:var(--lwc-textTransform,none);--dxp-s-text-heading-medium-line-height:1.25;--dxp-s-text-heading-medium-letter-spacing:0;--dxp-s-text-heading-small-font-family:var(--lwc-fontFamilyHeader,PT Serif);--dxp-s-text-heading-small-font-size:1.125rem;--dxp-s-text-heading-small-font-style:normal;--dxp-s-text-heading-small-font-weight:300;--dxp-s-text-heading-small-text-decoration:none;--dxp-s-text-heading-small-text-transform:var(--lwc-textTransform,none);--dxp-s-text-heading-small-line-height:1.25;--dxp-s-text-heading-small-letter-spacing:0;--dxp-s-body-font-family:var(--lwc-fontFamily,Source Sans Pro);--dxp-s-body-font-size:1rem;--dxp-s-body-font-style:normal;--dxp-s-body-font-weight:400;--dxp-s-body-text-decoration:none;--dxp-s-body-text-transform:none;--dxp-s-body-line-height:1.5;--dxp-s-body-letter-spacing:0;--dxp-s-body-small-font-family:var(--lwc-fontFamily,Source Sans Pro);--dxp-s-body-small-font-size:.75rem;--dxp-s-body-small-font-style:normal;--dxp-s-body-small-font-weight:400;--dxp-s-body-small-text-decoration:none;--dxp-s-body-small-text-transform:none;--dxp-s-body-small-line-height:1.25;--dxp-s-body-small-letter-spacing:0;--dxp-s-button-font-family:var(--lwc-fontFamily,Source Sans Pro);--dxp-s-button-font-size:1rem;--dxp-s-button-font-style:normal;--dxp-s-button-font-weight:400;--dxp-s-button-text-transform:var(--lwc-textTransform,none);--dxp-s-button-line-height:2;--dxp-s-button-letter-spacing:0;--dxp-s-link-text-decoration:none;--dxp-s-link-text-decoration-focus:underline;--dxp-s-link-text-decoration-hover:underline;--dxp-s-site-logo-path:var(--lwc-brandLogoImage,/file-asset/MicrosoftTeamsimage_4?v=1);--dxp-s-site-logo-url:var(--lwc-brandLogoImage,url(/file-asset/MicrosoftTeamsimage_4?v=1));--dxp-s-section-columns-max-width:1800px;--dxp-s-header-content-max-width:1rem;--dxp-s-footer-content-max-width:1rem;--dxp-s-section-content-spacing-block-start:1rem;--dxp-s-section-content-spacing-block-end:1rem;--dxp-s-column-spacer-size:1rem;--dxp-s-component-wrapper-spacer-size:1.5rem;--dxp-s-section-columns-max-width-mobile:none;--dxp-s-header-content-max-width-mobile:none;--dxp-s-footer-content-max-width-mobile:none;--dxp-s-section-content-spacing-block-start-mobile:.75rem;--dxp-s-section-content-spacing-block-end-mobile:.75rem;--dxp-s-column-spacer-size-mobile:.75rem;--dxp-s-component-wrapper-spacer-size-mobile:1.5rem}</style></head><body class="null loading"><div class="auraMsgBox auraLoadingBox" id="auraLoadingBox"><div class="logo"></div><div class="spinner"></div><span>Loading</span></div><div class="" id="auraErrorMask"><div class="auraErrorBox" id="auraError"><span><a id="dismissError" class="close">×</a>Sorry to interrupt</span><div id="auraErrorMessage">CSS Error</div><div id="auraErrorStack"></div><div class="auraErrorFooter"><a href="?" id="auraErrorReload">Refresh</a></div></div></div><script src="/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22cac%22%3A0%2C%22app%22%3A%22siteforce%3AloginApp2%22%2C%22fwuid%22%3A%22ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AloginApp2%22%3A%22pcPPayqcZQMGCHm8xPXO1w%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22JHt0aW1lc3RhbXB9MDAwMDAwMDAwMDBlbl9VUw%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/inline.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%2219862d73-c1d7-4aa2-baa1-444a79579792%22%2C%22formFactor%22%3A%22LARGE%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%2214d18397-a133-4841-b2fc-9656e6aad3f9%22%2C%22publishedChangelistNum%22%3A%22443%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Login%22%2C%22uds%22%3A%22false%22%2C%22viewType%22%3A%22Published%22%7D"></script><script src="/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22cac%22%3A0%2C%22app%22%3A%22siteforce%3AloginApp2%22%2C%22fwuid%22%3A%22ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AloginApp2%22%3A%22pcPPayqcZQMGCHm8xPXO1w%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22JHt0aW1lc3RhbXB9MDAwMDAwMDAwMDBlbl9VUw%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/resources.js?pv=1713797997000-773851749&rv=1713555068000"></script><script src="/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js"></script><script src="/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22cac%22%3A0%2C%22app%22%3A%22siteforce%3AloginApp2%22%2C%22serializationVersion%22%3A%221-248.10.5-5.0.10-b%22%2C%22parts%22%3A%22f%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AloginApp2%22%3A%22pcPPayqcZQMGCHm8xPXO1w%22%7D%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/app.js?2="></script><script src="/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22cac%22%3A0%2C%22app%22%3A%22siteforce%3AloginApp2%22%2C%22fwuid%22%3A%22ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AloginApp2%22%3A%22pcPPayqcZQMGCHm8xPXO1w%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22JHt0aW1lc3RhbXB9MDAwMDAwMDAwMDBlbl9VUw%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%2219862d73-c1d7-4aa2-baa1-444a79579792%22%2C%22formFactor%22%3A%22LARGE%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%2214d18397-a133-4841-b2fc-9656e6aad3f9%22%2C%22publishedChangelistNum%22%3A%22443%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Login%22%2C%22uds%22%3A%22false%22%2C%22viewType%22%3A%22Published%22%7D"></script></body></html>
