@@ -25,6 +25,116 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://chrishubbs.com/2025/01/24/reviewed-my-work-calendar-for.html" class="u-url"><time class="dt-published" datetime="2025-01-24 07:17:28 -0600">Jan 24, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Reviewed my work calendar for this past week and realized that by the time I get done with today I&rsquo;ll have had 28 hours of meetings across those days. I know sometimes the meetings <em>are</em> the job, but it&rsquo;s no wonder I feel like I&rsquo;ve gotten behind on things this week.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://chrishubbs.com/2025/01/23/reads-into-the-unknown-by.html" class="u-url"><time class="dt-published" datetime="2025-01-23 22:09:22 -0600">Jan 23, 2025</time></a>
+
+		<div class="e-content">
+			 <p>2025 Reads: <a href="https://micro.blog/books/9781541604384">Into the Unknown</a> by Kelsey Johnson 📚</p>
+<p>A delightful and thoughtful look into the scientific mysteries of the universe.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://chrishubbs.com/2025/01/23/if-john-calvin-had-a.html" class="u-url"><time class="dt-published" datetime="2025-01-23 08:09:20 -0600">Jan 23, 2025</time></a>
+
+		<div class="e-content">
+			 <p>If John Calvin had a bumper sticker…</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://chrishubbs.com/2025/01/23/an-absolutely-epic-australian-open.html" class="u-url"><time class="dt-published" datetime="2025-01-23 07:15:30 -0600">Jan 23, 2025</time></a>
+
+		<div class="e-content">
+			 <p>An absolutely epic Australian Open women&rsquo;s semifinal between Madison Keys and Iga Swiatek. 10-8 tiebreak for Keys in the third set!</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://chrishubbs.com/2025/01/21/my-photo-library-backup-strategy.html">My photo library backup strategy, circa 2025</a></h1>
+		
+
+		<a href="https://chrishubbs.com/2025/01/21/my-photo-library-backup-strategy.html" class="u-url"><time class="dt-published" datetime="2025-01-21 09:41:41 -0600">Jan 21, 2025</time></a>
+
+		<div class="e-content">
+			 <p>We got our first digital camera in late 2003, when we knew we had our first kid on the way. Over the years an assortment of cameras has filled our digital photo collection. I&rsquo;ve done only minimal collection management over the years, with my focus being mainly on ensuring I had good backups and didn&rsquo;t lose anything.</p>
+<p>For a long while I was using Google Photos as an online backup/library sharing service. This worked fine while I was only sharing photos with my wife, and while Google accommodated an unlimited number of photos. But eventually Google wanted to start charging money, and I wanted to be able to add my older children to the shared library as well. Since we&rsquo;re an iPhone family, an Apple-based solution felt like the right way to go. So I&rsquo;ve slowly been making the transition to a new setup, which just for grins I&rsquo;m going to detail out in this post.</p>
+<p>A few notes to set the scene:</p>
+<ol>
+<li>At this point we are taking all our photos with our iPhones. We don&rsquo;t have any other cameras.</li>
+<li>I have already conceded that I&rsquo;m going to pay Apple on a monthly basis for iCloud space, at a minimum so the family all has iPhone backups. That gives me enough space for a photo library, too.</li>
+</ol>
+<h3 id="the-old-way">The Old Way</h3>
+<p>My old strategy included:</p>
+<ol>
+<li>Google Photos app logged in to my Google account on both my phone and my wife&rsquo;s phone</li>
+<li><a href="https://www.photosync-app.com/home">PhotoSync app</a> on both phones doing automated backups to our local Synology NAS</li>
+<li>Synology backup to <a href="https://www.backblaze.com/cloud-storage">Backblaze</a> online</li>
+</ol>
+<p>This worked fine for quite a while.</p>
+<h3 id="moving-to-apple-photos">Moving to Apple Photos</h3>
+<p>When I decided to start using iCloud Photo Library and using Apple Photos as my primary storage/organization means I set up my main library on a big external drive hanging off a Mac Mini. I told it to import my photo backup from my Synology and walked away. A couple days later I came back and it looked like it was done. OK, fine. Eventually my wife did some more thorough inspection and noted that it failed hard on the import for everything before about 2019. So, I did a more structured walk through the import, importing one year at a time and more actively monitoring the imports to ensure they completed successfully. (I get an occasional network drop-out from the NAS for some reason that will kill the import mid-stream.)</p>
+<p>Eventually that import was successfully completed, with just about 100,000 photos in the shared library. Apple Photos identified about 10k duplicate photos, which didn&rsquo;t surprise me too much. I manually reviewed a bunch of them, concluded Photos was handling them correctly, and went ahead and told it to just go de-dupe the library. That got me down to just about 90,000 photos.</p>
+<p>At this point we all realized that the Google Photos backup and PhotoSync apps weren&rsquo;t going to be useful any more. Google Photos sees the full 90k photo Shared Library on your phone and tries to back it all up, immediately using up all your Google shared space. (Google then immediately tries to sell you more space. Pass.) PhotoSync does the same, saying &ldquo;hey you have 90k new photos&hellip; let&rsquo;s back them up to the Synology!&rdquo;. Yay, more duplicates.</p>
+<h3 id="the-new-way">The New Way</h3>
+<p>The new solution looks something like this:</p>
+<ol>
+<li>iPhone photos go into the Shared Photo library when we take them. This stores a copy in the Apple iCloud Photo Library.</li>
+<li>The Photos app on the Mac mini sucks those into its library, creating a local copy.</li>
+<li>I&rsquo;m running <a href="https://github.com/icloud-photos-downloader/icloud_photos_downloader">iCloud Photo Downloader</a> on the Synology, which logs in to my iCloud account and pulls down a copy of all the photos in the Photo Library onto the Synology NAS.</li>
+<li>The Synology NAS photo folder gets backed up to an attached USB drive.</li>
+<li>Backblaze backup then puts that Synology backup up in the Backblaze cloud.</li>
+</ol>
+<p>At that point I have two separate cloud copies saved in addition to three local copies, not counting whatever is stored on our phones. That feels secure enough to me. But the biggest win here for me is that the backup path is easier - no Google Photos app required, no PhotoSync app required. Just take photos, add them to the Shared Library, and everything else downstream just happens.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://chrishubbs.com/2025/01/21/so-the-forecast-for-this.html" class="u-url"><time class="dt-published" datetime="2025-01-21 06:40:09 -0600">Jan 21, 2025</time></a>
+
+		<div class="e-content">
+			 <p>So the forecast for this morning (-15F feels like -35F) hasn’t changed since yesterday. Would love to know why last night the school said just a 2 hour delay and then waited until 5 AM today to set everyone’s phones off with a cancellation notice. 😩</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://chrishubbs.com/2025/01/20/guess-its-the-day-for.html" class="u-url"><time class="dt-published" datetime="2025-01-20 07:21:01 -0600">Jan 20, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Guess it’s the day for the “how cold is it where you live?” contest. Here’s my entry. Thankfully the office is warm and the coffee is abundant.</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://chrishubbs.com/2025/01/18/heckuva-win-for-the-commanders.html" class="u-url"><time class="dt-published" datetime="2025-01-18 22:25:14 -0600">Jan 18, 2025</time></a>
 
 		<div class="e-content">
