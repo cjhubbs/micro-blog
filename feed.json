@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/10/03/reads-bewilderness-by-jonathan-maberry/",
+				
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9781680577969/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>2026 Reads: <a href=\"https://micro.blog/books/9781680577969\">Bewilderness</a> by Jonathan Maberry 📚</p>\n<p>Underdeveloped rapid-fire sci-fi thriller. Would’ve been intolerable if it wasn’t so easy to finish quickly.</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9781680577969/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\n2026 Reads: [Bewilderness](https://micro.blog/books/9781680577969) by Jonathan Maberry 📚\n\nUnderdeveloped rapid-fire sci-fi thriller. Would’ve been intolerable if it wasn’t so easy to finish quickly. \n",
+				"date_published": "2026-10-03T21:43:35-05:00",
+				"url": "https://chrishubbs.com/2026/10/03/reads-bewilderness-by-jonathan-maberry/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/10/03/in-the-first-half-nebraska/",
+				
+				"content_html": "<p>In the first half, Nebraska has given up two TD drives that took &lt; 1 min each, have almost 100 yards in penalties and only just over 100 yards in total offense, and still have the possibility here of going into halftime with a lead. Weird game.</p>\n",
+				"content_text": "In the first half, Nebraska has given up two TD drives that took < 1 min each, have almost 100 yards in penalties and only just over 100 yards in total offense, and still have the possibility here of going into halftime with a lead. Weird game.\n",
+				"date_published": "2026-10-03T16:58:12-05:00",
+				"url": "https://chrishubbs.com/2026/10/03/in-the-first-half-nebraska/",
+				"tags": ["Microposts"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/10/03/reads-the-grapes-of-wrath/",
 				
 				"content_html": "<img src=\"https://cdn.micro.blog/books/9780143039433/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>2026 Reads: <a href=\"https://micro.blog/books/9780143039433\">The Grapes of wrath</a> by John Steinbeck 📚</p>\n<p>Somehow had never read this one before. Phew.</p>\n",
@@ -22,7 +40,7 @@
 				"content_text": "Every podcast has to have a cringey first episode. This is mine. Fortunately for you it's very short.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-02-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/02/3281.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-10-02T09:54:49-05:00",
 				"url": "https://chrishubbs.com/2026/10/02/i-dont-know-why-youre/",
-				"tags": ["Longform"]
+				"tags": ["Longform","podcast"]
 			},
 			{
 				"id": "http://cjhubbs.micro.blog/2026/10/01/thinking-about-doing-a-little/",
