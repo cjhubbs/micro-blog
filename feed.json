@@ -7,11 +7,29 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/10/13/i-dont-know-why-youre/",
+				"title": "I Don’t Know Why You’re Listening to This: October 13, 2026",
+				"content_html": "<p>A few thoughts on big-city life from a small-city guy.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/i-dont-know-why-youre-listening-to-this-october-13-2026.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/13/3308.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "A few thoughts on big-city life from a small-city guy.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/i-dont-know-why-youre-listening-to-this-october-13-2026.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/13/3308.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2026-10-13T07:54:17-04:00",
+				"url": "https://chrishubbs.com/2026/10/13/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/10/12/i-dont-know-why-youre/",
+				"title": "I Don't Know Why You're Listening to This: October 12, 2026",
+				"content_html": "<p>I&rsquo;m headed to an airport for a business trip. So, let&rsquo;s talk about travel.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-12-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/12/3305.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "I'm headed to an airport for a business trip. So, let's talk about travel.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-12-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/12/3305.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2026-10-12T11:50:23-04:00",
+				"url": "https://chrishubbs.com/2026/10/12/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/10/11/ive-got-a-mini-pc/",
 				
 				"content_html": "<p>I&rsquo;ve got a mini PC running Debian for my home media and utility server. VNC has always been flaky as a remote desktop option. Got a <a href=\"https://www.gl-inet.com/en-us/products/gl-rm1pe?country=US\">GL.inet Comet KVM</a> yesterday. It&rsquo;s super-slick. Tailscale native. Connect USB and HDMI to the PC and can connect to the PC from anywhere I have a browser. Neat.</p>\n",
 				"content_text": "I've got a mini PC running Debian for my home media and utility server. VNC has always been flaky as a remote desktop option. Got a [GL.inet Comet KVM](https://www.gl-inet.com/en-us/products/gl-rm1pe?country=US) yesterday. It's super-slick. Tailscale native. Connect USB and HDMI to the PC and can connect to the PC from anywhere I have a browser. Neat.\n",
-				"date_published": "2026-10-11T20:50:13-05:00",
+				"date_published": "2026-10-11T21:50:13-04:00",
 				"url": "https://chrishubbs.com/2026/10/11/ive-got-a-mini-pc/",
 				"tags": ["Microposts"]
 			},
@@ -20,7 +38,7 @@
 				
 				"content_html": "<p>The Iowa Hawkeyes playing in Seattle tonight against U of W, didn&rsquo;t start until 8pm central. Fortunately for me, the Hawks are up 27-0 before halftime, think I can safely go to bed. Or switch over to the Iowa State game if ESPN ever lets them start it.</p>\n",
 				"content_text": "The Iowa Hawkeyes playing in Seattle tonight against U of W, didn't start until 8pm central. Fortunately for me, the Hawks are up 27-0 before halftime, think I can safely go to bed. Or switch over to the Iowa State game if ESPN ever lets them start it.\n",
-				"date_published": "2026-10-09T21:20:28-05:00",
+				"date_published": "2026-10-09T22:20:28-04:00",
 				"url": "https://chrishubbs.com/2026/10/09/the-iowa-hawkeyes-playing-in/",
 				"tags": ["Microposts"]
 			},
@@ -29,15 +47,15 @@
 				
 				"content_html": "<img src=\"https://cdn.micro.blog/books/9781250878724/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>2026 Reads: <a href=\"https://micro.blog/books/9781250878724\">The last kings of Hollywood: Coppola, Lucas, Spielberg and the battle for the soul of American cinema</a> by Paul Fischer 📚</p>\n",
 				"content_text": "<img src=\"https://cdn.micro.blog/books/9781250878724/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\n2026 Reads: [The last kings of Hollywood: Coppola, Lucas, Spielberg and the battle for the soul of American cinema](https://micro.blog/books/9781250878724) by Paul Fischer 📚\n",
-				"date_published": "2026-10-09T21:10:10-05:00",
+				"date_published": "2026-10-09T22:10:10-04:00",
 				"url": "https://chrishubbs.com/2026/10/09/reads-the-last-kings-of/",
 				"tags": ["Microposts"]
 			},
 			{
 				"id": "http://cjhubbs.micro.blog/2026/10/09/dont-know-that-i-intended/",
 				
-				"content_html": "<p>Don’t know that I intended to run a half marathon when I started out today. Wasn’t really properly fueled, kinda dragged at the end. Still, a nice accomplishment for a Friday afternoon.</p>\n<p><img src=\"https://chrishubbs.com/uploads/2026/image-20261009-162502-6d67a7e7.jpg\" alt=\"Apple fitness infographic of 13.1 mile run in 2:11\"></p>\n",
-				"content_text": "Don’t know that I intended to run a half marathon when I started out today. Wasn’t really properly fueled, kinda dragged at the end. Still, a nice accomplishment for a Friday afternoon. \n\n![Apple fitness infographic of 13.1 mile run in 2:11](https://chrishubbs.com/uploads/2026/image-20261009-162502-6d67a7e7.jpg)\n",
+				"content_html": "<p>Don’t know that I intended to run a half marathon when I started out today. Wasn’t really properly fueled, kinda dragged at the end. Still, a nice accomplishment for a Friday afternoon.</p>\n<p><img src=\"https://cdn.uploads.micro.blog/551/2026/image-20261009-162502-6d67a7e7.jpg\" alt=\"Apple fitness infographic of 13.1 mile run in 2:11\"></p>\n",
+				"content_text": "Don’t know that I intended to run a half marathon when I started out today. Wasn’t really properly fueled, kinda dragged at the end. Still, a nice accomplishment for a Friday afternoon. \n\n![Apple fitness infographic of 13.1 mile run in 2:11](https://cdn.uploads.micro.blog/551/2026/image-20261009-162502-6d67a7e7.jpg)\n",
 				"date_published": "2026-10-09T16:25:05-05:00",
 				"url": "https://chrishubbs.com/2026/10/09/dont-know-that-i-intended/",
 				"tags": ["Microposts"]
@@ -47,7 +65,7 @@
 				"title": "I Don't Know Why You're Listening to This: October 9, 2026",
 				"content_html": "<p>I made it almost a whole week without talking theology&hellip; almost. Some thoughts on this coming Sunday&rsquo;s Gospel reading.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-09-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/09/3295.html\" class=\"transcript_link\">Transcript</a></p>\n",
 				"content_text": "I made it almost a whole week without talking theology... almost. Some thoughts on this coming Sunday's Gospel reading.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-09-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/09/3295.html\" class=\"transcript_link\">Transcript</a>\n",
-				"date_published": "2026-10-09T09:30:41-05:00",
+				"date_published": "2026-10-09T10:30:41-04:00",
 				"url": "https://chrishubbs.com/2026/10/09/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
 			},
@@ -108,8 +126,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/10/05/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This: October 5, 2026",
-				"content_html": "<p>It&rsquo;s about books, including a couple I&rsquo;ve read lately.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-05-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/05/3285.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "It's about books, including a couple I've read lately.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-05-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/05/3285.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>It&rsquo;s about books, including a couple I&rsquo;ve read lately.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-05-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/05/3285.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "It's about books, including a couple I've read lately.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-05-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/05/3285.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-10-05T08:41:22-05:00",
 				"url": "https://chrishubbs.com/2026/10/05/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
