@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/10/23/i-dont-know-why-youre/",
+				"title": "I Don't Know Why You're Listening to This: October 22, 2026",
+				"content_html": "<p>Today is all about the library.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-23-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/23/3331.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "Today is all about the library.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-23-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/23/3331.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2026-10-23T11:07:47-05:00",
+				"url": "https://chrishubbs.com/2026/10/23/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/10/22/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This: October 21, 2026",
 				"content_html": "<p>On theological liberalism, and how we need to be able to talk to each other&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-22-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/22/3328.html\" class=\"transcript_link\">Transcript</a></p>\n",
@@ -45,8 +54,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/10/20/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This: October 20, 2026",
-				"content_html": "<p>A few thoughts on alcohol&hellip; I&rsquo;m not an expert.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-20-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/20/3323.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "A few thoughts on alcohol... I'm not an expert.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-20-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/20/3323.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>A few thoughts on alcohol&hellip; I&rsquo;m not an expert.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-20-podcast.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/20/3323.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "A few thoughts on alcohol... I'm not an expert.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-20-podcast.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/20/3323.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-10-20T08:34:24-05:00",
 				"url": "https://chrishubbs.com/2026/10/20/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
