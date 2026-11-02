@@ -7,11 +7,29 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/11/02/the-number-of-people-from/",
+				
+				"content_html": "<p>The number of people from my old evangelical world who hear I&rsquo;m moving from Iowa to Seattle and immediately make a joke about making sure I don&rsquo;t get infected by all those awful liberals out there&hellip; <em>sigh</em></p>\n",
+				"content_text": "The number of people from my old evangelical world who hear I'm moving from Iowa to Seattle and immediately make a joke about making sure I don't get infected by all those awful liberals out there... _sigh_\n",
+				"date_published": "2026-11-02T07:58:52-06:00",
+				"url": "https://chrishubbs.com/2026/11/02/the-number-of-people-from/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/10/31/heres-my-prediction-if-there/",
+				
+				"content_html": "<p>Here’s my prediction: if there are no coaching changes, Nebraska will lose their last 4 games and end the season 5-7, missing a bowl game.</p>\n<p>#NCAAFB #GBR</p>\n",
+				"content_text": "Here’s my prediction: if there are no coaching changes, Nebraska will lose their last 4 games and end the season 5-7, missing a bowl game. \n\n#NCAAFB #GBR \n",
+				"date_published": "2026-10-31T21:48:51-06:00",
+				"url": "https://chrishubbs.com/2026/10/31/heres-my-prediction-if-there/",
+				"tags": ["Microposts"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/10/31/if-nebraska-gives-this-one/",
 				
 				"content_html": "<p>If #Nebraska gives this one up in the 4th quarter, they should fire Matt Rhule tomorrow. This is inexcusable.</p>\n<p>#NCAAFB</p>\n",
 				"content_text": "If #Nebraska gives this one up in the 4th quarter, they should fire Matt Rhule tomorrow. This is inexcusable. \n\n#NCAAFB\n",
-				"date_published": "2026-10-31T21:45:04-05:00",
+				"date_published": "2026-10-31T20:45:04-06:00",
 				"url": "https://chrishubbs.com/2026/10/31/if-nebraska-gives-this-one/",
 				"tags": ["Microposts"]
 			},
@@ -20,7 +38,7 @@
 				"title": "I Don't Know Why You're Listening to This #20: Heroes",
 				"content_html": "<p>A few thoughts on the passing of Sir Patrick Stewart.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-30-podcast-20.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/30/3349.html\" class=\"transcript_link\">Transcript</a></p>\n",
 				"content_text": "A few thoughts on the passing of Sir Patrick Stewart.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-30-podcast-20.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/30/3349.html\" class=\"transcript_link\">Transcript</a>\n",
-				"date_published": "2026-10-30T14:53:48-05:00",
+				"date_published": "2026-10-30T13:53:48-06:00",
 				"url": "https://chrishubbs.com/2026/10/30/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
 			},
@@ -29,7 +47,7 @@
 				"title": "I Don't Know Why You're Listening to This #19: Mentoring",
 				"content_html": "<p>Mentoring is necessary, but being mentored? That&rsquo;s awesome.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-29-podcast-19.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/29/3345.html\" class=\"transcript_link\">Transcript</a></p>\n",
 				"content_text": "Mentoring is necessary, but being mentored? That's awesome.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-29-podcast-19.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/29/3345.html\" class=\"transcript_link\">Transcript</a>\n",
-				"date_published": "2026-10-29T10:00:56-05:00",
+				"date_published": "2026-10-29T09:00:56-06:00",
 				"url": "https://chrishubbs.com/2026/10/29/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
 			},
