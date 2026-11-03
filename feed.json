@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/11/03/got-out-and-voted/",
+				
+				"content_html": "<p>Got out and voted!</p>\n<p><img src=\"https://chrishubbs.com/uploads/2026/image-20261103-080926-cfd5cd59.jpg\" alt=\"Selfie of a bald man smiling with a “I Voted” sticker on his shirt. \"></p>\n",
+				"content_text": "Got out and voted!\n\n![Selfie of a bald man smiling with a “I Voted” sticker on his shirt. ](https://chrishubbs.com/uploads/2026/image-20261103-080926-cfd5cd59.jpg)\n",
+				"date_published": "2026-11-03T08:09:29-06:00",
+				"url": "https://chrishubbs.com/2026/11/03/got-out-and-voted/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/02/i-dont-know-why-youre/",
+				"title": "I Don't Know Why You're Listening to This #21: Using our Inside Voice",
+				"content_html": "<p>Some thoughts on the church&rsquo;s engagement with the world&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-02-podcast-21.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/02/3356.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "Some thoughts on the church's engagement with the world...\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-02-podcast-21.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/02/3356.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2026-11-02T11:19:05-06:00",
+				"url": "https://chrishubbs.com/2026/11/02/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/11/02/the-number-of-people-from/",
 				
 				"content_html": "<p>The number of people from my old evangelical world who hear I&rsquo;m moving from Iowa to Seattle and immediately make a joke about making sure I don&rsquo;t get infected by all those awful liberals out there&hellip; <em>sigh</em></p>\n",
@@ -36,8 +54,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/10/30/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #20: Heroes",
-				"content_html": "<p>A few thoughts on the passing of Sir Patrick Stewart.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-30-podcast-20.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/30/3349.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "A few thoughts on the passing of Sir Patrick Stewart.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-30-podcast-20.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/30/3349.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>A few thoughts on the passing of Sir Patrick Stewart.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-30-podcast-20.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/30/3349.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "A few thoughts on the passing of Sir Patrick Stewart.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-30-podcast-20.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/30/3349.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-10-30T13:53:48-06:00",
 				"url": "https://chrishubbs.com/2026/10/30/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
@@ -45,8 +63,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/10/29/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #19: Mentoring",
-				"content_html": "<p>Mentoring is necessary, but being mentored? That&rsquo;s awesome.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-29-podcast-19.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/29/3345.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "Mentoring is necessary, but being mentored? That's awesome.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-29-podcast-19.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/29/3345.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>Mentoring is necessary, but being mentored? That&rsquo;s awesome.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-29-podcast-19.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/10/29/3345.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "Mentoring is necessary, but being mentored? That's awesome.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-10-29-podcast-19.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/10/29/3345.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-10-29T09:00:56-06:00",
 				"url": "https://chrishubbs.com/2026/10/29/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
