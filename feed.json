@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/11/07/wouldve-expected-this-to-be/",
+				
+				"content_html": "<p>Would’ve expected this to be a lot shorter.</p>\n<p><img src=\"https://chrishubbs.com/uploads/2026/image-20261107-104950-47bba93b.jpg\" alt=\"Book of sheet music titled “Everybody’s Favorite Accordion Pieces”\"></p>\n",
+				"content_text": "Would’ve expected this to be a lot shorter. \n\n![Book of sheet music titled “Everybody’s Favorite Accordion Pieces”](https://chrishubbs.com/uploads/2026/image-20261107-104950-47bba93b.jpg)\n",
+				"date_published": "2026-11-07T10:49:54-06:00",
+				"url": "https://chrishubbs.com/2026/11/07/wouldve-expected-this-to-be/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/06/out-for-an-overnight-trip/",
+				
+				"content_html": "<p>Out for an overnight trip and somehow the hotel TV doesn&rsquo;t have the basic Fox channel. I kinda wanted to watch Nebraska/Illinois football&hellip; but Nebraska would probably disappoint me again, so maybe this is for the better.</p>\n",
+				"content_text": "Out for an overnight trip and somehow the hotel TV doesn't have the basic Fox channel. I kinda wanted to watch Nebraska/Illinois football... but Nebraska would probably disappoint me again, so maybe this is for the better.\n",
+				"date_published": "2026-11-06T20:40:23-06:00",
+				"url": "https://chrishubbs.com/2026/11/06/out-for-an-overnight-trip/",
+				"tags": ["Microposts"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/11/06/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #25: Home Office Bucket List",
 				"content_html": "<p>The one thing I would love to add to my home office&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-06-podcast-25.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/06/3367.html\" class=\"transcript_link\">Transcript</a></p>\n",
@@ -45,8 +63,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/04/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #23: Podcasts",
-				"content_html": "<p>A quick rundown of a few podcasts I regularly listen to.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-04-podcast-23.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/04/3361.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "A quick rundown of a few podcasts I regularly listen to.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-04-podcast-23.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/04/3361.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>A quick rundown of a few podcasts I regularly listen to.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-04-podcast-23.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/04/3361.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "A quick rundown of a few podcasts I regularly listen to.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-04-podcast-23.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/04/3361.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-11-04T10:09:32-06:00",
 				"url": "https://chrishubbs.com/2026/11/04/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
