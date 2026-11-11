@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/11/11/pitchfork-lists-their-best-indie/",
+				
+				"content_html": "<p>Pitchfork lists their <a href=\"https://pitchfork.com/story/the-100-best-indie-rock-albums-of-all-time/\">Best 100 Indie Rock Albums of All Time</a> and I&rsquo;ve never heard of the album at #1 and only listened to 8 of the top 100.</p>\n<p>I guess I&rsquo;m not an indie rock guy? Those 8 I&rsquo;ve listened to are some dang good albums, though.</p>\n",
+				"content_text": "Pitchfork lists their [Best 100 Indie Rock Albums of All Time](https://pitchfork.com/story/the-100-best-indie-rock-albums-of-all-time/) and I've never heard of the album at #1 and only listened to 8 of the top 100. \n\nI guess I'm not an indie rock guy? Those 8 I've listened to are some dang good albums, though. \n",
+				"date_published": "2026-11-11T07:34:03-06:00",
+				"url": "https://chrishubbs.com/2026/11/11/pitchfork-lists-their-best-indie/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/10/reads-out-of-the-silent/",
+				
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9780743234900/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>2026 Reads: <a href=\"https://micro.blog/books/9780743234900\">Out of the Silent Planet</a> by C. S. Lewis 📚</p>\n<p>It’s been a long time since I’ve read this one. It’s… fine.</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9780743234900/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\n2026 Reads: [Out of the Silent Planet](https://micro.blog/books/9780743234900) by C. S. Lewis 📚\n\nIt’s been a long time since I’ve read this one. It’s… fine. \n",
+				"date_published": "2026-11-10T21:19:09-06:00",
+				"url": "https://chrishubbs.com/2026/11/10/reads-out-of-the-silent/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/10/i-dont-know-why-youre/",
+				"title": "I Don't Know Why You're Listening to This #27: Writing to Make Progress",
+				"content_html": "<p>What benefit do I get from writing? Turns out, St Augustine described it a long time ago.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-10-podcast-27.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/10/3375.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "What benefit do I get from writing? Turns out, St Augustine described it a long time ago.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-10-10-podcast-27.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/10/3375.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2026-11-10T13:26:42-06:00",
+				"url": "https://chrishubbs.com/2026/11/10/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/11/10/i-endeavour-to-be-one/",
 				"title": "\"I endeavour to be one of those who write because they have made some progress...\"",
 				"content_html": "<p>I was pointed to this delightful quote from Saint Augustine while reading <em>Freedom Under Grace</em>, the new collection of reflections from Pope Leo XIV [emphasis and paragraph splits mine]:</p>\n<blockquote>\n<p>In your other letter, brought to me by the presbyter Urbanus, a question is proposed, taken from a passage not in the Divine Scriptures, but in one of my own books, namely, that which I wrote on Free Will. On questions of this kind, however, I do not bestow much labour; because. even if the statement objected to does not admit of unanswerable vindication, it is mine only; it is not an utterance of that Author whose words it is impiety to reject, even when, through our misapprehension of their meaning, the interpretation which we put on them deserves to be rejected.</p>\n<p><strong>I freely confess, accordingly, that I endeavour to be one of those who write because they have made some progress, and who, by-means of writing, make further progress.</strong> If, therefore, through inadvertence or want of knowledge, anything has been stated by me which may with good reason be condemned, not only by others who are able to discover this, but also by myself (for if I am making progress, I ought, at least after it has been pointed out, to see it), such a mistake is not to be regarded with surprise or grief, but rather forgiven, and made the occasion of congratulating me, not, of course, on having erred, but on having renounced an error.</p>\n<p>For there is an extravagant perversity in the self-love of the man who desires other men to be in error, that the fact of his having erred may not be discovered. <strong>How much better and more profitable is it that in the points in which he has erred others should not err, so that he may be delivered from his error by their advice, or, if he refuse this, may at least have no followers in his error.</strong> For, if God permit me, as I desire, to gather together and point out, in a work devoted to this express purpose, all the things which most justly displease me in my books, men will then see how far I am from being a partial judge in my own case.</p>\n<p>&ndash; Saint Augustine, <a href=\"https://www.newadvent.org/fathers/1102143.htm\">Letter 143.2</a></p>\n</blockquote>\n<p>I resonate strongly with his confession in the second paragraph, and pray for the humility of his aspiration in the third.</p>\n",
@@ -36,8 +63,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/09/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #26: Be Ready to Live",
-				"content_html": "<p>Pulling together thoughts from this weekend&rsquo;s Gospel reading and a bit from a book I&rsquo;ve been reading.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-09-podcast-26.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/09/3371.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "Pulling together thoughts from this weekend's Gospel reading and a bit from a book I've been reading.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-09-podcast-26.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/09/3371.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>Pulling together thoughts from this weekend&rsquo;s Gospel reading and a bit from a book I&rsquo;ve been reading.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-09-podcast-26.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/09/3371.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "Pulling together thoughts from this weekend's Gospel reading and a bit from a book I've been reading.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-09-podcast-26.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/09/3371.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-11-09T08:57:54-06:00",
 				"url": "https://chrishubbs.com/2026/11/09/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
