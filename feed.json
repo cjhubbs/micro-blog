@@ -1,11 +1,29 @@
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Chris​Hubbs​.com",
-	"icon": "<no value>",
+	"icon": "https://avatars.micro.blog/avatars/2025/50/904.jpg",
 	"home_page_url": "https://chrishubbs.com/",
 	"feed_url": "https://chrishubbs.com/feed.json",
 	"items": [
 		
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/12/i-dont-know-why-youre/",
+				"title": "I Don't Know Why You're Listening to This #29: Games",
+				"content_html": "<p>A few games I like&hellip; and a few I don&rsquo;t so much.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-12-podcast-29.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/12/3380.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "A few games I like... and a few I don't so much.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-12-podcast-29.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/12/3380.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2026-11-12T14:37:51-06:00",
+				"url": "https://chrishubbs.com/2026/11/12/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/11/i-dont-know-why-youre/",
+				"title": "I Don't Know Why You're Listening to This #28: Feedback",
+				"content_html": "<p>On giving and receiving feedback&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-11-podcast-28.mp3\" preload=\"metadata\"></audio></p>\n",
+				"content_text": "On giving and receiving feedback...\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-11-podcast-28.mp3\" preload=\"metadata\"></audio>\n",
+				"date_published": "2026-11-11T10:03:09-06:00",
+				"url": "https://chrishubbs.com/2026/11/11/i-dont-know-why-youre/",
+				"tags": ["Longform","podcast"]
+			},
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/11/pitchfork-lists-their-best-indie/",
 				
