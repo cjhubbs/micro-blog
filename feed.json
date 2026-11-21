@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://cjhubbs.micro.blog/2026/11/21/a-few-weeks-ago-i/",
+				
+				"content_html": "<p>A few weeks ago I said without a coaching change I thought #Nebraska would lose every remaining game. I didn&rsquo;t expect the OC to be the coach to go, and beating Rutgers was a gimmee, but beating Ohio State today feels pretty darn good.</p>\n<p>Next week at Iowa will be the real test.</p>\n<p>#GBR</p>\n",
+				"content_text": "A few weeks ago I said without a coaching change I thought #Nebraska would lose every remaining game. I didn't expect the OC to be the coach to go, and beating Rutgers was a gimmee, but beating Ohio State today feels pretty darn good.\n\nNext week at Iowa will be the real test.\n\n#GBR\n",
+				"date_published": "2026-11-21T14:59:12-06:00",
+				"url": "https://chrishubbs.com/2026/11/21/a-few-weeks-ago-i/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/21/breakfast-with-a-friend-flu/",
+				
+				"content_html": "<p>Breakfast with a friend ✅</p>\n<p>Flu and Covid shots ✅</p>\n<p>Time to get to work outside on the last warm day of autumn!</p>\n",
+				"content_text": "Breakfast with a friend ✅\n\nFlu and Covid shots ✅\n\nTime to get to work outside on the last warm day of autumn!\n",
+				"date_published": "2026-11-21T10:42:38-06:00",
+				"url": "https://chrishubbs.com/2026/11/21/breakfast-with-a-friend-flu/",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://cjhubbs.micro.blog/2026/11/20/reads-the-day-of-the/",
+				
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9780141033006/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>2026 Reads: <a href=\"https://micro.blog/books/9780141033006\">The Day of the Triffids</a> by John Wyndham 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9780141033006/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\n2026 Reads: [The Day of the Triffids](https://micro.blog/books/9780141033006) by John Wyndham 📚\n",
+				"date_published": "2026-11-20T23:14:40-06:00",
+				"url": "https://chrishubbs.com/2026/11/20/reads-the-day-of-the/",
+				"tags": ["Microposts"]
+			},
+			{
 				"id": "http://cjhubbs.micro.blog/2026/11/20/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #35: Changing Seasons",
 				"content_html": "<p>The feelings and chores associated with the end of autumn&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-20-podcast-35.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/20/3406.html\" class=\"transcript_link\">Transcript</a></p>\n",
@@ -36,8 +63,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/19/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #34: Leading Groups",
-				"content_html": "<p>Yes, my day started with 50 people on a Webex. Why do you ask?</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-19-podcast-34.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/19/3401.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "Yes, my day started with 50 people on a Webex. Why do you ask?\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-19-podcast-34.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/19/3401.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>Yes, my day started with 50 people on a Webex. Why do you ask?</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-19-podcast-34.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/19/3401.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "Yes, my day started with 50 people on a Webex. Why do you ask?\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-19-podcast-34.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/19/3401.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-11-19T12:10:39-06:00",
 				"url": "https://chrishubbs.com/2026/11/19/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
@@ -45,8 +72,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/18/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #33: This Morning's Coffee",
-				"content_html": "<p>Chickory coffee&hellip; hmmm&hellip;.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-18-podcast-33.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/18/3398.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "Chickory coffee... hmmm....\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-18-podcast-33.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/18/3398.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>Chickory coffee&hellip; hmmm&hellip;.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-18-podcast-33.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/18/3398.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "Chickory coffee... hmmm....\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-18-podcast-33.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/18/3398.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-11-18T10:03:15-06:00",
 				"url": "https://chrishubbs.com/2026/11/18/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
@@ -126,8 +153,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/12/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #29: Games",
-				"content_html": "<p>A few games I like&hellip; and a few I don&rsquo;t so much.</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-12-podcast-29.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/12/3380.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "A few games I like... and a few I don't so much.\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-12-podcast-29.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/12/3380.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>A few games I like&hellip; and a few I don&rsquo;t so much.</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-12-podcast-29.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/12/3380.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "A few games I like... and a few I don't so much.\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-12-podcast-29.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/12/3380.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-11-12T14:37:51-06:00",
 				"url": "https://chrishubbs.com/2026/11/12/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
@@ -135,8 +162,8 @@
 			{
 				"id": "http://cjhubbs.micro.blog/2026/11/11/i-dont-know-why-youre/",
 				"title": "I Don't Know Why You're Listening to This #28: Feedback",
-				"content_html": "<p>On giving and receiving feedback&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-11-podcast-28.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/12/3382.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "On giving and receiving feedback...\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/551/2026/2026-11-11-podcast-28.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/12/3382.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>On giving and receiving feedback&hellip;</p>\n<p><audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-11-podcast-28.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://chrishubbs.com/transcripts/2026/11/12/3382.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "On giving and receiving feedback...\n\n<audio controls=\"controls\" src=\"https://chrishubbs.com/uploads/2026/2026-11-11-podcast-28.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://chrishubbs.com/transcripts/2026/11/12/3382.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2026-11-11T10:03:09-06:00",
 				"url": "https://chrishubbs.com/2026/11/11/i-dont-know-why-youre/",
 				"tags": ["Longform","podcast"]
